@@ -17,11 +17,23 @@ const FRAME_MAP = d3.select("#main-map")
 // build map
 function build_map() {
 	// D3 Projection
-	let projection = d3.geo.albersUsa()
+	let projection = d3.geoAlbers()
 					   .translate([M_WIDTH / 2, M_HEIGHT / 2])    // translate to center of screen
 					   .scale([1000]);          // scale things down so see entire US
+
+	d3.json("https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json", (d) => {
+		
+		console.log(d);
+		// Draw the map
+	    svg.append("g")
+	         .selectAll("path")
+	         .data(d.features)
+	         .enter().append("path")
+	         .attr("fill", "black")
+	         .attr("d", d3.geoPath().projection(projection));
+	})
 	        
-	// Define path generator
+	/*// Define path generator
 	let path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
 			  	 .projection(projection);  // tell path generator to use albersUsa projection
 
@@ -32,7 +44,7 @@ function build_map() {
 		.append("path")
 		.attr("d", path)
 		.style("stroke", "#fff")
-		.style("stroke-width", "1");
+		.style("stroke-width", "1");*/
 }
 build_map();
 
