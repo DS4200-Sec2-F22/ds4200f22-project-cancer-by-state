@@ -16,35 +16,85 @@ const FRAME_MAP = d3.select("#main-map")
 
 // build map
 function build_map() {
+	// from here: https://github.com/scotthmurray/d3-book/blob/master/chapter_14/05_choropleth.html
 	// D3 Projection
-	let projection = d3.geoAlbers()
+	let projection = d3.geoAlbersUsa()
 					   .translate([M_WIDTH / 2, M_HEIGHT / 2])    // translate to center of screen
 					   .scale([1000]);          // scale things down so see entire US
 
-	d3.json("https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json", (d) => {
-		
-		console.log(d);
-		// Draw the map
-	    svg.append("g")
-	         .selectAll("path")
-	         .data(d.features)
-	         .enter().append("path")
-	         .attr("fill", "black")
-	         .attr("d", d3.geoPath().projection(projection));
-	})
-	        
-	/*// Define path generator
-	let path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
-			  	 .projection(projection);  // tell path generator to use albersUsa projection
+	//Define path generator
+	let path = d3.geoPath()
+					.projection(projection);
 
-	// Bind the data to the SVG and create one path per GeoJSON feature
-	svg.selectAll("path")
-		.data(json.features)
-		.enter()
-		.append("path")
-		.attr("d", path)
-		.style("stroke", "#fff")
-		.style("stroke-width", "1");*/
+	//Define quantize scale to sort data values into buckets of color
+	const COLOR_SCALE = d3.scaleQuantize()
+								.range(["rgb(237,248,233)","rgb(186,228,179)","rgb(116,196,118)","rgb(49,163,84)","rgb(0,109,44)"]);
+								//Colors derived from ColorBrewer, by Cynthia Brewer, and included in
+								//https://github.com/d3/d3-scale-chromatic
+
+	//Load in cancer data (using state.csv now to see if it works)
+	d3.csv("data/state.csv").then((data) => {
+
+		//Set input domain for color scale
+		COLOR_SCALE.domain([
+						d3.min(data, (d) => {return d.Population;}), 
+						d3.max(data, (d) => {return d.Population;})]);
+
+		//Load in GeoJSON data
+		d3.json("us-states.json").then((json) => {
+
+			//Merge the cancer data and GeoJSON
+			//Loop through once for each cancer data value
+			for (var i = 0; i < data.length; i++) {
+				
+				//Grab state name
+				let dataState = data[i].Name;
+						
+				//Grab data value, and convert from string to float
+				let dataValue = parseInt(data[i].Population);
+				
+				//Find the corresponding state inside the GeoJSON
+				for (var j = 0; j < json.features.length; j++) {
+						
+					var jsonState = json.features[j].properties.name;
+				
+					if (dataState == jsonState) {
+						
+						//Copy the data value into the JSON
+						json.features[j].properties.value = dataValue;
+								
+						//Stop looking through the JSON
+						break;
+								
+					}
+				}		
+			}
+
+			//Bind data and create one path per GeoJSON feature
+			FRAME_MAP.selectAll("path")
+					   .data(json.features)
+					   .enter()
+					   .append("path")
+					   .attr("d", path)
+					   .style("fill", (d) => {
+					   		//Get data value
+					   		var value = d.properties.value;
+					   		
+					   		if (value) {
+					   			//If value exists…
+						   		return COLOR_SCALE(value);
+					   		} 
+					   		else {
+					   			//If value is undefined…
+						   		return "#ccc";
+					   		}
+					   });
+			
+		});
+			
+	});
+
+	
 }
 build_map();
 
