@@ -22,8 +22,33 @@ h1 {
 
 #pie-chart {
     flex: 1;
+    align-self: center;
 }
 
 #scatterplot {
     flex: 2;
+    align-self: center;
+}
+
+/* scatter plot styling and interactivity */
+.point {
+    fill: royalblue;
+    stroke: none;
+    opacity: 60%;
+}
+
+.point:hover {
+    /* opacity: 100% !important; */
+    stroke: black;
+    stroke-width: 3;
+}
+
+/* tooltip styling */
+.tooltip {
+  position: absolute;
+  background-color: lightgray;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
 }
