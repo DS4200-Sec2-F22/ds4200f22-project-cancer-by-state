@@ -1,4 +1,4 @@
-,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage population below poverty in state,Percentage population insured in state,State_population
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
 0,21041,Colon and Rectum,Digestive System,Alabama,Asian or Pacific Islander,16,18.4,89.2,4874747.0
 1,21041,Colon and Rectum,Digestive System,Alabama,Black or African American,587,18.4,89.2,4874747.0
 2,21041,Colon and Rectum,Digestive System,Alabama,White,1837,18.4,89.2,4874747.0
