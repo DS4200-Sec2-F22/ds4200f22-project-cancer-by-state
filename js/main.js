@@ -14,8 +14,16 @@ const FRAME_MAP = d3.select("#main-map")
 							.attr("width", M_WIDTH)
 							.attr("class", "frame");
 
+function filtered_csv(csv1, row_name, type) {
+	return d3.csv(csv1).then((data) => {
+		return data.filter(function(row) {
+			return row[row_name] == type;})
+	})
+}
+
 // build map
 function build_map() {
+	
 	// from here: https://github.com/scotthmurray/d3-book/blob/master/chapter_14/05_choropleth.html
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
@@ -32,8 +40,38 @@ function build_map() {
 								//Colors derived from ColorBrewer, by Cynthia Brewer, and included in
 								//https://github.com/d3/d3-scale-chromatic
 
-	//Load in cancer data (using state.csv now to see if it works)
-	d3.csv("data/state.csv").then((data) => {
+	d3.csv("data/thyroid.csv").then((data) => {
+
+		const state_names = [];
+		const pop_ratios = [];
+
+		const unique = (value, index, self) => {
+			return self.indexOf(value) === index;
+		}
+
+		all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+		//((d) => {return d.State_name.filter(unique)});
+		//console.log(data.State_name)
+		
+
+		for (let i = 0; i < all_states.length; i++) {
+			state = all_states[i];
+			state_csv = filtered_csv(data, 'State_name', state);
+
+			console.log(filtered_csv(data, 'State_name', state))
+
+			d3.csv(state_csv).then((data2) => {
+				const total = d3.sum(data2, (d2) => {return d2.Count;})
+				const pop = d3.min(data2, (d2) => {return d2.State_population;})
+				const ratio = total/pop;
+
+				state_names += state;
+				pop_ratios += ratio;
+			});
+		}
+
+		console.log(state_names);
+		console.log(pop_ratios);
 
 		//Set input domain for color scale
 		COLOR_SCALE.domain([
@@ -76,6 +114,8 @@ function build_map() {
 					   .enter()
 					   .append("path")
 					   .attr("d", path)
+						.style("stroke", "#fff")
+						.style("stroke-width", "1")
 					   .style("fill", (d) => {
 					   		//Get data value
 					   		var value = d.properties.value;
