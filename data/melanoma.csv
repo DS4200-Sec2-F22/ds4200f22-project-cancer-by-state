@@ -1,0 +1,138 @@
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
+0,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alabama,White,1243,18.4,89.2,4874747.0
+1,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,Asian or Pacific Islander,0,10.1,84.5,739795.0
+2,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,Black or African American,0,10.1,84.5,739795.0
+3,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,White,69,10.1,84.5,739795.0
+4,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arizona,White,1667,17.7,88.1,7016270.0
+5,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arizona,Other Races and Unknown combined,196,17.7,88.1,7016270.0
+6,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,Asian or Pacific Islander,0,18.8,90.6,3004279.0
+7,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,White,713,18.8,90.6,3004279.0
+8,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,Other Races and Unknown combined,48,18.8,90.6,3004279.0
+9,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,American Indian or Alaska Native,27,15.8,91.6,39536653.0
+10,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Asian or Pacific Islander,90,15.8,91.6,39536653.0
+11,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Black or African American,27,15.8,91.6,39536653.0
+12,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,White,8402,15.8,91.6,39536653.0
+13,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Other Races and Unknown combined,1003,15.8,91.6,39536653.0
+14,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Colorado,Black or African American,0,12.2,91.4,5607154.0
+15,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Colorado,White,1229,12.2,91.4,5607154.0
+16,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Connecticut,White,827,10.4,94.2,3588184.0
+17,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Connecticut,Other Races and Unknown combined,48,10.4,94.2,3588184.0
+18,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+19,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Delaware,White,336,12.0,93.3,961939.0
+20,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+21,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,Asian or Pacific Islander,0,17.9,95.9,693972.0
+22,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,White,38,17.9,95.9,693972.0
+23,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,Black or African American,37,16.1,84.6,20984400.0
+24,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,White,6047,16.1,84.6,20984400.0
+25,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,Other Races and Unknown combined,382,16.1,84.6,20984400.0
+26,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,Black or African American,26,17.8,85.1,10429379.0
+27,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,White,2818,17.8,85.1,10429379.0
+28,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,Other Races and Unknown combined,20,17.8,85.1,10429379.0
+29,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,Asian or Pacific Islander,33,10.8,95.8,1427538.0
+30,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,Black or African American,0,10.8,95.8,1427538.0
+31,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,White,356,10.8,95.8,1427538.0
+32,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Asian or Pacific Islander,0,15.2,88.2,1716943.0
+33,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Black or African American,0,15.2,88.2,1716943.0
+34,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,White,499,15.2,88.2,1716943.0
+35,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Other Races and Unknown combined,0,15.2,88.2,1716943.0
+36,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,Black or African American,16,14.0,92.5,12802023.0
+37,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,White,2757,14.0,92.5,12802023.0
+38,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,Other Races and Unknown combined,135,14.0,92.5,12802023.0
+39,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,American Indian or Alaska Native,0,15.0,90.5,6666818.0
+40,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,White,1430,15.0,90.5,6666818.0
+41,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,Other Races and Unknown combined,73,15.0,90.5,6666818.0
+42,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,Asian or Pacific Islander,0,12.3,95.0,3145711.0
+43,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,White,910,12.3,95.0,3145711.0
+44,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,Other Races and Unknown combined,43,12.3,95.0,3145711.0
+45,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kansas,White,722,13.3,90.1,2913123.0
+46,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kansas,Other Races and Unknown combined,75,13.3,90.1,2913123.0
+47,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kentucky,White,1326,18.8,94.0,4454189.0
+48,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kentucky,Other Races and Unknown combined,35,18.8,94.0,4454189.0
+49,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Louisiana,American Indian or Alaska Native,0,19.7,88.2,4684333.0
+50,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Louisiana,White,933,19.7,88.2,4684333.0
+51,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+52,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Black or African American,0,13.5,89.9,1335907.0
+53,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,White,455,13.5,89.9,1335907.0
+54,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Other Races and Unknown combined,25,13.5,89.9,1335907.0
+55,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maryland,Black or African American,19,9.9,93.0,6052177.0
+56,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maryland,White,1694,9.9,93.0,6052177.0
+57,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Massachusetts,White,1401,11.4,97.0,6859819.0
+58,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Massachusetts,Other Races and Unknown combined,32,11.4,97.0,6859819.0
+59,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Michigan,White,2251,16.3,93.6,9962311.0
+60,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Michigan,Other Races and Unknown combined,53,16.3,93.6,9962311.0
+61,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Minnesota,White,1697,10.8,95.2,5576606.0
+62,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Minnesota,Other Races and Unknown combined,237,10.8,95.2,5576606.0
+63,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Mississippi,American Indian or Alaska Native,0,22.3,86.0,2984100.0
+64,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Mississippi,White,496,22.3,86.0,2984100.0
+65,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,American Indian or Alaska Native,0,15.3,89.4,6113532.0
+66,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,White,1372,15.3,89.4,6113532.0
+67,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,Other Races and Unknown combined,18,15.3,89.4,6113532.0
+68,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,American Indian or Alaska Native,0,14.9,90.0,1050493.0
+69,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,Black or African American,0,14.9,90.0,1050493.0
+70,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,White,295,14.9,90.0,1050493.0
+71,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,Other Races and Unknown combined,21,14.9,90.0,1050493.0
+72,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,Asian or Pacific Islander,0,12.4,90.3,1920076.0
+73,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,White,488,12.4,90.3,1920076.0
+74,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,Other Races and Unknown combined,32,12.4,90.3,1920076.0
+75,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nevada,White,354,14.9,86.9,2998039.0
+76,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Asian or Pacific Islander,0,8.5,92.8,1342795.0
+77,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+78,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,White,484,8.5,92.8,1342795.0
+79,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Other Races and Unknown combined,25,8.5,92.8,1342795.0
+80,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,American Indian or Alaska Native,0,10.9,90.8,9005644.0
+81,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,Black or African American,22,10.9,90.8,9005644.0
+82,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,White,2210,10.9,90.8,9005644.0
+83,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,Other Races and Unknown combined,115,10.9,90.8,9005644.0
+84,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,American Indian or Alaska Native,16,20.9,88.8,2088070.0
+85,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,White,352,20.9,88.8,2088070.0
+86,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,Other Races and Unknown combined,25,20.9,88.8,2088070.0
+87,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Asian or Pacific Islander,25,15.5,92.9,19849399.0
+88,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Black or African American,33,15.5,92.9,19849399.0
+89,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,White,3847,15.5,92.9,19849399.0
+90,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Other Races and Unknown combined,139,15.5,92.9,19849399.0
+91,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,Black or African American,20,16.8,87.8,10273419.0
+92,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,White,2821,16.8,87.8,10273419.0
+93,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,Other Races and Unknown combined,221,16.8,87.8,10273419.0
+94,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+95,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,Black or African American,0,11.2,92.4,755393.0
+96,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,White,197,11.2,92.4,755393.0
+97,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Ohio,White,3052,15.4,93.3,11658609.0
+98,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Ohio,Other Races and Unknown combined,374,15.4,93.3,11658609.0
+99,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,American Indian or Alaska Native,39,16.5,84.0,3930864.0
+100,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,White,798,16.5,84.0,3930864.0
+101,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,Other Races and Unknown combined,83,16.5,84.0,3930864.0
+102,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oregon,White,1240,15.7,92.6,4142776.0
+103,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,Black or African American,17,13.3,93.2,12805537.0
+104,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,White,3624,13.3,93.2,12805537.0
+105,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,Other Races and Unknown combined,385,13.3,93.2,12805537.0
+106,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Rhode Island,White,283,13.8,94.9,1059639.0
+107,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Carolina,American Indian or Alaska Native,0,17.2,87.9,5024369.0
+108,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Carolina,White,1269,17.2,87.9,5024369.0
+109,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+110,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,Black or African American,0,14.0,89.6,869666.0
+111,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,White,225,14.0,89.6,869666.0
+112,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Tennessee,White,1555,17.2,89.4,6715984.0
+113,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Tennessee,Other Races and Unknown combined,103,17.2,89.4,6715984.0
+114,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,Black or African American,24,16.7,81.4,28304596.0
+115,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,White,3226,16.7,81.4,28304596.0
+116,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,Other Races and Unknown combined,189,16.7,81.4,28304596.0
+117,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Utah,American Indian or Alaska Native,0,11.7,90.3,3101833.0
+118,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Utah,White,1050,11.7,90.3,3101833.0
+119,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+120,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,Asian or Pacific Islander,0,11.6,95.3,623657.0
+121,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,Black or African American,0,11.6,95.3,623657.0
+122,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,White,285,11.6,95.3,623657.0
+123,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,American Indian or Alaska Native,0,11.4,90.1,8470020.0
+124,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,White,1634,11.4,90.1,8470020.0
+125,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,Other Races and Unknown combined,70,11.4,90.1,8470020.0
+126,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Washington,White,2057,12.7,93.1,7405743.0
+127,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+128,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,Black or African American,0,17.7,93.5,1815857.0
+129,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,White,456,17.7,93.5,1815857.0
+130,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,Other Races and Unknown combined,17,17.7,93.5,1815857.0
+131,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wisconsin,White,1557,12.7,93.7,5795483.0
+132,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wisconsin,Other Races and Unknown combined,27,12.7,93.7,5795483.0
+133,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,American Indian or Alaska Native,0,11.6,86.6,579315.0
+134,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+135,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,Black or African American,0,11.6,86.6,579315.0
+136,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,White,152,11.6,86.6,579315.0
