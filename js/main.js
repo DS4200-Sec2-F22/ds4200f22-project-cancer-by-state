@@ -14,11 +14,9 @@ const FRAME_MAP = d3.select("#main-map")
 							.attr("width", M_WIDTH)
 							.attr("class", "frame");
 
-function filtered_csv(csv1, row_name, type) {
-	return d3.csv(csv1).then((data) => {
-		return data.filter(function(row) {
-			return row[row_name] == type;})
-	})
+// subset of data where row_name = type
+function filtered_csv(data, row_name, type) {
+		return data.filter((row) => {return row[row_name] == type;})
 }
 
 // build map
@@ -40,56 +38,67 @@ function build_map() {
 								//Colors derived from ColorBrewer, by Cynthia Brewer, and included in
 								//https://github.com/d3/d3-scale-chromatic
 
-	d3.csv("data/thyroid.csv").then((data) => {
+	d3.csv("data/cancer_cleaned_data.csv").then((data) => {
 
-		const state_names = [];
-		const pop_ratios = [];
+		// filter by cancer type to form output
+		// TODO: form answer as the type input
+		let form_type = "Thyroid"
+		const cancer_type_data = filtered_csv(data, 'Cancer_type', form_type);
+		//console.log(cancer_type_data)
 
 		const unique = (value, index, self) => {
 			return self.indexOf(value) === index;
 		}
 
-		all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+		// const all_states = data.map((d) => {return(d.State_name)}).keys();
+		const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
 		//((d) => {return d.State_name.filter(unique)});
-		//console.log(data.State_name)
+		//console.log(all_states)
 		
+		//let state_names = [];
+		//let pop_ratios = [];
+
+		// new map data (state and overall incidence ratio)
+		let state_ratio_data = [];
 
 		for (let i = 0; i < all_states.length; i++) {
 			state = all_states[i];
-			state_csv = filtered_csv(data, 'State_name', state);
+			state_csv = filtered_csv(cancer_type_data, 'State_name', state);
+			//console.log(state_csv)
 
-			console.log(filtered_csv(data, 'State_name', state))
+			const total = d3.sum(state_csv, (d) => {return d.Count;})
+			const pop = d3.min(state_csv, (d) => {return d.State_population;})
+			const ratio = total/pop;
 
-			d3.csv(state_csv).then((data2) => {
-				const total = d3.sum(data2, (d2) => {return d2.Count;})
-				const pop = d3.min(data2, (d2) => {return d2.State_population;})
-				const ratio = total/pop;
+			//state_names += (state + ", ");
+			//pop_ratios += (ratio + ", ");
 
-				state_names += state;
-				pop_ratios += ratio;
-			});
+			let state_ratio = {"State":state, "Ratio":ratio}
+			//console.log(state_ratio)
+			state_ratio_data.push(state_ratio);
 		}
 
-		console.log(state_names);
-		console.log(pop_ratios);
+		//console.log(state_names);
+		//console.log(pop_ratios);
+		console.log(state_ratio_data);
 
 		//Set input domain for color scale
 		COLOR_SCALE.domain([
-						d3.min(data, (d) => {return d.Population;}), 
-						d3.max(data, (d) => {return d.Population;})]);
+						d3.min(state_ratio_data, (d) => {return d.Ratio;}), 
+						d3.max(state_ratio_data, (d) => {return d.Ratio;})]);
 
 		//Load in GeoJSON data
 		d3.json("us-states.json").then((json) => {
 
 			//Merge the cancer data and GeoJSON
 			//Loop through once for each cancer data value
-			for (var i = 0; i < data.length; i++) {
+			for (var i = 0; i < state_ratio_data.length; i++) {
 				
 				//Grab state name
-				let dataState = data[i].Name;
+				let dataState = state_ratio_data[i].State;
 						
 				//Grab data value, and convert from string to float
-				let dataValue = parseInt(data[i].Population);
+				let dataValue = parseFloat(state_ratio_data[i].Ratio);
 				
 				//Find the corresponding state inside the GeoJSON
 				for (var j = 0; j < json.features.length; j++) {
