@@ -56,13 +56,9 @@ function build_map() {
 			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_text);
 			//console.log(cancer_type_data)
 
-			/*const unique = (value, index, self) => {
-				return self.indexOf(value) === index;
-			}*/
-
-			// const all_states = data.map((d) => {return(d.State_name)}).keys();
-			const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
-			//((d) => {return d.State_name.filter(unique)});
+			// list of all state names in the data subset
+			// const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
 			//console.log(all_states)
 
 			// new map data (state and overall incidence ratio)
@@ -80,7 +76,6 @@ function build_map() {
 				let state_ratio = {"State":state, "Ratio":ratio}
 				state_ratio_data.push(state_ratio);
 			}
-
 			//console.log(state_ratio_data)
 
 			// TODO: dictionary for color schemes (different scheme for each cancer type)
@@ -118,7 +113,6 @@ function build_map() {
 						}
 					}		
 				}
-
 				//console.log(json.features)
 
 				// remove existing map data from the frame
