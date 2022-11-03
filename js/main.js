@@ -19,131 +19,128 @@ function filtered_csv(data, row_name, type) {
 		return data.filter((row) => {return row[row_name] == type;})
 }
 
+
 // build map
 function build_map() {
-	
-	// from here: https://github.com/scotthmurray/d3-book/blob/master/chapter_14/05_choropleth.html
+
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
-					   .translate([M_WIDTH / 2, M_HEIGHT / 2])    // translate to center of screen
-					   .scale([1000]);          // scale things down so see entire US
+						.translate([M_WIDTH / 2, M_HEIGHT / 2])    // translate to center of screen
+						.scale([1000]);          // scale things down so see entire US
 
 	//Define path generator
-	let path = d3.geoPath()
-					.projection(projection);
+	let path = d3.geoPath().projection(projection);
 
-	//Define quantize scale to sort data values into buckets of color
-	const COLOR_SCALE = d3.scaleQuantize()
-								.range(["rgb(237,248,233)","rgb(186,228,179)","rgb(116,196,118)","rgb(49,163,84)","rgb(0,109,44)"]);
-								//Colors derived from ColorBrewer, by Cynthia Brewer, and included in
-								//https://github.com/d3/d3-scale-chromatic
+	// filters data and creates the map
+	function filter_and_make_map(cancer_type) {
+		d3.csv("data/cancer_cleaned_data.csv").then((data) => {
 
-	d3.csv("data/cancer_cleaned_data.csv").then((data) => {
+			// filter by cancer type to form output
+			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_type);
+			//console.log(cancer_type_data)
 
-		// filter by cancer type to form output
-		// TODO: form answer as the type input
-		let form_type = "Thyroid"
-		const cancer_type_data = filtered_csv(data, 'Cancer_type', form_type);
-		//console.log(cancer_type_data)
+			/*const unique = (value, index, self) => {
+				return self.indexOf(value) === index;
+			}*/
 
-		const unique = (value, index, self) => {
-			return self.indexOf(value) === index;
-		}
+			// const all_states = data.map((d) => {return(d.State_name)}).keys();
+			const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+			//((d) => {return d.State_name.filter(unique)});
+			//console.log(all_states)
 
-		// const all_states = data.map((d) => {return(d.State_name)}).keys();
-		const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
-		//((d) => {return d.State_name.filter(unique)});
-		//console.log(all_states)
-		
-		//let state_names = [];
-		//let pop_ratios = [];
+			// new map data (state and overall incidence ratio)
+			let state_ratio_data = [];
 
-		// new map data (state and overall incidence ratio)
-		let state_ratio_data = [];
+			// iterate through states and calculate overall incidence
+			for (let i = 0; i < all_states.length; i++) {
+				state = all_states[i];
+				state_csv = filtered_csv(cancer_type_data, 'State_name', state);
 
-		for (let i = 0; i < all_states.length; i++) {
-			state = all_states[i];
-			state_csv = filtered_csv(cancer_type_data, 'State_name', state);
-			//console.log(state_csv)
+				const total = d3.sum(state_csv, (d) => {return d.Count;})
+				const pop = d3.min(state_csv, (d) => {return d.State_population;})
+				const ratio = total/pop;
 
-			const total = d3.sum(state_csv, (d) => {return d.Count;})
-			const pop = d3.min(state_csv, (d) => {return d.State_population;})
-			const ratio = total/pop;
-
-			//state_names += (state + ", ");
-			//pop_ratios += (ratio + ", ");
-
-			let state_ratio = {"State":state, "Ratio":ratio}
-			//console.log(state_ratio)
-			state_ratio_data.push(state_ratio);
-		}
-
-		//console.log(state_names);
-		//console.log(pop_ratios);
-		console.log(state_ratio_data);
-
-		//Set input domain for color scale
-		COLOR_SCALE.domain([
-						d3.min(state_ratio_data, (d) => {return d.Ratio;}), 
-						d3.max(state_ratio_data, (d) => {return d.Ratio;})]);
-
-		//Load in GeoJSON data
-		d3.json("us-states.json").then((json) => {
-
-			//Merge the cancer data and GeoJSON
-			//Loop through once for each cancer data value
-			for (var i = 0; i < state_ratio_data.length; i++) {
-				
-				//Grab state name
-				let dataState = state_ratio_data[i].State;
-						
-				//Grab data value, and convert from string to float
-				let dataValue = parseFloat(state_ratio_data[i].Ratio);
-				
-				//Find the corresponding state inside the GeoJSON
-				for (var j = 0; j < json.features.length; j++) {
-						
-					var jsonState = json.features[j].properties.name;
-				
-					if (dataState == jsonState) {
-						
-						//Copy the data value into the JSON
-						json.features[j].properties.value = dataValue;
-								
-						//Stop looking through the JSON
-						break;
-								
-					}
-				}		
+				let state_ratio = {"State":state, "Ratio":ratio}
+				state_ratio_data.push(state_ratio);
 			}
 
-			//Bind data and create one path per GeoJSON feature
-			FRAME_MAP.selectAll("path")
-					   .data(json.features)
-					   .enter()
-					   .append("path")
-					   .attr("d", path)
-						.style("stroke", "#fff")
-						.style("stroke-width", "1")
-					   .style("fill", (d) => {
-					   		//Get data value
-					   		var value = d.properties.value;
-					   		
-					   		if (value) {
-					   			//If value exists…
-						   		return COLOR_SCALE(value);
-					   		} 
-					   		else {
-					   			//If value is undefined…
-						   		return "#ccc";
-					   		}
-					   });
-			
-		});
-			
-	});
+			//console.log(state_ratio_data)
 
-	
+			// TODO: dictionary for color schemes (different scheme for each cancer type)
+
+			// define quantize scale to sort data values into buckets of color
+			const COLOR_SCALE = d3.scaleQuantize().range(d3.schemeGreens[6]);
+
+			// input domain for color scale
+			COLOR_SCALE.domain([d3.min(state_ratio_data, (d) => {return d.Ratio;}), 
+								d3.max(state_ratio_data, (d) => {return d.Ratio;})]);
+
+			// load in GeoJSON 
+			d3.json("us-states.json").then((json) => {
+
+				// merge state_ratio_data and GeoJSON
+				// Loop through once for each cancer data value
+				for (var i = 0; i < state_ratio_data.length; i++) {
+					
+					let state_name = state_ratio_data[i].State;
+					let state_value = parseFloat(state_ratio_data[i].Ratio);
+					
+					//Find the corresponding state inside the GeoJSON
+					for (var j = 0; j < json.features.length; j++) {
+							
+						var json_state = json.features[j].properties.name;
+					
+						if (state_name == json_state) {
+							
+							// copy the data value into the JSON
+							json.features[j].properties.value = state_value;
+									
+							// stop looking through the JSON
+							break;
+									
+						}
+					}		
+				}
+
+				//console.log(json.features)
+
+				// remove existing map data from the frame
+				FRAME_MAP.selectAll("path").remove();
+
+				// bind new JSON data and create one path per feature
+				FRAME_MAP.selectAll("path")
+							.data(json.features)
+							.enter()
+							.append("path")
+							.attr("d", path)
+							.style("stroke", "#fff")
+							.style("stroke-width", "1")
+							.style("fill", (d) => {
+						   		// get data value
+						   		let value = d.properties.value;
+						   		if (value) {
+							   		return COLOR_SCALE(value);
+						   		} 
+						   		else {
+							   		return "#ccc";
+						   		}
+						   });
+				
+			});
+				
+		});
+	}
+
+	// initialize with default dropdown value
+	filter_and_make_map("Colon and Rectum");
+
+	// event handler so the map rebuilds after each form change
+	d3.select("#cancer_dd").on("change", function(event, d) { 
+		let selected_text = this.value;
+		//console.log(selected_text)
+
+		filter_and_make_map(selected_text)});
+
 }
 build_map();
 
