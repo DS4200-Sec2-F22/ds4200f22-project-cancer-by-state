@@ -32,11 +32,28 @@ function build_map() {
 	let path = d3.geoPath().projection(projection);
 
 	// filters data and creates the map
-	function filter_and_make_map(cancer_type) {
+	function filter_and_make_map(cancer_text, cancer_value) {
 		d3.csv("data/cancer_cleaned_data.csv").then((data) => {
 
+			// remove existing title from the frame
+			FRAME_MAP.selectAll("text").remove();
+
+			// title
+			FRAME_MAP.append("text")
+						.style("text-anchor", "middle")
+						.style("font-size", 20)
+						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_MARGINS.top - 10) + ")")
+					    .text((d) => {
+					    	if (cancer_value === "Lymphoma") {
+					    		return cancer_value + ": Overall Incidence in the United States";
+					    	}
+					    	else {
+					    		return cancer_value + " Cancer: Overall Incidence in the United States"
+					    	}
+					    });
+
 			// filter by cancer type to form output
-			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_type);
+			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_text);
 			//console.log(cancer_type_data)
 
 			/*const unique = (value, index, self) => {
@@ -132,14 +149,14 @@ function build_map() {
 	}
 
 	// initialize with default dropdown value
-	filter_and_make_map("Colon and Rectum");
+	filter_and_make_map("Colon and Rectum", "Colon and Rectal");
 
 	// event handler so the map rebuilds after each form change
 	d3.select("#cancer_dd").on("change", function(event, d) { 
-		let selected_text = this.value;
-		//console.log(selected_text)
+		const selected_text = d3.select('#cancer_dd option:checked').text();
+		const selected_value = this.value;
 
-		filter_and_make_map(selected_text)});
+		filter_and_make_map(selected_text, selected_value)});
 
 }
 build_map();
@@ -184,6 +201,12 @@ const FRAME_SCATTER = d3.select("#scatterplot")
 // build scatterplot (no linking yet)
 function build_scatter() {
 	d3.csv("data/state.csv").then((data) => {
+
+		// title
+		FRAME_SCATTER.append("text")
+						.style("text-anchor", "middle")
+						.attr("transform", "translate(" + (S_WIDTH / 2) + "," + (S_MARGINS.top - 10) + ")")
+					    .text("Percent below Poverty Line vs. Percent Insured");
 
 		// x-axis scaling (or change to 0-100%?)
 		const MIN_X = d3.min(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})
