@@ -23,13 +23,21 @@ function filtered_csv(data, row_name, type) {
 // build map
 function build_map() {
 
+	// print 10 lines of data to the console (pm-03 requirement)
+	d3.csv("data/cancer_cleaned_data.csv").then((data) => {
+		for (let i = 1; i <= 10; i++) {
+			    console.log(data[i]);
+		}
+	})
+
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
-						.translate([M_WIDTH / 2, M_HEIGHT / 2])    // translate to center of screen
-						.scale([1000]);          // scale things down so see entire US
+						.translate([M_WIDTH / 2, M_HEIGHT / 2])
+						.scale([1000]);
 
 	//Define path generator
 	let path = d3.geoPath().projection(projection);
+
 
 	// filters data and creates the map
 	function filter_and_make_map(cancer_text, cancer_value) {
@@ -61,6 +69,9 @@ function build_map() {
 			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
 			//console.log(all_states)
 
+			// initialize total for tooltip
+			let total;
+
 			// new map data (state and overall incidence ratio)
 			let state_ratio_data = [];
 
@@ -69,7 +80,7 @@ function build_map() {
 				state = all_states[i];
 				state_csv = filtered_csv(cancer_type_data, 'State_name', state);
 
-				const total = d3.sum(state_csv, (d) => {return d.Count;})
+				total = d3.sum(state_csv, (d) => {return d.Count;})
 				const pop = d3.min(state_csv, (d) => {return d.State_population;})
 				const ratio = total/pop;
 
@@ -138,7 +149,40 @@ function build_map() {
 						   });
 				
 			});
+
+
+			// tooltip
+			const TOOLTIP = d3.select(("#main-map"))
+								.append("div")
+									.attr("class", "tooltip")
+									.style("opacity", 0);
+
+			// on mouseover, make tooltip opaque
+			function mouseover(event, d) {
+				TOOLTIP.style("opacity", 1);
+			};
+
+			// position tooltip 
+			function mousemove(event, d) {
 				
+				TOOLTIP.html("# of Occurences: " + total)
+							.style("left", (event.pageX + 10) + "px")
+							.style("top", (event.pageY - 50) + "px");
+			};
+
+			// on mouseover, make tooltip opaque
+			function mouseleave(event, d) {
+				TOOLTIP.style("opacity", 0);
+			};
+
+			// add event listeners to all of the states
+			FRAME_MAP.selectAll("path")
+							.on("mouseover", mouseover)
+							.on("mousemove", mousemove)
+							.on("mouseleave", mouseleave);
+
+
+
 		});
 	}
 
@@ -151,6 +195,37 @@ function build_map() {
 		const selected_value = this.value;
 
 		filter_and_make_map(selected_text, selected_value)});
+
+
+		// tooltip
+		const TOOLTIP = d3.select(("#main-map"))
+							.append("div")
+								.attr("class", "tooltip")
+								.style("opacity", 0);
+
+		// on mouseover, make tooltip opaque
+		function mouseover(event, d) {
+			TOOLTIP.style("opacity", 1);
+		};
+
+		// position tooltip 
+		function mousemove(event, d) {
+			
+			TOOLTIP.html("# of Occurences: " + total)
+						.style("left", (event.pageX + 10) + "px")
+						.style("top", (event.pageY - 50) + "px");
+		};
+
+		// on mouseover, make tooltip opaque
+		function mouseleave(event, d) {
+			TOOLTIP.style("opacity", 0);
+		};
+
+		// add event listeners to all of the states
+		FRAME_MAP.selectAll("path")
+						.on("mouseover", mouseover)
+						.on("mousemove", mousemove)
+						.on("mouseleave", mouseleave);
 
 }
 build_map();
@@ -273,8 +348,9 @@ function build_scatter() {
 		// position tooltip 
 		function mousemove(event, d) {
 			TOOLTIP.html("State: " + d.Name + 
-							"<br>Percent below Poverty Line: " + d.Percentage_population_below_poverty + "%" + //poverty rate?
-							"<br>Percent Insured: " + d.Percentage_population_insured + "%")
+							"<br>Percent below Poverty Line: " + d.Percentage_population_below_poverty + "%" + 
+							"<br>Percent Insured: " + d.Percentage_population_insured + "%" +
+							"<br>Population: " + d.Population)
 						.style("left", (event.pageX + 10) + "px")
 						.style("top", (event.pageY - 50) + "px");
 		};
