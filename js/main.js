@@ -3,6 +3,7 @@
 const M_HEIGHT = 600;
 const M_WIDTH = 900;
 const M_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
+const LEGEND_SIZE = 300;
 
 const M_VIS_HEIGHT = M_HEIGHT - M_MARGINS.top - M_MARGINS.bottom;
 const M_VIS_WIDTH = M_WIDTH - M_MARGINS.left - M_MARGINS.right;
@@ -16,8 +17,8 @@ const FRAME_MAP = d3.select("#main-map")
 
 const FRAME_LEGEND = d3.select("#map-legend")
 							.append("svg")
-								.attr("height", M_HEIGHT)
-								.attr("width", M_WIDTH)
+								.attr("height", LEGEND_SIZE)
+								.attr("width", LEGEND_SIZE)
 								.attr("class", "frame");
 
 // subset of data where row_name = type
@@ -71,7 +72,6 @@ function build_map() {
 			//console.log(cancer_type_data)
 
 			// list of all state names in the data subset
-			// const all_states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
 			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
 			//console.log(all_states)
 
@@ -97,21 +97,24 @@ function build_map() {
 			// define quantize scale to sort data values into buckets of color
 			const COLOR_SCALE = d3.scaleQuantize().range(d3.schemeGreens[6]);
 
+			// domain for colors and legend
 			let min = d3.min(state_ratio_data, (d) => {return d.Ratio;});
 			let max = d3.max(state_ratio_data, (d) => {return d.Ratio;});
 
 			// input domain for color scale
 			COLOR_SCALE.domain([min, max]);
 
+			// make buckets for legend
 			scale = (max - min) / 6;
 
+			// color ratios
 			const keys = [min, min + scale, min + (2 * scale), min + (3 * scale), min + (4 * scale), max];
 
-			console.log(keys);
-
+			// clear previous legend
 			FRAME_LEGEND.selectAll(".legend-circle").remove();
 			FRAME_LEGEND.selectAll(".legend-text").remove();
 
+			// create legend text
 			FRAME_LEGEND.selectAll("mydots")
   				.data(keys)
   				.enter()
@@ -122,7 +125,7 @@ function build_map() {
    				 	.style("fill", function(d){ return COLOR_SCALE(d)})
    				 	.attr("class", "legend-circle");
 
-   			// Add one dot in the legend for each name.
+   			// add one dot in the legend for each name.
 			FRAME_LEGEND.selectAll("mylabels")
   				.data(keys)
   				.enter()
@@ -133,6 +136,12 @@ function build_map() {
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
     				.attr("class", "legend-text");
+
+    		// legend title
+			FRAME_LEGEND.append("text")
+						.style("text-anchor", "middle")
+						.attr("transform", "translate(" + (LEGEND_SIZE / 2) + "," + (M_MARGINS.top + 10) + ")")
+					    .text("Legend: Incidence");
 
 			// load in GeoJSON 
 			d3.json("us-states.json").then((json) => {
@@ -203,7 +212,14 @@ function build_map() {
 				// position tooltip 
 				function mousemove(event, d) {
 					
-					TOOLTIP.html("State: " + d.properties.name + "<br># of Occurences: " + d.properties.total)
+					// convert ratio into a percentage
+					let percentage = d.properties.ratio
+										.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4});
+
+					// tooltip text					
+					TOOLTIP.html("State: " + d.properties.name + 
+									"<br>Incidence Rate: " + percentage +
+									"<br># of Occurences: " + d.properties.total)
 								.style("left", (event.pageX + 10) + "px")
 								.style("top", (event.pageY - 50) + "px");
 				};

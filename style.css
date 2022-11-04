@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 div.subsection {
     margin-left: 2%;
     margin-right: 2%;
