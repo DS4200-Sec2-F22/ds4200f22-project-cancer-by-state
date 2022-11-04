@@ -1,3 +1,4 @@
+/* text styling */
 body {
     font-family: Arial;
 }
@@ -6,6 +7,19 @@ h1 {
     text-align: center;
 }
 
+div.subsection {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+div.paragraph {
+    margin-left: 1%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+/* div spacing */
 .flex-all {
     display: flex;
     flex-direction: column;
