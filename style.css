@@ -44,6 +44,17 @@ div.paragraph {
     align-self: center;
 }
 
+/* map styling and interactivity */
+.state {
+    /*opacity: 80%;*/
+}
+
+.state:hover {
+    /* stroke: black !important;*/
+    /* stroke-width: 3 !important;*/
+    /*opacity: 100% !important;*/
+}
+
 /* scatter plot styling and interactivity */
 .point {
     fill: royalblue;

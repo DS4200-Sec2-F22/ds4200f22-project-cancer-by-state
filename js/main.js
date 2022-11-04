@@ -69,9 +69,6 @@ function build_map() {
 			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
 			//console.log(all_states)
 
-			// initialize total for tooltip
-			let total;
-
 			// new map data (state and overall incidence ratio)
 			let state_ratio_data = [];
 
@@ -80,11 +77,11 @@ function build_map() {
 				state = all_states[i];
 				state_csv = filtered_csv(cancer_type_data, 'State_name', state);
 
-				total = d3.sum(state_csv, (d) => {return d.Count;})
+				const total = d3.sum(state_csv, (d) => {return d.Count;})
 				const pop = d3.min(state_csv, (d) => {return d.State_population;})
 				const ratio = total/pop;
 
-				let state_ratio = {"State":state, "Ratio":ratio}
+				let state_ratio = {"State":state, "Total":total, "Ratio":ratio}
 				state_ratio_data.push(state_ratio);
 			}
 			//console.log(state_ratio_data)
@@ -106,7 +103,8 @@ function build_map() {
 				for (var i = 0; i < state_ratio_data.length; i++) {
 					
 					let state_name = state_ratio_data[i].State;
-					let state_value = parseFloat(state_ratio_data[i].Ratio);
+					let state_total = parseFloat(state_ratio_data[i].Total);
+					let state_ratio = parseFloat(state_ratio_data[i].Ratio);
 					
 					//Find the corresponding state inside the GeoJSON
 					for (var j = 0; j < json.features.length; j++) {
@@ -115,8 +113,9 @@ function build_map() {
 					
 						if (state_name == json_state) {
 							
-							// copy the data value into the JSON
-							json.features[j].properties.value = state_value;
+							// copy the data values into the JSON
+							json.features[j].properties.total = state_total;
+							json.features[j].properties.ratio = state_ratio;
 									
 							// stop looking through the JSON
 							break;
@@ -124,7 +123,7 @@ function build_map() {
 						}
 					}		
 				}
-				//console.log(json.features)
+				console.log(json.features)
 
 				// remove existing map data from the frame
 				FRAME_MAP.selectAll("path").remove();
@@ -135,53 +134,52 @@ function build_map() {
 							.enter()
 							.append("path")
 							.attr("d", path)
-							.style("stroke", "#fff")
+							.attr("class", "state")
+							.style("stroke", "white")
 							.style("stroke-width", "1")
 							.style("fill", (d) => {
-						   		// get data value
-						   		let value = d.properties.value;
-						   		if (value) {
-							   		return COLOR_SCALE(value);
+						   		// get ratio value for fill
+						   		let fill_value = d.properties.ratio;
+						   		if (fill_value) {
+							   		return COLOR_SCALE(fill_value);
 						   		} 
 						   		else {
 							   		return "#ccc";
 						   		}
 						   });
-				
+
+
+				// tooltip
+				const TOOLTIP = d3.select(("#main-map"))
+									.append("div")
+										.attr("class", "tooltip")
+										.style("opacity", 0);
+
+				// on mouseover, make tooltip opaque
+				function mouseover(event, d) {
+					TOOLTIP.style("opacity", 1);
+				};
+
+				// position tooltip 
+				function mousemove(event, d) {
+					
+					TOOLTIP.html("State: " + d.properties.name + "<br># of Occurences: " + d.properties.total)
+								.style("left", (event.pageX + 10) + "px")
+								.style("top", (event.pageY - 50) + "px");
+				};
+
+				// on mouseover, make tooltip opaque
+				function mouseleave(event, d) {
+					TOOLTIP.style("opacity", 0);
+				};
+
+				// add event listeners to all of the states
+				FRAME_MAP.selectAll(".state")
+								.on("mouseover", mouseover)
+								.on("mousemove", mousemove)
+								.on("mouseleave", mouseleave);
+
 			});
-
-
-			// tooltip
-			const TOOLTIP = d3.select(("#main-map"))
-								.append("div")
-									.attr("class", "tooltip")
-									.style("opacity", 0);
-
-			// on mouseover, make tooltip opaque
-			function mouseover(event, d) {
-				TOOLTIP.style("opacity", 1);
-			};
-
-			// position tooltip 
-			function mousemove(event, d) {
-				
-				TOOLTIP.html("# of Occurences: " + total)
-							.style("left", (event.pageX + 10) + "px")
-							.style("top", (event.pageY - 50) + "px");
-			};
-
-			// on mouseover, make tooltip opaque
-			function mouseleave(event, d) {
-				TOOLTIP.style("opacity", 0);
-			};
-
-			// add event listeners to all of the states
-			FRAME_MAP.selectAll("path")
-							.on("mouseover", mouseover)
-							.on("mousemove", mousemove)
-							.on("mouseleave", mouseleave);
-
-
 
 		});
 	}
