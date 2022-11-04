@@ -20,17 +20,22 @@
 
     <div>
         <h2>Motivation</h2>
-        TODO: Add motivation / use case here 
+        <p>This visualization was created to encourage users to get preventative screening for cancers that they are vulnerabe to based on their race or state. This visualization can also be used by researchers trying to understand more about cancer risk in vulnerable communities especially to answer questions about the correlation between poverty levels, insurance levels, and cancer incidence levels.</p>
     </div>
 
     <div>
         <h2>Background</h2>
-        TODO: Add link to report, demo video, link to data etc. here  
+        <h4>Data</h4>
+        <p>This tool uses data collected online from Centers for Disease Control and Prevention, State Cancer Profiles, and United States Census Bureau. The data contains three files with data on the name and category of each cancer type, name of each state, race, cancer count by race, percentage of people below poverty, percentage of people insured, and the population for each state. One potential bias of the data can be inferred from the large number of “0 occurrences” of types of cancer in POC race categories. Based on the prevalence of cancer, these statistics are likely not 100\% accurate, and may reflect a bias of how the data was sourced by the CDC. Another potential bias is that there are only 5 race categories, and the “Other races and Unknown Combined” category is not inconsequential in size. The source could have been more specific with their demographic data collection and prevented such grouping.</p>
+
+        <a href="https://www.kaggle.com/datasets/salomekariuki/cancer-incidence-in-the-us-by-state-and-race?select=Cancer_Occurrence.csv">Link to the data</a>
+
+        <!-- TODO: Add link to report, demo video, link to data etc. here --> 
     </div>
 
     <div>
         <h2>Visualization</h2>
-        TODO: Build your visualization tool here  
+        <!-- TODO: Build your visualization tool here -->
 
         <!-- overall container for visualizations -->
         <div class="flex-all">
@@ -75,7 +80,7 @@
         <h2>Acknowledgements</h2>
         TODO: Cite resources used here  
 
-        <div id="acknowledgements">
+        <div id="Acknowledgements">
             <ul>
                 <li><a href="https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json">US States JSON</a> by MappingAPI is used for creating the chloropleth map.
                 </li>
