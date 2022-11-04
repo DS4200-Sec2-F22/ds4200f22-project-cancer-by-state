@@ -14,6 +14,12 @@ const FRAME_MAP = d3.select("#main-map")
 							.attr("width", M_WIDTH)
 							.attr("class", "frame");
 
+const FRAME_LEGEND = d3.select("#map-legend")
+							.append("svg")
+								.attr("height", M_HEIGHT)
+								.attr("width", M_WIDTH)
+								.attr("class", "frame");
+
 // subset of data where row_name = type
 function filtered_csv(data, row_name, type) {
 		return data.filter((row) => {return row[row_name] == type;})
@@ -91,9 +97,42 @@ function build_map() {
 			// define quantize scale to sort data values into buckets of color
 			const COLOR_SCALE = d3.scaleQuantize().range(d3.schemeGreens[6]);
 
+			let min = d3.min(state_ratio_data, (d) => {return d.Ratio;});
+			let max = d3.max(state_ratio_data, (d) => {return d.Ratio;});
+
 			// input domain for color scale
-			COLOR_SCALE.domain([d3.min(state_ratio_data, (d) => {return d.Ratio;}), 
-								d3.max(state_ratio_data, (d) => {return d.Ratio;})]);
+			COLOR_SCALE.domain([min, max]);
+
+			scale = (max - min) / 6;
+
+			const keys = [min, min + scale, min + (2 * scale), min + (3 * scale), min + (4 * scale), max];
+
+			console.log(keys);
+
+			FRAME_LEGEND.selectAll(".legend-circle").remove();
+			FRAME_LEGEND.selectAll(".legend-text").remove();
+
+			FRAME_LEGEND.selectAll("mydots")
+  				.data(keys)
+  				.enter()
+  					.append("circle")
+    				.attr("cx", 100)
+    				.attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+    				.attr("r", 7)
+   				 	.style("fill", function(d){ return COLOR_SCALE(d)})
+   				 	.attr("class", "legend-circle");
+
+   			// Add one dot in the legend for each name.
+			FRAME_LEGEND.selectAll("mylabels")
+  				.data(keys)
+  				.enter()
+  					.append("text")
+    				.attr("x", 120)
+    				.attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+    				.text(function(d){ return d.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4})})
+    				.attr("text-anchor", "left")
+    				.style("alignment-baseline", "middle")
+    				.attr("class", "legend-text");
 
 			// load in GeoJSON 
 			d3.json("us-states.json").then((json) => {
@@ -127,6 +166,7 @@ function build_map() {
 
 				// remove existing map data from the frame
 				FRAME_MAP.selectAll("path").remove();
+
 
 				// bind new JSON data and create one path per feature
 				FRAME_MAP.selectAll("path")
@@ -183,6 +223,7 @@ function build_map() {
 
 		});
 	}
+	
 
 	// initialize with default dropdown value
 	filter_and_make_map("Colon and Rectum", "Colon and Rectal");
