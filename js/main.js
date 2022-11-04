@@ -3,7 +3,8 @@
 const M_HEIGHT = 600;
 const M_WIDTH = 900;
 const M_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
-const LEGEND_SIZE = 300;
+const LEGEND_WIDTH = 300;
+const LEGEND_HEIGHT = M_HEIGHT;
 
 const M_VIS_HEIGHT = M_HEIGHT - M_MARGINS.top - M_MARGINS.bottom;
 const M_VIS_WIDTH = M_WIDTH - M_MARGINS.left - M_MARGINS.right;
@@ -17,8 +18,8 @@ const FRAME_MAP = d3.select("#main-map")
 
 const FRAME_LEGEND = d3.select("#map-legend")
 							.append("svg")
-								.attr("height", LEGEND_SIZE)
-								.attr("width", LEGEND_SIZE)
+								.attr("height", LEGEND_HEIGHT)
+								.attr("width", LEGEND_WIDTH)
 								.attr("class", "frame");
 
 // subset of data where row_name = type
@@ -94,45 +95,54 @@ function build_map() {
 
 			// TODO: dictionary for color schemes (different scheme for each cancer type)
 
-			// define quantize scale to sort data values into buckets of color
-			const COLOR_SCALE = d3.scaleQuantize().range(d3.schemeGreens[6]);
+			// number of colors in scale
+			const colors_n = 6;
+
+			// color palette 
+			const palette = d3.schemePurples;
 
 			// domain for colors and legend
 			let min = d3.min(state_ratio_data, (d) => {return d.Ratio;});
 			let max = d3.max(state_ratio_data, (d) => {return d.Ratio;});
 
-			// input domain for color scale
-			COLOR_SCALE.domain([min, max]);
+			// define quantize scale to sort data values into buckets of color
+			const COLOR_SCALE = d3.scaleQuantize()
+									.domain([min, max])
+									.range(palette[colors_n]);
 
-			// make buckets for legend
-			scale = (max - min) / 6;
-
-			// color ratios
-			const keys = [min, min + scale, min + (2 * scale), min + (3 * scale), min + (4 * scale), max];
+			// percentages for each bucket
+			let keys = [];
+			for (let i=0; i < colors_n; i++) {
+				keys.push(COLOR_SCALE.invertExtent(palette[colors_n][i]));
+			}
 
 			// clear previous legend
 			FRAME_LEGEND.selectAll(".legend-circle").remove();
 			FRAME_LEGEND.selectAll(".legend-text").remove();
 
-			// create legend text
+			// add one dot in the legend for each bucket
 			FRAME_LEGEND.selectAll("mydots")
   				.data(keys)
   				.enter()
   					.append("circle")
     				.attr("cx", 100)
-    				.attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+    				.attr("cy", (d,i) => { return 200 + i*25})
     				.attr("r", 7)
-   				 	.style("fill", function(d){ return COLOR_SCALE(d)})
+   				 	.style("fill", (d) => { return COLOR_SCALE(d[0])})
    				 	.attr("class", "legend-circle");
 
-   			// add one dot in the legend for each name.
+   			// create legend text
 			FRAME_LEGEND.selectAll("mylabels")
   				.data(keys)
   				.enter()
   					.append("text")
     				.attr("x", 120)
-    				.attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
-    				.text(function(d){ return d.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4})})
+    				.attr("y", (d,i) => { return 200 + i*25})
+    				.text((d) => { 
+    					let low = d[0].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4});
+    					let high = d[1].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4})
+    					return (low + " - " + high);
+    				})
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
     				.attr("class", "legend-text");
@@ -140,14 +150,15 @@ function build_map() {
     		// legend title
 			FRAME_LEGEND.append("text")
 						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (LEGEND_SIZE / 2) + "," + (M_MARGINS.top + 10) + ")")
-					    .text("Legend: Incidence");
+						.attr("transform", "translate(" + (LEGEND_WIDTH / 2) + "," + (LEGEND_HEIGHT / 3.5) + ")")
+					    .text("Legend: Incidence")
+						.attr("class", "legend-text");
 
 			// load in GeoJSON 
 			d3.json("us-states.json").then((json) => {
 
 				// merge state_ratio_data and GeoJSON
-				// Loop through once for each cancer data value
+				// loop through once for each cancer data value
 				for (var i = 0; i < state_ratio_data.length; i++) {
 					
 					let state_name = state_ratio_data[i].State;
@@ -166,8 +177,7 @@ function build_map() {
 							json.features[j].properties.ratio = state_ratio;
 									
 							// stop looking through the JSON
-							break;
-									
+							break;		
 						}
 					}		
 				}
@@ -219,7 +229,7 @@ function build_map() {
 					// tooltip text					
 					TOOLTIP.html("State: " + d.properties.name + 
 									"<br>Incidence Rate: " + percentage +
-									"<br># of Occurences: " + d.properties.total)
+									"<br>Total Occurences: " + d.properties.total)
 								.style("left", (event.pageX + 10) + "px")
 								.style("top", (event.pageY - 50) + "px");
 				};
@@ -329,6 +339,7 @@ function build_scatter() {
 		// title
 		FRAME_SCATTER.append("text")
 						.style("text-anchor", "middle")
+						.style("font-size", 18)
 						.attr("transform", "translate(" + (S_WIDTH / 2) + "," + (S_MARGINS.top - 10) + ")")
 					    .text("Percent below Poverty Line vs. Percent Insured");
 
