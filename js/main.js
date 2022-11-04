@@ -123,7 +123,7 @@ function build_map() {
 						}
 					}		
 				}
-				console.log(json.features)
+				//console.log(json.features)
 
 				// remove existing map data from the frame
 				FRAME_MAP.selectAll("path").remove();
