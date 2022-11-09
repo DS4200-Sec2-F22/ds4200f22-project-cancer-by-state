@@ -1,0 +1,1858 @@
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
+0,21041,Colon and Rectum,Digestive System,Alabama,Asian or Pacific Islander,16,18.4,89.2,4874747.0
+1,21041,Colon and Rectum,Digestive System,Alabama,Black or African American,587,18.4,89.2,4874747.0
+2,21041,Colon and Rectum,Digestive System,Alabama,White,1837,18.4,89.2,4874747.0
+3,21041,Colon and Rectum,Digestive System,Alabama,Other Races and Unknown combined,47,18.4,89.2,4874747.0
+4,21041,Colon and Rectum,Digestive System,Alaska,American Indian or Alaska Native,83,10.1,84.5,739795.0
+5,21041,Colon and Rectum,Digestive System,Alaska,White,196,10.1,84.5,739795.0
+6,21041,Colon and Rectum,Digestive System,Arizona,American Indian or Alaska Native,57,17.7,88.1,7016270.0
+7,21041,Colon and Rectum,Digestive System,Arizona,Asian or Pacific Islander,48,17.7,88.1,7016270.0
+8,21041,Colon and Rectum,Digestive System,Arizona,Black or African American,76,17.7,88.1,7016270.0
+9,21041,Colon and Rectum,Digestive System,Arizona,White,2360,17.7,88.1,7016270.0
+10,21041,Colon and Rectum,Digestive System,Arizona,Other Races and Unknown combined,42,17.7,88.1,7016270.0
+11,21041,Colon and Rectum,Digestive System,Arkansas,Asian or Pacific Islander,16,18.8,90.6,3004279.0
+12,21041,Colon and Rectum,Digestive System,Arkansas,Black or African American,217,18.8,90.6,3004279.0
+13,21041,Colon and Rectum,Digestive System,Arkansas,White,1316,18.8,90.6,3004279.0
+14,21041,Colon and Rectum,Digestive System,Arkansas,Other Races and Unknown combined,22,18.8,90.6,3004279.0
+15,21041,Colon and Rectum,Digestive System,California,American Indian or Alaska Native,93,15.8,91.6,39536653.0
+16,21041,Colon and Rectum,Digestive System,California,Asian or Pacific Islander,2095,15.8,91.6,39536653.0
+17,21041,Colon and Rectum,Digestive System,California,Black or African American,1016,15.8,91.6,39536653.0
+18,21041,Colon and Rectum,Digestive System,California,White,11155,15.8,91.6,39536653.0
+19,21041,Colon and Rectum,Digestive System,California,Other Races and Unknown combined,261,15.8,91.6,39536653.0
+20,21041,Colon and Rectum,Digestive System,Colorado,Asian or Pacific Islander,62,12.2,91.4,5607154.0
+21,21041,Colon and Rectum,Digestive System,Colorado,Black or African American,70,12.2,91.4,5607154.0
+22,21041,Colon and Rectum,Digestive System,Colorado,White,1701,12.2,91.4,5607154.0
+23,21041,Colon and Rectum,Digestive System,Colorado,Other Races and Unknown combined,44,12.2,91.4,5607154.0
+24,21041,Colon and Rectum,Digestive System,Connecticut,Asian or Pacific Islander,22,10.4,94.2,3588184.0
+25,21041,Colon and Rectum,Digestive System,Connecticut,Black or African American,136,10.4,94.2,3588184.0
+26,21041,Colon and Rectum,Digestive System,Connecticut,White,1370,10.4,94.2,3588184.0
+27,21041,Colon and Rectum,Digestive System,Connecticut,Other Races and Unknown combined,49,10.4,94.2,3588184.0
+28,21041,Colon and Rectum,Digestive System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+29,21041,Colon and Rectum,Digestive System,Delaware,Black or African American,98,12.0,93.3,961939.0
+30,21041,Colon and Rectum,Digestive System,Delaware,White,354,12.0,93.3,961939.0
+31,21041,Colon and Rectum,Digestive System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+32,21041,Colon and Rectum,Digestive System,District of Columbia,Black or African American,150,17.9,95.9,693972.0
+33,21041,Colon and Rectum,Digestive System,District of Columbia,White,35,17.9,95.9,693972.0
+34,21041,Colon and Rectum,Digestive System,Florida,Asian or Pacific Islander,120,16.1,84.6,20984400.0
+35,21041,Colon and Rectum,Digestive System,Florida,Black or African American,1206,16.1,84.6,20984400.0
+36,21041,Colon and Rectum,Digestive System,Florida,White,8108,16.1,84.6,20984400.0
+37,21041,Colon and Rectum,Digestive System,Florida,Other Races and Unknown combined,248,16.1,84.6,20984400.0
+38,21041,Colon and Rectum,Digestive System,Georgia,Asian or Pacific Islander,118,17.8,85.1,10429379.0
+39,21041,Colon and Rectum,Digestive System,Georgia,Black or African American,1274,17.8,85.1,10429379.0
+40,21041,Colon and Rectum,Digestive System,Georgia,White,3064,17.8,85.1,10429379.0
+41,21041,Colon and Rectum,Digestive System,Hawaii,Asian or Pacific Islander,477,10.8,95.8,1427538.0
+42,21041,Colon and Rectum,Digestive System,Hawaii,White,212,10.8,95.8,1427538.0
+43,21041,Colon and Rectum,Digestive System,Idaho,White,626,15.2,88.2,1716943.0
+44,21041,Colon and Rectum,Digestive System,Illinois,Asian or Pacific Islander,197,14.0,92.5,12802023.0
+45,21041,Colon and Rectum,Digestive System,Illinois,Black or African American,927,14.0,92.5,12802023.0
+46,21041,Colon and Rectum,Digestive System,Illinois,White,5050,14.0,92.5,12802023.0
+47,21041,Colon and Rectum,Digestive System,Illinois,Other Races and Unknown combined,70,14.0,92.5,12802023.0
+48,21041,Colon and Rectum,Digestive System,Indiana,Asian or Pacific Islander,18,15.0,90.5,6666818.0
+49,21041,Colon and Rectum,Digestive System,Indiana,Black or African American,230,15.0,90.5,6666818.0
+50,21041,Colon and Rectum,Digestive System,Indiana,White,2870,15.0,90.5,6666818.0
+51,21041,Colon and Rectum,Digestive System,Iowa,Asian or Pacific Islander,18,12.3,95.0,3145711.0
+52,21041,Colon and Rectum,Digestive System,Iowa,Black or African American,30,12.3,95.0,3145711.0
+53,21041,Colon and Rectum,Digestive System,Iowa,White,1622,12.3,95.0,3145711.0
+54,21041,Colon and Rectum,Digestive System,Kansas,Black or African American,54,13.3,90.1,2913123.0
+55,21041,Colon and Rectum,Digestive System,Kansas,White,1163,13.3,90.1,2913123.0
+56,21041,Colon and Rectum,Digestive System,Kansas,Other Races and Unknown combined,21,13.3,90.1,2913123.0
+57,21041,Colon and Rectum,Digestive System,Kentucky,Black or African American,163,18.8,94.0,4454189.0
+58,21041,Colon and Rectum,Digestive System,Kentucky,White,2303,18.8,94.0,4454189.0
+59,21041,Colon and Rectum,Digestive System,Kentucky,Other Races and Unknown combined,35,18.8,94.0,4454189.0
+60,21041,Colon and Rectum,Digestive System,Louisiana,Asian or Pacific Islander,24,19.7,88.2,4684333.0
+61,21041,Colon and Rectum,Digestive System,Louisiana,Black or African American,750,19.7,88.2,4684333.0
+62,21041,Colon and Rectum,Digestive System,Louisiana,White,1526,19.7,88.2,4684333.0
+63,21041,Colon and Rectum,Digestive System,Maine,White,652,13.5,89.9,1335907.0
+64,21041,Colon and Rectum,Digestive System,Maryland,Asian or Pacific Islander,100,9.9,93.0,6052177.0
+65,21041,Colon and Rectum,Digestive System,Maryland,Black or African American,710,9.9,93.0,6052177.0
+66,21041,Colon and Rectum,Digestive System,Maryland,White,1595,9.9,93.0,6052177.0
+67,21041,Colon and Rectum,Digestive System,Maryland,Other Races and Unknown combined,34,9.9,93.0,6052177.0
+68,21041,Colon and Rectum,Digestive System,Massachusetts,Asian or Pacific Islander,103,11.4,97.0,6859819.0
+69,21041,Colon and Rectum,Digestive System,Massachusetts,Black or African American,199,11.4,97.0,6859819.0
+70,21041,Colon and Rectum,Digestive System,Massachusetts,White,2537,11.4,97.0,6859819.0
+71,21041,Colon and Rectum,Digestive System,Massachusetts,Other Races and Unknown combined,31,11.4,97.0,6859819.0
+72,21041,Colon and Rectum,Digestive System,Michigan,American Indian or Alaska Native,33,16.3,93.6,9962311.0
+73,21041,Colon and Rectum,Digestive System,Michigan,Asian or Pacific Islander,44,16.3,93.6,9962311.0
+74,21041,Colon and Rectum,Digestive System,Michigan,Black or African American,638,16.3,93.6,9962311.0
+75,21041,Colon and Rectum,Digestive System,Michigan,White,3534,16.3,93.6,9962311.0
+76,21041,Colon and Rectum,Digestive System,Michigan,Other Races and Unknown combined,25,16.3,93.6,9962311.0
+77,21041,Colon and Rectum,Digestive System,Minnesota,American Indian or Alaska Native,37,10.8,95.2,5576606.0
+78,21041,Colon and Rectum,Digestive System,Minnesota,Asian or Pacific Islander,56,10.8,95.2,5576606.0
+79,21041,Colon and Rectum,Digestive System,Minnesota,Black or African American,89,10.8,95.2,5576606.0
+80,21041,Colon and Rectum,Digestive System,Minnesota,White,2156,10.8,95.2,5576606.0
+81,21041,Colon and Rectum,Digestive System,Minnesota,Other Races and Unknown combined,70,10.8,95.2,5576606.0
+82,21041,Colon and Rectum,Digestive System,Mississippi,Black or African American,610,22.3,86.0,2984100.0
+83,21041,Colon and Rectum,Digestive System,Mississippi,White,1030,22.3,86.0,2984100.0
+84,21041,Colon and Rectum,Digestive System,Missouri,Asian or Pacific Islander,29,15.3,89.4,6113532.0
+85,21041,Colon and Rectum,Digestive System,Missouri,Black or African American,309,15.3,89.4,6113532.0
+86,21041,Colon and Rectum,Digestive System,Missouri,White,2534,15.3,89.4,6113532.0
+87,21041,Colon and Rectum,Digestive System,Missouri,Other Races and Unknown combined,21,15.3,89.4,6113532.0
+88,21041,Colon and Rectum,Digestive System,Montana,American Indian or Alaska Native,29,14.9,90.0,1050493.0
+89,21041,Colon and Rectum,Digestive System,Montana,White,471,14.9,90.0,1050493.0
+90,21041,Colon and Rectum,Digestive System,Montana,Other Races and Unknown combined,0,14.9,90.0,1050493.0
+91,21041,Colon and Rectum,Digestive System,Nebraska,Black or African American,31,12.4,90.3,1920076.0
+92,21041,Colon and Rectum,Digestive System,Nebraska,White,868,12.4,90.3,1920076.0
+93,21041,Colon and Rectum,Digestive System,Nevada,American Indian or Alaska Native,16,14.9,86.9,2998039.0
+94,21041,Colon and Rectum,Digestive System,Nevada,Asian or Pacific Islander,75,14.9,86.9,2998039.0
+95,21041,Colon and Rectum,Digestive System,Nevada,Black or African American,84,14.9,86.9,2998039.0
+96,21041,Colon and Rectum,Digestive System,Nevada,White,851,14.9,86.9,2998039.0
+97,21041,Colon and Rectum,Digestive System,Nevada,Other Races and Unknown combined,29,14.9,86.9,2998039.0
+98,21041,Colon and Rectum,Digestive System,New Hampshire,White,573,8.5,92.8,1342795.0
+99,21041,Colon and Rectum,Digestive System,New Jersey,Asian or Pacific Islander,202,10.9,90.8,9005644.0
+100,21041,Colon and Rectum,Digestive System,New Jersey,Black or African American,587,10.9,90.8,9005644.0
+101,21041,Colon and Rectum,Digestive System,New Jersey,White,3430,10.9,90.8,9005644.0
+102,21041,Colon and Rectum,Digestive System,New Jersey,Other Races and Unknown combined,94,10.9,90.8,9005644.0
+103,21041,Colon and Rectum,Digestive System,New Mexico,American Indian or Alaska Native,77,20.9,88.8,2088070.0
+104,21041,Colon and Rectum,Digestive System,New Mexico,White,690,20.9,88.8,2088070.0
+105,21041,Colon and Rectum,Digestive System,New York,Asian or Pacific Islander,550,15.5,92.9,19849399.0
+106,21041,Colon and Rectum,Digestive System,New York,Black or African American,1403,15.5,92.9,19849399.0
+107,21041,Colon and Rectum,Digestive System,New York,White,6838,15.5,92.9,19849399.0
+108,21041,Colon and Rectum,Digestive System,New York,Other Races and Unknown combined,148,15.5,92.9,19849399.0
+109,21041,Colon and Rectum,Digestive System,North Carolina,American Indian or Alaska Native,36,16.8,87.8,10273419.0
+110,21041,Colon and Rectum,Digestive System,North Carolina,Asian or Pacific Islander,46,16.8,87.8,10273419.0
+111,21041,Colon and Rectum,Digestive System,North Carolina,Black or African American,954,16.8,87.8,10273419.0
+112,21041,Colon and Rectum,Digestive System,North Carolina,White,3229,16.8,87.8,10273419.0
+113,21041,Colon and Rectum,Digestive System,North Carolina,Other Races and Unknown combined,112,16.8,87.8,10273419.0
+114,21041,Colon and Rectum,Digestive System,North Dakota,White,330,11.2,92.4,755393.0
+115,21041,Colon and Rectum,Digestive System,Ohio,Asian or Pacific Islander,53,15.4,93.3,11658609.0
+116,21041,Colon and Rectum,Digestive System,Ohio,Black or African American,566,15.4,93.3,11658609.0
+117,21041,Colon and Rectum,Digestive System,Ohio,White,5168,15.4,93.3,11658609.0
+118,21041,Colon and Rectum,Digestive System,Ohio,Other Races and Unknown combined,203,15.4,93.3,11658609.0
+119,21041,Colon and Rectum,Digestive System,Oklahoma,American Indian or Alaska Native,194,16.5,84.0,3930864.0
+120,21041,Colon and Rectum,Digestive System,Oklahoma,Black or African American,129,16.5,84.0,3930864.0
+121,21041,Colon and Rectum,Digestive System,Oklahoma,White,1444,16.5,84.0,3930864.0
+122,21041,Colon and Rectum,Digestive System,Oklahoma,Other Races and Unknown combined,19,16.5,84.0,3930864.0
+123,21041,Colon and Rectum,Digestive System,Oregon,American Indian or Alaska Native,23,15.7,92.6,4142776.0
+124,21041,Colon and Rectum,Digestive System,Oregon,Asian or Pacific Islander,58,15.7,92.6,4142776.0
+125,21041,Colon and Rectum,Digestive System,Oregon,Black or African American,19,15.7,92.6,4142776.0
+126,21041,Colon and Rectum,Digestive System,Oregon,White,1452,15.7,92.6,4142776.0
+127,21041,Colon and Rectum,Digestive System,Pennsylvania,Asian or Pacific Islander,106,13.3,93.2,12805537.0
+128,21041,Colon and Rectum,Digestive System,Pennsylvania,Black or African American,612,13.3,93.2,12805537.0
+129,21041,Colon and Rectum,Digestive System,Pennsylvania,White,6060,13.3,93.2,12805537.0
+130,21041,Colon and Rectum,Digestive System,Pennsylvania,Other Races and Unknown combined,84,13.3,93.2,12805537.0
+131,21041,Colon and Rectum,Digestive System,Rhode Island,White,382,13.8,94.9,1059639.0
+132,21041,Colon and Rectum,Digestive System,South Carolina,Asian or Pacific Islander,25,17.2,87.9,5024369.0
+133,21041,Colon and Rectum,Digestive System,South Carolina,Black or African American,619,17.2,87.9,5024369.0
+134,21041,Colon and Rectum,Digestive System,South Carolina,White,1651,17.2,87.9,5024369.0
+135,21041,Colon and Rectum,Digestive System,South Carolina,Other Races and Unknown combined,24,17.2,87.9,5024369.0
+136,21041,Colon and Rectum,Digestive System,South Dakota,American Indian or Alaska Native,21,14.0,89.6,869666.0
+137,21041,Colon and Rectum,Digestive System,South Dakota,White,372,14.0,89.6,869666.0
+138,21041,Colon and Rectum,Digestive System,Tennessee,Asian or Pacific Islander,22,17.2,89.4,6715984.0
+139,21041,Colon and Rectum,Digestive System,Tennessee,Black or African American,473,17.2,89.4,6715984.0
+140,21041,Colon and Rectum,Digestive System,Tennessee,White,2578,17.2,89.4,6715984.0
+141,21041,Colon and Rectum,Digestive System,Tennessee,Other Races and Unknown combined,29,17.2,89.4,6715984.0
+142,21041,Colon and Rectum,Digestive System,Texas,American Indian or Alaska Native,34,16.7,81.4,28304596.0
+143,21041,Colon and Rectum,Digestive System,Texas,Asian or Pacific Islander,242,16.7,81.4,28304596.0
+144,21041,Colon and Rectum,Digestive System,Texas,Black or African American,1354,16.7,81.4,28304596.0
+145,21041,Colon and Rectum,Digestive System,Texas,White,8425,16.7,81.4,28304596.0
+146,21041,Colon and Rectum,Digestive System,Texas,Other Races and Unknown combined,82,16.7,81.4,28304596.0
+147,21041,Colon and Rectum,Digestive System,Utah,Asian or Pacific Islander,21,11.7,90.3,3101833.0
+148,21041,Colon and Rectum,Digestive System,Utah,White,675,11.7,90.3,3101833.0
+149,21041,Colon and Rectum,Digestive System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+150,21041,Colon and Rectum,Digestive System,Vermont,White,264,11.6,95.3,623657.0
+151,21041,Colon and Rectum,Digestive System,Virginia,Asian or Pacific Islander,107,11.4,90.1,8470020.0
+152,21041,Colon and Rectum,Digestive System,Virginia,Black or African American,663,11.4,90.1,8470020.0
+153,21041,Colon and Rectum,Digestive System,Virginia,White,2339,11.4,90.1,8470020.0
+154,21041,Colon and Rectum,Digestive System,Virginia,Other Races and Unknown combined,68,11.4,90.1,8470020.0
+155,21041,Colon and Rectum,Digestive System,Washington,American Indian or Alaska Native,57,12.7,93.1,7405743.0
+156,21041,Colon and Rectum,Digestive System,Washington,Asian or Pacific Islander,163,12.7,93.1,7405743.0
+157,21041,Colon and Rectum,Digestive System,Washington,Black or African American,105,12.7,93.1,7405743.0
+158,21041,Colon and Rectum,Digestive System,Washington,White,2339,12.7,93.1,7405743.0
+159,21041,Colon and Rectum,Digestive System,Washington,Other Races and Unknown combined,40,12.7,93.1,7405743.0
+160,21041,Colon and Rectum,Digestive System,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+161,21041,Colon and Rectum,Digestive System,West Virginia,Black or African American,35,17.7,93.5,1815857.0
+162,21041,Colon and Rectum,Digestive System,West Virginia,White,1106,17.7,93.5,1815857.0
+163,21041,Colon and Rectum,Digestive System,Wisconsin,American Indian or Alaska Native,27,12.7,93.7,5795483.0
+164,21041,Colon and Rectum,Digestive System,Wisconsin,Asian or Pacific Islander,23,12.7,93.7,5795483.0
+165,21041,Colon and Rectum,Digestive System,Wisconsin,Black or African American,138,12.7,93.7,5795483.0
+166,21041,Colon and Rectum,Digestive System,Wisconsin,White,2279,12.7,93.7,5795483.0
+167,21041,Colon and Rectum,Digestive System,Wisconsin,Other Races and Unknown combined,19,12.7,93.7,5795483.0
+168,21041,Colon and Rectum,Digestive System,Wyoming,Black or African American,0,11.6,86.6,579315.0
+169,21041,Colon and Rectum,Digestive System,Wyoming,White,192,11.6,86.6,579315.0
+170,21041,Colon and Rectum,Digestive System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
+171,21100,Pancreas,Digestive System,Alabama,Black or African American,186,18.4,89.2,4874747.0
+172,21100,Pancreas,Digestive System,Alabama,White,569,18.4,89.2,4874747.0
+173,21100,Pancreas,Digestive System,Alaska,White,54,10.1,84.5,739795.0
+174,21100,Pancreas,Digestive System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+175,21100,Pancreas,Digestive System,Arizona,American Indian or Alaska Native,18,17.7,88.1,7016270.0
+176,21100,Pancreas,Digestive System,Arizona,Asian or Pacific Islander,20,17.7,88.1,7016270.0
+177,21100,Pancreas,Digestive System,Arizona,Black or African American,37,17.7,88.1,7016270.0
+178,21100,Pancreas,Digestive System,Arizona,White,844,17.7,88.1,7016270.0
+179,21100,Pancreas,Digestive System,Arkansas,American Indian or Alaska Native,0,18.8,90.6,3004279.0
+180,21100,Pancreas,Digestive System,Arkansas,Black or African American,72,18.8,90.6,3004279.0
+181,21100,Pancreas,Digestive System,Arkansas,White,356,18.8,90.6,3004279.0
+182,21100,Pancreas,Digestive System,California,American Indian or Alaska Native,32,15.8,91.6,39536653.0
+183,21100,Pancreas,Digestive System,California,Asian or Pacific Islander,617,15.8,91.6,39536653.0
+184,21100,Pancreas,Digestive System,California,Black or African American,351,15.8,91.6,39536653.0
+185,21100,Pancreas,Digestive System,California,White,3834,15.8,91.6,39536653.0
+186,21100,Pancreas,Digestive System,California,Other Races and Unknown combined,34,15.8,91.6,39536653.0
+187,21100,Pancreas,Digestive System,Colorado,Black or African American,18,12.2,91.4,5607154.0
+188,21100,Pancreas,Digestive System,Colorado,White,583,12.2,91.4,5607154.0
+189,21100,Pancreas,Digestive System,Connecticut,Black or African American,53,10.4,94.2,3588184.0
+190,21100,Pancreas,Digestive System,Connecticut,White,552,10.4,94.2,3588184.0
+191,21100,Pancreas,Digestive System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+192,21100,Pancreas,Digestive System,Delaware,Black or African American,34,12.0,93.3,961939.0
+193,21100,Pancreas,Digestive System,Delaware,White,143,12.0,93.3,961939.0
+194,21100,Pancreas,Digestive System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+195,21100,Pancreas,Digestive System,District of Columbia,Black or African American,80,17.9,95.9,693972.0
+196,21100,Pancreas,Digestive System,District of Columbia,White,25,17.9,95.9,693972.0
+197,21100,Pancreas,Digestive System,Florida,Asian or Pacific Islander,35,16.1,84.6,20984400.0
+198,21100,Pancreas,Digestive System,Florida,Black or African American,439,16.1,84.6,20984400.0
+199,21100,Pancreas,Digestive System,Florida,White,3081,16.1,84.6,20984400.0
+200,21100,Pancreas,Digestive System,Florida,Other Races and Unknown combined,51,16.1,84.6,20984400.0
+201,21100,Pancreas,Digestive System,Georgia,Asian or Pacific Islander,25,17.8,85.1,10429379.0
+202,21100,Pancreas,Digestive System,Georgia,Black or African American,405,17.8,85.1,10429379.0
+203,21100,Pancreas,Digestive System,Georgia,White,945,17.8,85.1,10429379.0
+204,21100,Pancreas,Digestive System,Hawaii,Asian or Pacific Islander,175,10.8,95.8,1427538.0
+205,21100,Pancreas,Digestive System,Hawaii,White,67,10.8,95.8,1427538.0
+206,21100,Pancreas,Digestive System,Idaho,White,261,15.2,88.2,1716943.0
+207,21100,Pancreas,Digestive System,Illinois,Asian or Pacific Islander,45,14.0,92.5,12802023.0
+208,21100,Pancreas,Digestive System,Illinois,Black or African American,349,14.0,92.5,12802023.0
+209,21100,Pancreas,Digestive System,Illinois,White,1625,14.0,92.5,12802023.0
+210,21100,Pancreas,Digestive System,Indiana,American Indian or Alaska Native,0,15.0,90.5,6666818.0
+211,21100,Pancreas,Digestive System,Indiana,Black or African American,79,15.0,90.5,6666818.0
+212,21100,Pancreas,Digestive System,Indiana,White,947,15.0,90.5,6666818.0
+213,21100,Pancreas,Digestive System,Iowa,White,479,12.3,95.0,3145711.0
+214,21100,Pancreas,Digestive System,Kansas,Black or African American,22,13.3,90.1,2913123.0
+215,21100,Pancreas,Digestive System,Kansas,White,369,13.3,90.1,2913123.0
+216,21100,Pancreas,Digestive System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+217,21100,Pancreas,Digestive System,Kentucky,Black or African American,55,18.8,94.0,4454189.0
+218,21100,Pancreas,Digestive System,Kentucky,White,668,18.8,94.0,4454189.0
+219,21100,Pancreas,Digestive System,Louisiana,Black or African American,222,19.7,88.2,4684333.0
+220,21100,Pancreas,Digestive System,Louisiana,White,566,19.7,88.2,4684333.0
+221,21100,Pancreas,Digestive System,Louisiana,Other Races and Unknown combined,0,19.7,88.2,4684333.0
+222,21100,Pancreas,Digestive System,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+223,21100,Pancreas,Digestive System,Maine,White,235,13.5,89.9,1335907.0
+224,21100,Pancreas,Digestive System,Maryland,Asian or Pacific Islander,38,9.9,93.0,6052177.0
+225,21100,Pancreas,Digestive System,Maryland,Black or African American,267,9.9,93.0,6052177.0
+226,21100,Pancreas,Digestive System,Maryland,White,586,9.9,93.0,6052177.0
+227,21100,Pancreas,Digestive System,Massachusetts,Asian or Pacific Islander,30,11.4,97.0,6859819.0
+228,21100,Pancreas,Digestive System,Massachusetts,Black or African American,58,11.4,97.0,6859819.0
+229,21100,Pancreas,Digestive System,Massachusetts,White,1025,11.4,97.0,6859819.0
+230,21100,Pancreas,Digestive System,Michigan,Black or African American,246,16.3,93.6,9962311.0
+231,21100,Pancreas,Digestive System,Michigan,White,1412,16.3,93.6,9962311.0
+232,21100,Pancreas,Digestive System,Minnesota,Asian or Pacific Islander,16,10.8,95.2,5576606.0
+233,21100,Pancreas,Digestive System,Minnesota,Black or African American,35,10.8,95.2,5576606.0
+234,21100,Pancreas,Digestive System,Minnesota,White,800,10.8,95.2,5576606.0
+235,21100,Pancreas,Digestive System,Mississippi,Black or African American,162,22.3,86.0,2984100.0
+236,21100,Pancreas,Digestive System,Mississippi,White,330,22.3,86.0,2984100.0
+237,21100,Pancreas,Digestive System,Missouri,Black or African American,102,15.3,89.4,6113532.0
+238,21100,Pancreas,Digestive System,Missouri,White,806,15.3,89.4,6113532.0
+239,21100,Pancreas,Digestive System,Montana,Black or African American,0,14.9,90.0,1050493.0
+240,21100,Pancreas,Digestive System,Montana,White,169,14.9,90.0,1050493.0
+241,21100,Pancreas,Digestive System,Montana,Other Races and Unknown combined,0,14.9,90.0,1050493.0
+242,21100,Pancreas,Digestive System,Nebraska,White,277,12.4,90.3,1920076.0
+243,21100,Pancreas,Digestive System,Nebraska,Other Races and Unknown combined,0,12.4,90.3,1920076.0
+244,21100,Pancreas,Digestive System,Nevada,Asian or Pacific Islander,21,14.9,86.9,2998039.0
+245,21100,Pancreas,Digestive System,Nevada,Black or African American,22,14.9,86.9,2998039.0
+246,21100,Pancreas,Digestive System,Nevada,White,288,14.9,86.9,2998039.0
+247,21100,Pancreas,Digestive System,New Hampshire,Asian or Pacific Islander,0,8.5,92.8,1342795.0
+248,21100,Pancreas,Digestive System,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+249,21100,Pancreas,Digestive System,New Hampshire,White,190,8.5,92.8,1342795.0
+250,21100,Pancreas,Digestive System,New Jersey,Asian or Pacific Islander,47,10.9,90.8,9005644.0
+251,21100,Pancreas,Digestive System,New Jersey,Black or African American,181,10.9,90.8,9005644.0
+252,21100,Pancreas,Digestive System,New Jersey,White,1250,10.9,90.8,9005644.0
+253,21100,Pancreas,Digestive System,New Mexico,American Indian or Alaska Native,18,20.9,88.8,2088070.0
+254,21100,Pancreas,Digestive System,New Mexico,White,263,20.9,88.8,2088070.0
+255,21100,Pancreas,Digestive System,New Mexico,Other Races and Unknown combined,0,20.9,88.8,2088070.0
+256,21100,Pancreas,Digestive System,New York,Asian or Pacific Islander,148,15.5,92.9,19849399.0
+257,21100,Pancreas,Digestive System,New York,Black or African American,550,15.5,92.9,19849399.0
+258,21100,Pancreas,Digestive System,New York,White,2608,15.5,92.9,19849399.0
+259,21100,Pancreas,Digestive System,North Carolina,American Indian or Alaska Native,17,16.8,87.8,10273419.0
+260,21100,Pancreas,Digestive System,North Carolina,Black or African American,342,16.8,87.8,10273419.0
+261,21100,Pancreas,Digestive System,North Carolina,White,1140,16.8,87.8,10273419.0
+262,21100,Pancreas,Digestive System,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+263,21100,Pancreas,Digestive System,North Dakota,White,98,11.2,92.4,755393.0
+264,21100,Pancreas,Digestive System,Ohio,Black or African American,209,15.4,93.3,11658609.0
+265,21100,Pancreas,Digestive System,Ohio,White,1636,15.4,93.3,11658609.0
+266,21100,Pancreas,Digestive System,Oklahoma,American Indian or Alaska Native,54,16.5,84.0,3930864.0
+267,21100,Pancreas,Digestive System,Oklahoma,Black or African American,28,16.5,84.0,3930864.0
+268,21100,Pancreas,Digestive System,Oklahoma,White,416,16.5,84.0,3930864.0
+269,21100,Pancreas,Digestive System,Oregon,Asian or Pacific Islander,19,15.7,92.6,4142776.0
+270,21100,Pancreas,Digestive System,Oregon,White,590,15.7,92.6,4142776.0
+271,21100,Pancreas,Digestive System,Pennsylvania,Asian or Pacific Islander,38,13.3,93.2,12805537.0
+272,21100,Pancreas,Digestive System,Pennsylvania,Black or African American,247,13.3,93.2,12805537.0
+273,21100,Pancreas,Digestive System,Pennsylvania,White,2235,13.3,93.2,12805537.0
+274,21100,Pancreas,Digestive System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+275,21100,Pancreas,Digestive System,Rhode Island,White,137,13.8,94.9,1059639.0
+276,21100,Pancreas,Digestive System,South Carolina,Black or African American,223,17.2,87.9,5024369.0
+277,21100,Pancreas,Digestive System,South Carolina,White,565,17.2,87.9,5024369.0
+278,21100,Pancreas,Digestive System,South Dakota,Black or African American,0,14.0,89.6,869666.0
+279,21100,Pancreas,Digestive System,South Dakota,White,110,14.0,89.6,869666.0
+280,21100,Pancreas,Digestive System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+281,21100,Pancreas,Digestive System,Tennessee,American Indian or Alaska Native,0,17.2,89.4,6715984.0
+282,21100,Pancreas,Digestive System,Tennessee,Black or African American,155,17.2,89.4,6715984.0
+283,21100,Pancreas,Digestive System,Tennessee,White,821,17.2,89.4,6715984.0
+284,21100,Pancreas,Digestive System,Texas,Asian or Pacific Islander,94,16.7,81.4,28304596.0
+285,21100,Pancreas,Digestive System,Texas,Black or African American,437,16.7,81.4,28304596.0
+286,21100,Pancreas,Digestive System,Texas,White,2723,16.7,81.4,28304596.0
+287,21100,Pancreas,Digestive System,Utah,White,258,11.7,90.3,3101833.0
+288,21100,Pancreas,Digestive System,Utah,Other Races and Unknown combined,0,11.7,90.3,3101833.0
+289,21100,Pancreas,Digestive System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+290,21100,Pancreas,Digestive System,Vermont,Black or African American,0,11.6,95.3,623657.0
+291,21100,Pancreas,Digestive System,Vermont,White,84,11.6,95.3,623657.0
+292,21100,Pancreas,Digestive System,Vermont,Other Races and Unknown combined,0,11.6,95.3,623657.0
+293,21100,Pancreas,Digestive System,Virginia,Asian or Pacific Islander,37,11.4,90.1,8470020.0
+294,21100,Pancreas,Digestive System,Virginia,Black or African American,236,11.4,90.1,8470020.0
+295,21100,Pancreas,Digestive System,Virginia,White,845,11.4,90.1,8470020.0
+296,21100,Pancreas,Digestive System,Virginia,Other Races and Unknown combined,16,11.4,90.1,8470020.0
+297,21100,Pancreas,Digestive System,Washington,American Indian or Alaska Native,16,12.7,93.1,7405743.0
+298,21100,Pancreas,Digestive System,Washington,Asian or Pacific Islander,54,12.7,93.1,7405743.0
+299,21100,Pancreas,Digestive System,Washington,Black or African American,32,12.7,93.1,7405743.0
+300,21100,Pancreas,Digestive System,Washington,White,900,12.7,93.1,7405743.0
+301,21100,Pancreas,Digestive System,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+302,21100,Pancreas,Digestive System,West Virginia,White,263,17.7,93.5,1815857.0
+303,21100,Pancreas,Digestive System,Wisconsin,Black or African American,48,12.7,93.7,5795483.0
+304,21100,Pancreas,Digestive System,Wisconsin,White,896,12.7,93.7,5795483.0
+305,21100,Pancreas,Digestive System,Wyoming,American Indian or Alaska Native,0,11.6,86.6,579315.0
+306,21100,Pancreas,Digestive System,Wyoming,White,77,11.6,86.6,579315.0
+307,21100,Pancreas,Digestive System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
+308,22030,Lung and Bronchus,Respiratory System,Alabama,Black or African American,688,18.4,89.2,4874747.0
+309,22030,Lung and Bronchus,Respiratory System,Alabama,White,3184,18.4,89.2,4874747.0
+310,22030,Lung and Bronchus,Respiratory System,Alaska,American Indian or Alaska Native,86,10.1,84.5,739795.0
+311,22030,Lung and Bronchus,Respiratory System,Alaska,White,246,10.1,84.5,739795.0
+312,22030,Lung and Bronchus,Respiratory System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+313,22030,Lung and Bronchus,Respiratory System,Arizona,American Indian or Alaska Native,41,17.7,88.1,7016270.0
+314,22030,Lung and Bronchus,Respiratory System,Arizona,Asian or Pacific Islander,57,17.7,88.1,7016270.0
+315,22030,Lung and Bronchus,Respiratory System,Arizona,Black or African American,102,17.7,88.1,7016270.0
+316,22030,Lung and Bronchus,Respiratory System,Arizona,White,3737,17.7,88.1,7016270.0
+317,22030,Lung and Bronchus,Respiratory System,Arizona,Other Races and Unknown combined,38,17.7,88.1,7016270.0
+318,22030,Lung and Bronchus,Respiratory System,Arkansas,American Indian or Alaska Native,18,18.8,90.6,3004279.0
+319,22030,Lung and Bronchus,Respiratory System,Arkansas,Black or African American,319,18.8,90.6,3004279.0
+320,22030,Lung and Bronchus,Respiratory System,Arkansas,White,2534,18.8,90.6,3004279.0
+321,22030,Lung and Bronchus,Respiratory System,California,American Indian or Alaska Native,122,15.8,91.6,39536653.0
+322,22030,Lung and Bronchus,Respiratory System,California,Asian or Pacific Islander,2284,15.8,91.6,39536653.0
+323,22030,Lung and Bronchus,Respiratory System,California,Black or African American,1304,15.8,91.6,39536653.0
+324,22030,Lung and Bronchus,Respiratory System,California,White,13152,15.8,91.6,39536653.0
+325,22030,Lung and Bronchus,Respiratory System,California,Other Races and Unknown combined,86,15.8,91.6,39536653.0
+326,22030,Lung and Bronchus,Respiratory System,Colorado,Asian or Pacific Islander,42,12.2,91.4,5607154.0
+327,22030,Lung and Bronchus,Respiratory System,Colorado,Black or African American,84,12.2,91.4,5607154.0
+328,22030,Lung and Bronchus,Respiratory System,Colorado,White,2158,12.2,91.4,5607154.0
+329,22030,Lung and Bronchus,Respiratory System,Connecticut,Asian or Pacific Islander,23,10.4,94.2,3588184.0
+330,22030,Lung and Bronchus,Respiratory System,Connecticut,Black or African American,197,10.4,94.2,3588184.0
+331,22030,Lung and Bronchus,Respiratory System,Connecticut,White,2327,10.4,94.2,3588184.0
+332,22030,Lung and Bronchus,Respiratory System,Connecticut,Other Races and Unknown combined,30,10.4,94.2,3588184.0
+333,22030,Lung and Bronchus,Respiratory System,Delaware,Black or African American,120,12.0,93.3,961939.0
+334,22030,Lung and Bronchus,Respiratory System,Delaware,White,754,12.0,93.3,961939.0
+335,22030,Lung and Bronchus,Respiratory System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+336,22030,Lung and Bronchus,Respiratory System,District of Columbia,Black or African American,220,17.9,95.9,693972.0
+337,22030,Lung and Bronchus,Respiratory System,District of Columbia,White,48,17.9,95.9,693972.0
+338,22030,Lung and Bronchus,Respiratory System,Florida,American Indian or Alaska Native,19,16.1,84.6,20984400.0
+339,22030,Lung and Bronchus,Respiratory System,Florida,Asian or Pacific Islander,148,16.1,84.6,20984400.0
+340,22030,Lung and Bronchus,Respiratory System,Florida,Black or African American,1286,16.1,84.6,20984400.0
+341,22030,Lung and Bronchus,Respiratory System,Florida,White,14547,16.1,84.6,20984400.0
+342,22030,Lung and Bronchus,Respiratory System,Florida,Other Races and Unknown combined,225,16.1,84.6,20984400.0
+343,22030,Lung and Bronchus,Respiratory System,Georgia,Asian or Pacific Islander,72,17.8,85.1,10429379.0
+344,22030,Lung and Bronchus,Respiratory System,Georgia,Black or African American,1469,17.8,85.1,10429379.0
+345,22030,Lung and Bronchus,Respiratory System,Georgia,White,4953,17.8,85.1,10429379.0
+346,22030,Lung and Bronchus,Respiratory System,Hawaii,Asian or Pacific Islander,572,10.8,95.8,1427538.0
+347,22030,Lung and Bronchus,Respiratory System,Hawaii,White,218,10.8,95.8,1427538.0
+348,22030,Lung and Bronchus,Respiratory System,Idaho,White,909,15.2,88.2,1716943.0
+349,22030,Lung and Bronchus,Respiratory System,Illinois,Asian or Pacific Islander,208,14.0,92.5,12802023.0
+350,22030,Lung and Bronchus,Respiratory System,Illinois,Black or African American,1426,14.0,92.5,12802023.0
+351,22030,Lung and Bronchus,Respiratory System,Illinois,White,7791,14.0,92.5,12802023.0
+352,22030,Lung and Bronchus,Respiratory System,Illinois,Other Races and Unknown combined,37,14.0,92.5,12802023.0
+353,22030,Lung and Bronchus,Respiratory System,Indiana,Asian or Pacific Islander,24,15.0,90.5,6666818.0
+354,22030,Lung and Bronchus,Respiratory System,Indiana,Black or African American,367,15.0,90.5,6666818.0
+355,22030,Lung and Bronchus,Respiratory System,Indiana,White,5184,15.0,90.5,6666818.0
+356,22030,Lung and Bronchus,Respiratory System,Iowa,Black or African American,39,12.3,95.0,3145711.0
+357,22030,Lung and Bronchus,Respiratory System,Iowa,White,2402,12.3,95.0,3145711.0
+358,22030,Lung and Bronchus,Respiratory System,Kansas,Black or African American,107,13.3,90.1,2913123.0
+359,22030,Lung and Bronchus,Respiratory System,Kansas,White,1827,13.3,90.1,2913123.0
+360,22030,Lung and Bronchus,Respiratory System,Kentucky,Black or African American,257,18.8,94.0,4454189.0
+361,22030,Lung and Bronchus,Respiratory System,Kentucky,White,4567,18.8,94.0,4454189.0
+362,22030,Lung and Bronchus,Respiratory System,Louisiana,Asian or Pacific Islander,23,19.7,88.2,4684333.0
+363,22030,Lung and Bronchus,Respiratory System,Louisiana,Black or African American,943,19.7,88.2,4684333.0
+364,22030,Lung and Bronchus,Respiratory System,Louisiana,White,2494,19.7,88.2,4684333.0
+365,22030,Lung and Bronchus,Respiratory System,Maine,White,1330,13.5,89.9,1335907.0
+366,22030,Lung and Bronchus,Respiratory System,Maryland,Asian or Pacific Islander,83,9.9,93.0,6052177.0
+367,22030,Lung and Bronchus,Respiratory System,Maryland,Black or African American,894,9.9,93.0,6052177.0
+368,22030,Lung and Bronchus,Respiratory System,Maryland,White,2814,9.9,93.0,6052177.0
+369,22030,Lung and Bronchus,Respiratory System,Massachusetts,Asian or Pacific Islander,145,11.4,97.0,6859819.0
+370,22030,Lung and Bronchus,Respiratory System,Massachusetts,Black or African American,200,11.4,97.0,6859819.0
+371,22030,Lung and Bronchus,Respiratory System,Massachusetts,White,4748,11.4,97.0,6859819.0
+372,22030,Lung and Bronchus,Respiratory System,Massachusetts,Other Races and Unknown combined,21,11.4,97.0,6859819.0
+373,22030,Lung and Bronchus,Respiratory System,Michigan,American Indian or Alaska Native,81,16.3,93.6,9962311.0
+374,22030,Lung and Bronchus,Respiratory System,Michigan,Asian or Pacific Islander,51,16.3,93.6,9962311.0
+375,22030,Lung and Bronchus,Respiratory System,Michigan,Black or African American,948,16.3,93.6,9962311.0
+376,22030,Lung and Bronchus,Respiratory System,Michigan,White,6714,16.3,93.6,9962311.0
+377,22030,Lung and Bronchus,Respiratory System,Michigan,Other Races and Unknown combined,16,16.3,93.6,9962311.0
+378,22030,Lung and Bronchus,Respiratory System,Minnesota,American Indian or Alaska Native,60,10.8,95.2,5576606.0
+379,22030,Lung and Bronchus,Respiratory System,Minnesota,Asian or Pacific Islander,54,10.8,95.2,5576606.0
+380,22030,Lung and Bronchus,Respiratory System,Minnesota,Black or African American,114,10.8,95.2,5576606.0
+381,22030,Lung and Bronchus,Respiratory System,Minnesota,White,3448,10.8,95.2,5576606.0
+382,22030,Lung and Bronchus,Respiratory System,Minnesota,Other Races and Unknown combined,31,10.8,95.2,5576606.0
+383,22030,Lung and Bronchus,Respiratory System,Mississippi,Black or African American,679,22.3,86.0,2984100.0
+384,22030,Lung and Bronchus,Respiratory System,Mississippi,White,1879,22.3,86.0,2984100.0
+385,22030,Lung and Bronchus,Respiratory System,Mississippi,Other Races and Unknown combined,0,22.3,86.0,2984100.0
+386,22030,Lung and Bronchus,Respiratory System,Missouri,Asian or Pacific Islander,26,15.3,89.4,6113532.0
+387,22030,Lung and Bronchus,Respiratory System,Missouri,Black or African American,515,15.3,89.4,6113532.0
+388,22030,Lung and Bronchus,Respiratory System,Missouri,White,4798,15.3,89.4,6113532.0
+389,22030,Lung and Bronchus,Respiratory System,Montana,American Indian or Alaska Native,39,14.9,90.0,1050493.0
+390,22030,Lung and Bronchus,Respiratory System,Montana,White,679,14.9,90.0,1050493.0
+391,22030,Lung and Bronchus,Respiratory System,Nebraska,Black or African American,43,12.4,90.3,1920076.0
+392,22030,Lung and Bronchus,Respiratory System,Nebraska,White,1197,12.4,90.3,1920076.0
+393,22030,Lung and Bronchus,Respiratory System,Nevada,Asian or Pacific Islander,94,14.9,86.9,2998039.0
+394,22030,Lung and Bronchus,Respiratory System,Nevada,Black or African American,101,14.9,86.9,2998039.0
+395,22030,Lung and Bronchus,Respiratory System,Nevada,White,1310,14.9,86.9,2998039.0
+396,22030,Lung and Bronchus,Respiratory System,Nevada,Other Races and Unknown combined,24,14.9,86.9,2998039.0
+397,22030,Lung and Bronchus,Respiratory System,New Hampshire,White,1084,8.5,92.8,1342795.0
+398,22030,Lung and Bronchus,Respiratory System,New Jersey,Asian or Pacific Islander,175,10.9,90.8,9005644.0
+399,22030,Lung and Bronchus,Respiratory System,New Jersey,Black or African American,671,10.9,90.8,9005644.0
+400,22030,Lung and Bronchus,Respiratory System,New Jersey,White,5041,10.9,90.8,9005644.0
+401,22030,Lung and Bronchus,Respiratory System,New Jersey,Other Races and Unknown combined,42,10.9,90.8,9005644.0
+402,22030,Lung and Bronchus,Respiratory System,New Mexico,American Indian or Alaska Native,21,20.9,88.8,2088070.0
+403,22030,Lung and Bronchus,Respiratory System,New Mexico,Black or African American,16,20.9,88.8,2088070.0
+404,22030,Lung and Bronchus,Respiratory System,New Mexico,White,913,20.9,88.8,2088070.0
+405,22030,Lung and Bronchus,Respiratory System,New York,Asian or Pacific Islander,695,15.5,92.9,19849399.0
+406,22030,Lung and Bronchus,Respiratory System,New York,Black or African American,1704,15.5,92.9,19849399.0
+407,22030,Lung and Bronchus,Respiratory System,New York,White,11486,15.5,92.9,19849399.0
+408,22030,Lung and Bronchus,Respiratory System,New York,Other Races and Unknown combined,87,15.5,92.9,19849399.0
+409,22030,Lung and Bronchus,Respiratory System,North Carolina,American Indian or Alaska Native,72,16.8,87.8,10273419.0
+410,22030,Lung and Bronchus,Respiratory System,North Carolina,Asian or Pacific Islander,64,16.8,87.8,10273419.0
+411,22030,Lung and Bronchus,Respiratory System,North Carolina,Black or African American,1426,16.8,87.8,10273419.0
+412,22030,Lung and Bronchus,Respiratory System,North Carolina,White,6502,16.8,87.8,10273419.0
+413,22030,Lung and Bronchus,Respiratory System,North Carolina,Other Races and Unknown combined,65,16.8,87.8,10273419.0
+414,22030,Lung and Bronchus,Respiratory System,North Dakota,American Indian or Alaska Native,30,11.2,92.4,755393.0
+415,22030,Lung and Bronchus,Respiratory System,North Dakota,White,422,11.2,92.4,755393.0
+416,22030,Lung and Bronchus,Respiratory System,Ohio,Asian or Pacific Islander,32,15.4,93.3,11658609.0
+417,22030,Lung and Bronchus,Respiratory System,Ohio,Black or African American,1052,15.4,93.3,11658609.0
+418,22030,Lung and Bronchus,Respiratory System,Ohio,White,8713,15.4,93.3,11658609.0
+419,22030,Lung and Bronchus,Respiratory System,Ohio,Other Races and Unknown combined,39,15.4,93.3,11658609.0
+420,22030,Lung and Bronchus,Respiratory System,Oklahoma,American Indian or Alaska Native,288,16.5,84.0,3930864.0
+421,22030,Lung and Bronchus,Respiratory System,Oklahoma,Asian or Pacific Islander,25,16.5,84.0,3930864.0
+422,22030,Lung and Bronchus,Respiratory System,Oklahoma,Black or African American,154,16.5,84.0,3930864.0
+423,22030,Lung and Bronchus,Respiratory System,Oklahoma,White,2611,16.5,84.0,3930864.0
+424,22030,Lung and Bronchus,Respiratory System,Oregon,American Indian or Alaska Native,40,15.7,92.6,4142776.0
+425,22030,Lung and Bronchus,Respiratory System,Oregon,Asian or Pacific Islander,58,15.7,92.6,4142776.0
+426,22030,Lung and Bronchus,Respiratory System,Oregon,Black or African American,45,15.7,92.6,4142776.0
+427,22030,Lung and Bronchus,Respiratory System,Oregon,White,2341,15.7,92.6,4142776.0
+428,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Asian or Pacific Islander,110,13.3,93.2,12805537.0
+429,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Black or African American,1011,13.3,93.2,12805537.0
+430,22030,Lung and Bronchus,Respiratory System,Pennsylvania,White,9653,13.3,93.2,12805537.0
+431,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Other Races and Unknown combined,31,13.3,93.2,12805537.0
+432,22030,Lung and Bronchus,Respiratory System,Rhode Island,Asian or Pacific Islander,16,13.8,94.9,1059639.0
+433,22030,Lung and Bronchus,Respiratory System,Rhode Island,Black or African American,36,13.8,94.9,1059639.0
+434,22030,Lung and Bronchus,Respiratory System,Rhode Island,White,860,13.8,94.9,1059639.0
+435,22030,Lung and Bronchus,Respiratory System,South Carolina,Asian or Pacific Islander,25,17.2,87.9,5024369.0
+436,22030,Lung and Bronchus,Respiratory System,South Carolina,Black or African American,837,17.2,87.9,5024369.0
+437,22030,Lung and Bronchus,Respiratory System,South Carolina,White,3135,17.2,87.9,5024369.0
+438,22030,Lung and Bronchus,Respiratory System,South Dakota,American Indian or Alaska Native,40,14.0,89.6,869666.0
+439,22030,Lung and Bronchus,Respiratory System,South Dakota,White,544,14.0,89.6,869666.0
+440,22030,Lung and Bronchus,Respiratory System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+441,22030,Lung and Bronchus,Respiratory System,Tennessee,Asian or Pacific Islander,36,17.2,89.4,6715984.0
+442,22030,Lung and Bronchus,Respiratory System,Tennessee,Black or African American,692,17.2,89.4,6715984.0
+443,22030,Lung and Bronchus,Respiratory System,Tennessee,White,5450,17.2,89.4,6715984.0
+444,22030,Lung and Bronchus,Respiratory System,Tennessee,Other Races and Unknown combined,18,17.2,89.4,6715984.0
+445,22030,Lung and Bronchus,Respiratory System,Texas,American Indian or Alaska Native,40,16.7,81.4,28304596.0
+446,22030,Lung and Bronchus,Respiratory System,Texas,Asian or Pacific Islander,257,16.7,81.4,28304596.0
+447,22030,Lung and Bronchus,Respiratory System,Texas,Black or African American,1604,16.7,81.4,28304596.0
+448,22030,Lung and Bronchus,Respiratory System,Texas,White,11137,16.7,81.4,28304596.0
+449,22030,Lung and Bronchus,Respiratory System,Texas,Other Races and Unknown combined,42,16.7,81.4,28304596.0
+450,22030,Lung and Bronchus,Respiratory System,Utah,American Indian or Alaska Native,0,11.7,90.3,3101833.0
+451,22030,Lung and Bronchus,Respiratory System,Utah,White,615,11.7,90.3,3101833.0
+452,22030,Lung and Bronchus,Respiratory System,Vermont,White,512,11.6,95.3,623657.0
+453,22030,Lung and Bronchus,Respiratory System,Virginia,Asian or Pacific Islander,129,11.4,90.1,8470020.0
+454,22030,Lung and Bronchus,Respiratory System,Virginia,Black or African American,932,11.4,90.1,8470020.0
+455,22030,Lung and Bronchus,Respiratory System,Virginia,White,4176,11.4,90.1,8470020.0
+456,22030,Lung and Bronchus,Respiratory System,Virginia,Other Races and Unknown combined,54,11.4,90.1,8470020.0
+457,22030,Lung and Bronchus,Respiratory System,Washington,American Indian or Alaska Native,64,12.7,93.1,7405743.0
+458,22030,Lung and Bronchus,Respiratory System,Washington,Asian or Pacific Islander,210,12.7,93.1,7405743.0
+459,22030,Lung and Bronchus,Respiratory System,Washington,Black or African American,112,12.7,93.1,7405743.0
+460,22030,Lung and Bronchus,Respiratory System,Washington,White,3895,12.7,93.1,7405743.0
+461,22030,Lung and Bronchus,Respiratory System,Washington,Other Races and Unknown combined,27,12.7,93.1,7405743.0
+462,22030,Lung and Bronchus,Respiratory System,West Virginia,Black or African American,34,17.7,93.5,1815857.0
+463,22030,Lung and Bronchus,Respiratory System,West Virginia,White,1968,17.7,93.5,1815857.0
+464,22030,Lung and Bronchus,Respiratory System,West Virginia,Other Races and Unknown combined,22,17.7,93.5,1815857.0
+465,22030,Lung and Bronchus,Respiratory System,Wisconsin,American Indian or Alaska Native,31,12.7,93.7,5795483.0
+466,22030,Lung and Bronchus,Respiratory System,Wisconsin,Asian or Pacific Islander,40,12.7,93.7,5795483.0
+467,22030,Lung and Bronchus,Respiratory System,Wisconsin,Black or African American,233,12.7,93.7,5795483.0
+468,22030,Lung and Bronchus,Respiratory System,Wisconsin,White,3810,12.7,93.7,5795483.0
+469,22030,Lung and Bronchus,Respiratory System,Wisconsin,Other Races and Unknown combined,18,12.7,93.7,5795483.0
+470,22030,Lung and Bronchus,Respiratory System,Wyoming,White,269,11.6,86.6,579315.0
+471,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alabama,White,1243,18.4,89.2,4874747.0
+472,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,Asian or Pacific Islander,0,10.1,84.5,739795.0
+473,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,Black or African American,0,10.1,84.5,739795.0
+474,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Alaska,White,69,10.1,84.5,739795.0
+475,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arizona,White,1667,17.7,88.1,7016270.0
+476,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arizona,Other Races and Unknown combined,196,17.7,88.1,7016270.0
+477,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,Asian or Pacific Islander,0,18.8,90.6,3004279.0
+478,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,White,713,18.8,90.6,3004279.0
+479,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Arkansas,Other Races and Unknown combined,48,18.8,90.6,3004279.0
+480,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,American Indian or Alaska Native,27,15.8,91.6,39536653.0
+481,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Asian or Pacific Islander,90,15.8,91.6,39536653.0
+482,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Black or African American,27,15.8,91.6,39536653.0
+483,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,White,8402,15.8,91.6,39536653.0
+484,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,California,Other Races and Unknown combined,1003,15.8,91.6,39536653.0
+485,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Colorado,Black or African American,0,12.2,91.4,5607154.0
+486,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Colorado,White,1229,12.2,91.4,5607154.0
+487,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Connecticut,White,827,10.4,94.2,3588184.0
+488,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Connecticut,Other Races and Unknown combined,48,10.4,94.2,3588184.0
+489,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+490,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Delaware,White,336,12.0,93.3,961939.0
+491,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+492,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,Asian or Pacific Islander,0,17.9,95.9,693972.0
+493,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,District of Columbia,White,38,17.9,95.9,693972.0
+494,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,Black or African American,37,16.1,84.6,20984400.0
+495,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,White,6047,16.1,84.6,20984400.0
+496,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Florida,Other Races and Unknown combined,382,16.1,84.6,20984400.0
+497,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,Black or African American,26,17.8,85.1,10429379.0
+498,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,White,2818,17.8,85.1,10429379.0
+499,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Georgia,Other Races and Unknown combined,20,17.8,85.1,10429379.0
+500,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,Asian or Pacific Islander,33,10.8,95.8,1427538.0
+501,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,Black or African American,0,10.8,95.8,1427538.0
+502,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Hawaii,White,356,10.8,95.8,1427538.0
+503,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Asian or Pacific Islander,0,15.2,88.2,1716943.0
+504,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Black or African American,0,15.2,88.2,1716943.0
+505,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,White,499,15.2,88.2,1716943.0
+506,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Idaho,Other Races and Unknown combined,0,15.2,88.2,1716943.0
+507,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,Black or African American,16,14.0,92.5,12802023.0
+508,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,White,2757,14.0,92.5,12802023.0
+509,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Illinois,Other Races and Unknown combined,135,14.0,92.5,12802023.0
+510,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,American Indian or Alaska Native,0,15.0,90.5,6666818.0
+511,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,White,1430,15.0,90.5,6666818.0
+512,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Indiana,Other Races and Unknown combined,73,15.0,90.5,6666818.0
+513,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,Asian or Pacific Islander,0,12.3,95.0,3145711.0
+514,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,White,910,12.3,95.0,3145711.0
+515,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Iowa,Other Races and Unknown combined,43,12.3,95.0,3145711.0
+516,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kansas,White,722,13.3,90.1,2913123.0
+517,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kansas,Other Races and Unknown combined,75,13.3,90.1,2913123.0
+518,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kentucky,White,1326,18.8,94.0,4454189.0
+519,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Kentucky,Other Races and Unknown combined,35,18.8,94.0,4454189.0
+520,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Louisiana,American Indian or Alaska Native,0,19.7,88.2,4684333.0
+521,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Louisiana,White,933,19.7,88.2,4684333.0
+522,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+523,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Black or African American,0,13.5,89.9,1335907.0
+524,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,White,455,13.5,89.9,1335907.0
+525,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maine,Other Races and Unknown combined,25,13.5,89.9,1335907.0
+526,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maryland,Black or African American,19,9.9,93.0,6052177.0
+527,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Maryland,White,1694,9.9,93.0,6052177.0
+528,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Massachusetts,White,1401,11.4,97.0,6859819.0
+529,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Massachusetts,Other Races and Unknown combined,32,11.4,97.0,6859819.0
+530,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Michigan,White,2251,16.3,93.6,9962311.0
+531,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Michigan,Other Races and Unknown combined,53,16.3,93.6,9962311.0
+532,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Minnesota,White,1697,10.8,95.2,5576606.0
+533,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Minnesota,Other Races and Unknown combined,237,10.8,95.2,5576606.0
+534,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Mississippi,American Indian or Alaska Native,0,22.3,86.0,2984100.0
+535,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Mississippi,White,496,22.3,86.0,2984100.0
+536,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,American Indian or Alaska Native,0,15.3,89.4,6113532.0
+537,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,White,1372,15.3,89.4,6113532.0
+538,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Missouri,Other Races and Unknown combined,18,15.3,89.4,6113532.0
+539,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,American Indian or Alaska Native,0,14.9,90.0,1050493.0
+540,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,Black or African American,0,14.9,90.0,1050493.0
+541,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,White,295,14.9,90.0,1050493.0
+542,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Montana,Other Races and Unknown combined,21,14.9,90.0,1050493.0
+543,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,Asian or Pacific Islander,0,12.4,90.3,1920076.0
+544,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,White,488,12.4,90.3,1920076.0
+545,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nebraska,Other Races and Unknown combined,32,12.4,90.3,1920076.0
+546,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Nevada,White,354,14.9,86.9,2998039.0
+547,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Asian or Pacific Islander,0,8.5,92.8,1342795.0
+548,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+549,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,White,484,8.5,92.8,1342795.0
+550,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Hampshire,Other Races and Unknown combined,25,8.5,92.8,1342795.0
+551,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,American Indian or Alaska Native,0,10.9,90.8,9005644.0
+552,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,Black or African American,22,10.9,90.8,9005644.0
+553,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,White,2210,10.9,90.8,9005644.0
+554,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Jersey,Other Races and Unknown combined,115,10.9,90.8,9005644.0
+555,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,American Indian or Alaska Native,16,20.9,88.8,2088070.0
+556,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,White,352,20.9,88.8,2088070.0
+557,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New Mexico,Other Races and Unknown combined,25,20.9,88.8,2088070.0
+558,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Asian or Pacific Islander,25,15.5,92.9,19849399.0
+559,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Black or African American,33,15.5,92.9,19849399.0
+560,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,White,3847,15.5,92.9,19849399.0
+561,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,New York,Other Races and Unknown combined,139,15.5,92.9,19849399.0
+562,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,Black or African American,20,16.8,87.8,10273419.0
+563,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,White,2821,16.8,87.8,10273419.0
+564,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Carolina,Other Races and Unknown combined,221,16.8,87.8,10273419.0
+565,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+566,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,Black or African American,0,11.2,92.4,755393.0
+567,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,North Dakota,White,197,11.2,92.4,755393.0
+568,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Ohio,White,3052,15.4,93.3,11658609.0
+569,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Ohio,Other Races and Unknown combined,374,15.4,93.3,11658609.0
+570,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,American Indian or Alaska Native,39,16.5,84.0,3930864.0
+571,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,White,798,16.5,84.0,3930864.0
+572,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oklahoma,Other Races and Unknown combined,83,16.5,84.0,3930864.0
+573,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Oregon,White,1240,15.7,92.6,4142776.0
+574,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,Black or African American,17,13.3,93.2,12805537.0
+575,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,White,3624,13.3,93.2,12805537.0
+576,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Pennsylvania,Other Races and Unknown combined,385,13.3,93.2,12805537.0
+577,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Rhode Island,White,283,13.8,94.9,1059639.0
+578,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Carolina,American Indian or Alaska Native,0,17.2,87.9,5024369.0
+579,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Carolina,White,1269,17.2,87.9,5024369.0
+580,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+581,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,Black or African American,0,14.0,89.6,869666.0
+582,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,South Dakota,White,225,14.0,89.6,869666.0
+583,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Tennessee,White,1555,17.2,89.4,6715984.0
+584,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Tennessee,Other Races and Unknown combined,103,17.2,89.4,6715984.0
+585,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,Black or African American,24,16.7,81.4,28304596.0
+586,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,White,3226,16.7,81.4,28304596.0
+587,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Texas,Other Races and Unknown combined,189,16.7,81.4,28304596.0
+588,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Utah,American Indian or Alaska Native,0,11.7,90.3,3101833.0
+589,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Utah,White,1050,11.7,90.3,3101833.0
+590,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+591,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,Asian or Pacific Islander,0,11.6,95.3,623657.0
+592,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,Black or African American,0,11.6,95.3,623657.0
+593,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Vermont,White,285,11.6,95.3,623657.0
+594,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,American Indian or Alaska Native,0,11.4,90.1,8470020.0
+595,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,White,1634,11.4,90.1,8470020.0
+596,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Virginia,Other Races and Unknown combined,70,11.4,90.1,8470020.0
+597,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Washington,White,2057,12.7,93.1,7405743.0
+598,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+599,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,Black or African American,0,17.7,93.5,1815857.0
+600,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,White,456,17.7,93.5,1815857.0
+601,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,West Virginia,Other Races and Unknown combined,17,17.7,93.5,1815857.0
+602,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wisconsin,White,1557,12.7,93.7,5795483.0
+603,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wisconsin,Other Races and Unknown combined,27,12.7,93.7,5795483.0
+604,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,American Indian or Alaska Native,0,11.6,86.6,579315.0
+605,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+606,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,Black or African American,0,11.6,86.6,579315.0
+607,25010,Melanoma of the Skin,Skin excluding Basal and Squamous,Wyoming,White,152,11.6,86.6,579315.0
+608,26001,Female Breast,Male and Female Breast,Alabama,Asian or Pacific Islander,22,18.4,89.2,4874747.0
+609,26001,Female Breast,Male and Female Breast,Alabama,Black or African American,934,18.4,89.2,4874747.0
+610,26001,Female Breast,Male and Female Breast,Alabama,White,2803,18.4,89.2,4874747.0
+611,26001,Female Breast,Male and Female Breast,Alabama,Other Races and Unknown combined,48,18.4,89.2,4874747.0
+612,26001,Female Breast,Male and Female Breast,Alaska,American Indian or Alaska Native,79,10.1,84.5,739795.0
+613,26001,Female Breast,Male and Female Breast,Alaska,Asian or Pacific Islander,21,10.1,84.5,739795.0
+614,26001,Female Breast,Male and Female Breast,Alaska,White,314,10.1,84.5,739795.0
+615,26001,Female Breast,Male and Female Breast,Arizona,American Indian or Alaska Native,96,17.7,88.1,7016270.0
+616,26001,Female Breast,Male and Female Breast,Arizona,Asian or Pacific Islander,114,17.7,88.1,7016270.0
+617,26001,Female Breast,Male and Female Breast,Arizona,Black or African American,158,17.7,88.1,7016270.0
+618,26001,Female Breast,Male and Female Breast,Arizona,White,4191,17.7,88.1,7016270.0
+619,26001,Female Breast,Male and Female Breast,Arizona,Other Races and Unknown combined,60,17.7,88.1,7016270.0
+620,26001,Female Breast,Male and Female Breast,Arkansas,American Indian or Alaska Native,17,18.8,90.6,3004279.0
+621,26001,Female Breast,Male and Female Breast,Arkansas,Asian or Pacific Islander,27,18.8,90.6,3004279.0
+622,26001,Female Breast,Male and Female Breast,Arkansas,Black or African American,291,18.8,90.6,3004279.0
+623,26001,Female Breast,Male and Female Breast,Arkansas,White,1789,18.8,90.6,3004279.0
+624,26001,Female Breast,Male and Female Breast,Arkansas,Other Races and Unknown combined,44,18.8,90.6,3004279.0
+625,26001,Female Breast,Male and Female Breast,California,American Indian or Alaska Native,112,15.8,91.6,39536653.0
+626,26001,Female Breast,Male and Female Breast,California,Asian or Pacific Islander,3785,15.8,91.6,39536653.0
+627,26001,Female Breast,Male and Female Breast,California,Black or African American,1741,15.8,91.6,39536653.0
+628,26001,Female Breast,Male and Female Breast,California,White,20662,15.8,91.6,39536653.0
+629,26001,Female Breast,Male and Female Breast,California,Other Races and Unknown combined,437,15.8,91.6,39536653.0
+630,26001,Female Breast,Male and Female Breast,Colorado,American Indian or Alaska Native,25,12.2,91.4,5607154.0
+631,26001,Female Breast,Male and Female Breast,Colorado,Asian or Pacific Islander,80,12.2,91.4,5607154.0
+632,26001,Female Breast,Male and Female Breast,Colorado,Black or African American,126,12.2,91.4,5607154.0
+633,26001,Female Breast,Male and Female Breast,Colorado,White,3477,12.2,91.4,5607154.0
+634,26001,Female Breast,Male and Female Breast,Colorado,Other Races and Unknown combined,33,12.2,91.4,5607154.0
+635,26001,Female Breast,Male and Female Breast,Connecticut,Asian or Pacific Islander,79,10.4,94.2,3588184.0
+636,26001,Female Breast,Male and Female Breast,Connecticut,Black or African American,267,10.4,94.2,3588184.0
+637,26001,Female Breast,Male and Female Breast,Connecticut,White,2898,10.4,94.2,3588184.0
+638,26001,Female Breast,Male and Female Breast,Connecticut,Other Races and Unknown combined,74,10.4,94.2,3588184.0
+639,26001,Female Breast,Male and Female Breast,Delaware,Black or African American,171,12.0,93.3,961939.0
+640,26001,Female Breast,Male and Female Breast,Delaware,White,641,12.0,93.3,961939.0
+641,26001,Female Breast,Male and Female Breast,District of Columbia,Black or African American,265,17.9,95.9,693972.0
+642,26001,Female Breast,Male and Female Breast,District of Columbia,White,124,17.9,95.9,693972.0
+643,26001,Female Breast,Male and Female Breast,Florida,American Indian or Alaska Native,28,16.1,84.6,20984400.0
+644,26001,Female Breast,Male and Female Breast,Florida,Asian or Pacific Islander,285,16.1,84.6,20984400.0
+645,26001,Female Breast,Male and Female Breast,Florida,Black or African American,1839,16.1,84.6,20984400.0
+646,26001,Female Breast,Male and Female Breast,Florida,White,13271,16.1,84.6,20984400.0
+647,26001,Female Breast,Male and Female Breast,Florida,Other Races and Unknown combined,399,16.1,84.6,20984400.0
+648,26001,Female Breast,Male and Female Breast,Georgia,Asian or Pacific Islander,195,17.8,85.1,10429379.0
+649,26001,Female Breast,Male and Female Breast,Georgia,Black or African American,2160,17.8,85.1,10429379.0
+650,26001,Female Breast,Male and Female Breast,Georgia,White,4993,17.8,85.1,10429379.0
+651,26001,Female Breast,Male and Female Breast,Georgia,Other Races and Unknown combined,17,17.8,85.1,10429379.0
+652,26001,Female Breast,Male and Female Breast,Hawaii,Asian or Pacific Islander,834,10.8,95.8,1427538.0
+653,26001,Female Breast,Male and Female Breast,Hawaii,White,319,10.8,95.8,1427538.0
+654,26001,Female Breast,Male and Female Breast,Idaho,Black or African American,0,15.2,88.2,1716943.0
+655,26001,Female Breast,Male and Female Breast,Idaho,White,1136,15.2,88.2,1716943.0
+656,26001,Female Breast,Male and Female Breast,Illinois,Asian or Pacific Islander,374,14.0,92.5,12802023.0
+657,26001,Female Breast,Male and Female Breast,Illinois,Black or African American,1498,14.0,92.5,12802023.0
+658,26001,Female Breast,Male and Female Breast,Illinois,White,8384,14.0,92.5,12802023.0
+659,26001,Female Breast,Male and Female Breast,Illinois,Other Races and Unknown combined,82,14.0,92.5,12802023.0
+660,26001,Female Breast,Male and Female Breast,Indiana,Asian or Pacific Islander,47,15.0,90.5,6666818.0
+661,26001,Female Breast,Male and Female Breast,Indiana,Black or African American,387,15.0,90.5,6666818.0
+662,26001,Female Breast,Male and Female Breast,Indiana,White,4407,15.0,90.5,6666818.0
+663,26001,Female Breast,Male and Female Breast,Iowa,Asian or Pacific Islander,29,12.3,95.0,3145711.0
+664,26001,Female Breast,Male and Female Breast,Iowa,Black or African American,41,12.3,95.0,3145711.0
+665,26001,Female Breast,Male and Female Breast,Iowa,White,2385,12.3,95.0,3145711.0
+666,26001,Female Breast,Male and Female Breast,Kansas,Black or African American,93,13.3,90.1,2913123.0
+667,26001,Female Breast,Male and Female Breast,Kansas,White,2037,13.3,90.1,2913123.0
+668,26001,Female Breast,Male and Female Breast,Kansas,Other Races and Unknown combined,43,13.3,90.1,2913123.0
+669,26001,Female Breast,Male and Female Breast,Kentucky,Black or African American,240,18.8,94.0,4454189.0
+670,26001,Female Breast,Male and Female Breast,Kentucky,White,3224,18.8,94.0,4454189.0
+671,26001,Female Breast,Male and Female Breast,Louisiana,Asian or Pacific Islander,43,19.7,88.2,4684333.0
+672,26001,Female Breast,Male and Female Breast,Louisiana,Black or African American,1075,19.7,88.2,4684333.0
+673,26001,Female Breast,Male and Female Breast,Louisiana,White,2393,19.7,88.2,4684333.0
+674,26001,Female Breast,Male and Female Breast,Maine,American Indian or Alaska Native,17,13.5,89.9,1335907.0
+675,26001,Female Breast,Male and Female Breast,Maine,White,1141,13.5,89.9,1335907.0
+676,26001,Female Breast,Male and Female Breast,Maryland,Asian or Pacific Islander,214,9.9,93.0,6052177.0
+677,26001,Female Breast,Male and Female Breast,Maryland,Black or African American,1431,9.9,93.0,6052177.0
+678,26001,Female Breast,Male and Female Breast,Maryland,White,3147,9.9,93.0,6052177.0
+679,26001,Female Breast,Male and Female Breast,Maryland,Other Races and Unknown combined,68,9.9,93.0,6052177.0
+680,26001,Female Breast,Male and Female Breast,Massachusetts,Asian or Pacific Islander,205,11.4,97.0,6859819.0
+681,26001,Female Breast,Male and Female Breast,Massachusetts,Black or African American,344,11.4,97.0,6859819.0
+682,26001,Female Breast,Male and Female Breast,Massachusetts,White,5275,11.4,97.0,6859819.0
+683,26001,Female Breast,Male and Female Breast,Massachusetts,Other Races and Unknown combined,54,11.4,97.0,6859819.0
+684,26001,Female Breast,Male and Female Breast,Michigan,American Indian or Alaska Native,37,16.3,93.6,9962311.0
+685,26001,Female Breast,Male and Female Breast,Michigan,Asian or Pacific Islander,113,16.3,93.6,9962311.0
+686,26001,Female Breast,Male and Female Breast,Michigan,Black or African American,950,16.3,93.6,9962311.0
+687,26001,Female Breast,Male and Female Breast,Michigan,White,6363,16.3,93.6,9962311.0
+688,26001,Female Breast,Male and Female Breast,Michigan,Other Races and Unknown combined,48,16.3,93.6,9962311.0
+689,26001,Female Breast,Male and Female Breast,Minnesota,American Indian or Alaska Native,44,10.8,95.2,5576606.0
+690,26001,Female Breast,Male and Female Breast,Minnesota,Asian or Pacific Islander,85,10.8,95.2,5576606.0
+691,26001,Female Breast,Male and Female Breast,Minnesota,Black or African American,111,10.8,95.2,5576606.0
+692,26001,Female Breast,Male and Female Breast,Minnesota,White,3999,10.8,95.2,5576606.0
+693,26001,Female Breast,Male and Female Breast,Minnesota,Other Races and Unknown combined,128,10.8,95.2,5576606.0
+694,26001,Female Breast,Male and Female Breast,Mississippi,Asian or Pacific Islander,19,22.3,86.0,2984100.0
+695,26001,Female Breast,Male and Female Breast,Mississippi,Black or African American,721,22.3,86.0,2984100.0
+696,26001,Female Breast,Male and Female Breast,Mississippi,White,1379,22.3,86.0,2984100.0
+697,26001,Female Breast,Male and Female Breast,Missouri,Asian or Pacific Islander,63,15.3,89.4,6113532.0
+698,26001,Female Breast,Male and Female Breast,Missouri,Black or African American,507,15.3,89.4,6113532.0
+699,26001,Female Breast,Male and Female Breast,Missouri,White,4338,15.3,89.4,6113532.0
+700,26001,Female Breast,Male and Female Breast,Missouri,Other Races and Unknown combined,23,15.3,89.4,6113532.0
+701,26001,Female Breast,Male and Female Breast,Montana,American Indian or Alaska Native,43,14.9,90.0,1050493.0
+702,26001,Female Breast,Male and Female Breast,Montana,Black or African American,0,14.9,90.0,1050493.0
+703,26001,Female Breast,Male and Female Breast,Montana,White,798,14.9,90.0,1050493.0
+704,26001,Female Breast,Male and Female Breast,Nebraska,Asian or Pacific Islander,16,12.4,90.3,1920076.0
+705,26001,Female Breast,Male and Female Breast,Nebraska,Black or African American,37,12.4,90.3,1920076.0
+706,26001,Female Breast,Male and Female Breast,Nebraska,White,1337,12.4,90.3,1920076.0
+707,26001,Female Breast,Male and Female Breast,Nevada,Asian or Pacific Islander,133,14.9,86.9,2998039.0
+708,26001,Female Breast,Male and Female Breast,Nevada,Black or African American,110,14.9,86.9,2998039.0
+709,26001,Female Breast,Male and Female Breast,Nevada,White,1439,14.9,86.9,2998039.0
+710,26001,Female Breast,Male and Female Breast,Nevada,Other Races and Unknown combined,46,14.9,86.9,2998039.0
+711,26001,Female Breast,Male and Female Breast,New Hampshire,Asian or Pacific Islander,18,8.5,92.8,1342795.0
+712,26001,Female Breast,Male and Female Breast,New Hampshire,White,1275,8.5,92.8,1342795.0
+713,26001,Female Breast,Male and Female Breast,New Jersey,Asian or Pacific Islander,479,10.9,90.8,9005644.0
+714,26001,Female Breast,Male and Female Breast,New Jersey,Black or African American,973,10.9,90.8,9005644.0
+715,26001,Female Breast,Male and Female Breast,New Jersey,White,5994,10.9,90.8,9005644.0
+716,26001,Female Breast,Male and Female Breast,New Jersey,Other Races and Unknown combined,138,10.9,90.8,9005644.0
+717,26001,Female Breast,Male and Female Breast,New Mexico,American Indian or Alaska Native,73,20.9,88.8,2088070.0
+718,26001,Female Breast,Male and Female Breast,New Mexico,Asian or Pacific Islander,16,20.9,88.8,2088070.0
+719,26001,Female Breast,Male and Female Breast,New Mexico,Black or African American,23,20.9,88.8,2088070.0
+720,26001,Female Breast,Male and Female Breast,New Mexico,White,1276,20.9,88.8,2088070.0
+721,26001,Female Breast,Male and Female Breast,New Mexico,Other Races and Unknown combined,21,20.9,88.8,2088070.0
+722,26001,Female Breast,Male and Female Breast,New York,Asian or Pacific Islander,956,15.5,92.9,19849399.0
+723,26001,Female Breast,Male and Female Breast,New York,Black or African American,2516,15.5,92.9,19849399.0
+724,26001,Female Breast,Male and Female Breast,New York,White,12608,15.5,92.9,19849399.0
+725,26001,Female Breast,Male and Female Breast,New York,Other Races and Unknown combined,256,15.5,92.9,19849399.0
+726,26001,Female Breast,Male and Female Breast,North Carolina,American Indian or Alaska Native,52,16.8,87.8,10273419.0
+727,26001,Female Breast,Male and Female Breast,North Carolina,Asian or Pacific Islander,110,16.8,87.8,10273419.0
+728,26001,Female Breast,Male and Female Breast,North Carolina,Black or African American,1700,16.8,87.8,10273419.0
+729,26001,Female Breast,Male and Female Breast,North Carolina,White,6269,16.8,87.8,10273419.0
+730,26001,Female Breast,Male and Female Breast,North Carolina,Other Races and Unknown combined,153,16.8,87.8,10273419.0
+731,26001,Female Breast,Male and Female Breast,North Dakota,American Indian or Alaska Native,20,11.2,92.4,755393.0
+732,26001,Female Breast,Male and Female Breast,North Dakota,White,532,11.2,92.4,755393.0
+733,26001,Female Breast,Male and Female Breast,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+734,26001,Female Breast,Male and Female Breast,Ohio,Asian or Pacific Islander,86,15.4,93.3,11658609.0
+735,26001,Female Breast,Male and Female Breast,Ohio,Black or African American,1008,15.4,93.3,11658609.0
+736,26001,Female Breast,Male and Female Breast,Ohio,White,8325,15.4,93.3,11658609.0
+737,26001,Female Breast,Male and Female Breast,Ohio,Other Races and Unknown combined,50,15.4,93.3,11658609.0
+738,26001,Female Breast,Male and Female Breast,Oklahoma,American Indian or Alaska Native,257,16.5,84.0,3930864.0
+739,26001,Female Breast,Male and Female Breast,Oklahoma,Asian or Pacific Islander,42,16.5,84.0,3930864.0
+740,26001,Female Breast,Male and Female Breast,Oklahoma,Black or African American,184,16.5,84.0,3930864.0
+741,26001,Female Breast,Male and Female Breast,Oklahoma,White,2289,16.5,84.0,3930864.0
+742,26001,Female Breast,Male and Female Breast,Oklahoma,Other Races and Unknown combined,32,16.5,84.0,3930864.0
+743,26001,Female Breast,Male and Female Breast,Oregon,American Indian or Alaska Native,29,15.7,92.6,4142776.0
+744,26001,Female Breast,Male and Female Breast,Oregon,Asian or Pacific Islander,98,15.7,92.6,4142776.0
+745,26001,Female Breast,Male and Female Breast,Oregon,Black or African American,29,15.7,92.6,4142776.0
+746,26001,Female Breast,Male and Female Breast,Oregon,White,2778,15.7,92.6,4142776.0
+747,26001,Female Breast,Male and Female Breast,Oregon,Other Races and Unknown combined,20,15.7,92.6,4142776.0
+748,26001,Female Breast,Male and Female Breast,Pennsylvania,Asian or Pacific Islander,168,13.3,93.2,12805537.0
+749,26001,Female Breast,Male and Female Breast,Pennsylvania,Black or African American,1053,13.3,93.2,12805537.0
+750,26001,Female Breast,Male and Female Breast,Pennsylvania,White,9773,13.3,93.2,12805537.0
+751,26001,Female Breast,Male and Female Breast,Pennsylvania,Other Races and Unknown combined,74,13.3,93.2,12805537.0
+752,26001,Female Breast,Male and Female Breast,Rhode Island,Asian or Pacific Islander,17,13.8,94.9,1059639.0
+753,26001,Female Breast,Male and Female Breast,Rhode Island,Black or African American,33,13.8,94.9,1059639.0
+754,26001,Female Breast,Male and Female Breast,Rhode Island,White,871,13.8,94.9,1059639.0
+755,26001,Female Breast,Male and Female Breast,South Carolina,Asian or Pacific Islander,40,17.2,87.9,5024369.0
+756,26001,Female Breast,Male and Female Breast,South Carolina,Black or African American,1022,17.2,87.9,5024369.0
+757,26001,Female Breast,Male and Female Breast,South Carolina,White,2985,17.2,87.9,5024369.0
+758,26001,Female Breast,Male and Female Breast,South Carolina,Other Races and Unknown combined,26,17.2,87.9,5024369.0
+759,26001,Female Breast,Male and Female Breast,South Dakota,American Indian or Alaska Native,35,14.0,89.6,869666.0
+760,26001,Female Breast,Male and Female Breast,South Dakota,White,601,14.0,89.6,869666.0
+761,26001,Female Breast,Male and Female Breast,Tennessee,Asian or Pacific Islander,47,17.2,89.4,6715984.0
+762,26001,Female Breast,Male and Female Breast,Tennessee,Black or African American,738,17.2,89.4,6715984.0
+763,26001,Female Breast,Male and Female Breast,Tennessee,White,4217,17.2,89.4,6715984.0
+764,26001,Female Breast,Male and Female Breast,Tennessee,Other Races and Unknown combined,49,17.2,89.4,6715984.0
+765,26001,Female Breast,Male and Female Breast,Texas,American Indian or Alaska Native,74,16.7,81.4,28304596.0
+766,26001,Female Breast,Male and Female Breast,Texas,Asian or Pacific Islander,486,16.7,81.4,28304596.0
+767,26001,Female Breast,Male and Female Breast,Texas,Black or African American,1958,16.7,81.4,28304596.0
+768,26001,Female Breast,Male and Female Breast,Texas,White,13469,16.7,81.4,28304596.0
+769,26001,Female Breast,Male and Female Breast,Texas,Other Races and Unknown combined,149,16.7,81.4,28304596.0
+770,26001,Female Breast,Male and Female Breast,Utah,Asian or Pacific Islander,43,11.7,90.3,3101833.0
+771,26001,Female Breast,Male and Female Breast,Utah,White,1444,11.7,90.3,3101833.0
+772,26001,Female Breast,Male and Female Breast,Vermont,White,540,11.6,95.3,623657.0
+773,26001,Female Breast,Male and Female Breast,Virginia,Asian or Pacific Islander,241,11.4,90.1,8470020.0
+774,26001,Female Breast,Male and Female Breast,Virginia,Black or African American,1254,11.4,90.1,8470020.0
+775,26001,Female Breast,Male and Female Breast,Virginia,White,4679,11.4,90.1,8470020.0
+776,26001,Female Breast,Male and Female Breast,Virginia,Other Races and Unknown combined,104,11.4,90.1,8470020.0
+777,26001,Female Breast,Male and Female Breast,Washington,American Indian or Alaska Native,83,12.7,93.1,7405743.0
+778,26001,Female Breast,Male and Female Breast,Washington,Asian or Pacific Islander,361,12.7,93.1,7405743.0
+779,26001,Female Breast,Male and Female Breast,Washington,Black or African American,134,12.7,93.1,7405743.0
+780,26001,Female Breast,Male and Female Breast,Washington,White,4968,12.7,93.1,7405743.0
+781,26001,Female Breast,Male and Female Breast,Washington,Other Races and Unknown combined,82,12.7,93.1,7405743.0
+782,26001,Female Breast,Male and Female Breast,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+783,26001,Female Breast,Male and Female Breast,West Virginia,Black or African American,46,17.7,93.5,1815857.0
+784,26001,Female Breast,Male and Female Breast,West Virginia,White,1434,17.7,93.5,1815857.0
+785,26001,Female Breast,Male and Female Breast,Wisconsin,American Indian or Alaska Native,28,12.7,93.7,5795483.0
+786,26001,Female Breast,Male and Female Breast,Wisconsin,Asian or Pacific Islander,43,12.7,93.7,5795483.0
+787,26001,Female Breast,Male and Female Breast,Wisconsin,Black or African American,235,12.7,93.7,5795483.0
+788,26001,Female Breast,Male and Female Breast,Wisconsin,White,4277,12.7,93.7,5795483.0
+789,26001,Female Breast,Male and Female Breast,Wisconsin,Other Races and Unknown combined,24,12.7,93.7,5795483.0
+790,26001,Female Breast,Male and Female Breast,Wyoming,Black or African American,0,11.6,86.6,579315.0
+791,26001,Female Breast,Male and Female Breast,Wyoming,White,326,11.6,86.6,579315.0
+792,27020,Corpus Uteri,Female Genital System,Alabama,American Indian or Alaska Native,0,18.4,89.2,4874747.0
+793,27020,Corpus Uteri,Female Genital System,Alabama,Black or African American,154,18.4,89.2,4874747.0
+794,27020,Corpus Uteri,Female Genital System,Alabama,White,447,18.4,89.2,4874747.0
+795,27020,Corpus Uteri,Female Genital System,Alaska,White,64,10.1,84.5,739795.0
+796,27020,Corpus Uteri,Female Genital System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+797,27020,Corpus Uteri,Female Genital System,Arizona,American Indian or Alaska Native,40,17.7,88.1,7016270.0
+798,27020,Corpus Uteri,Female Genital System,Arizona,Asian or Pacific Islander,20,17.7,88.1,7016270.0
+799,27020,Corpus Uteri,Female Genital System,Arizona,Black or African American,30,17.7,88.1,7016270.0
+800,27020,Corpus Uteri,Female Genital System,Arizona,White,853,17.7,88.1,7016270.0
+801,27020,Corpus Uteri,Female Genital System,Arizona,Other Races and Unknown combined,18,17.7,88.1,7016270.0
+802,27020,Corpus Uteri,Female Genital System,Arkansas,Black or African American,49,18.8,90.6,3004279.0
+803,27020,Corpus Uteri,Female Genital System,Arkansas,White,363,18.8,90.6,3004279.0
+804,27020,Corpus Uteri,Female Genital System,California,American Indian or Alaska Native,45,15.8,91.6,39536653.0
+805,27020,Corpus Uteri,Female Genital System,California,Asian or Pacific Islander,758,15.8,91.6,39536653.0
+806,27020,Corpus Uteri,Female Genital System,California,Black or African American,347,15.8,91.6,39536653.0
+807,27020,Corpus Uteri,Female Genital System,California,White,4430,15.8,91.6,39536653.0
+808,27020,Corpus Uteri,Female Genital System,California,Other Races and Unknown combined,85,15.8,91.6,39536653.0
+809,27020,Corpus Uteri,Female Genital System,Colorado,Black or African American,18,12.2,91.4,5607154.0
+810,27020,Corpus Uteri,Female Genital System,Colorado,White,623,12.2,91.4,5607154.0
+811,27020,Corpus Uteri,Female Genital System,Connecticut,American Indian or Alaska Native,0,10.4,94.2,3588184.0
+812,27020,Corpus Uteri,Female Genital System,Connecticut,Black or African American,59,10.4,94.2,3588184.0
+813,27020,Corpus Uteri,Female Genital System,Connecticut,White,604,10.4,94.2,3588184.0
+814,27020,Corpus Uteri,Female Genital System,Connecticut,Other Races and Unknown combined,28,10.4,94.2,3588184.0
+815,27020,Corpus Uteri,Female Genital System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+816,27020,Corpus Uteri,Female Genital System,Delaware,Black or African American,31,12.0,93.3,961939.0
+817,27020,Corpus Uteri,Female Genital System,Delaware,White,156,12.0,93.3,961939.0
+818,27020,Corpus Uteri,Female Genital System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+819,27020,Corpus Uteri,Female Genital System,District of Columbia,Black or African American,57,17.9,95.9,693972.0
+820,27020,Corpus Uteri,Female Genital System,District of Columbia,White,19,17.9,95.9,693972.0
+821,27020,Corpus Uteri,Female Genital System,Florida,Asian or Pacific Islander,48,16.1,84.6,20984400.0
+822,27020,Corpus Uteri,Female Genital System,Florida,Black or African American,495,16.1,84.6,20984400.0
+823,27020,Corpus Uteri,Female Genital System,Florida,White,2775,16.1,84.6,20984400.0
+824,27020,Corpus Uteri,Female Genital System,Florida,Other Races and Unknown combined,79,16.1,84.6,20984400.0
+825,27020,Corpus Uteri,Female Genital System,Georgia,Asian or Pacific Islander,26,17.8,85.1,10429379.0
+826,27020,Corpus Uteri,Female Genital System,Georgia,Black or African American,432,17.8,85.1,10429379.0
+827,27020,Corpus Uteri,Female Genital System,Georgia,White,949,17.8,85.1,10429379.0
+828,27020,Corpus Uteri,Female Genital System,Hawaii,American Indian or Alaska Native,0,10.8,95.8,1427538.0
+829,27020,Corpus Uteri,Female Genital System,Hawaii,Asian or Pacific Islander,200,10.8,95.8,1427538.0
+830,27020,Corpus Uteri,Female Genital System,Hawaii,White,50,10.8,95.8,1427538.0
+831,27020,Corpus Uteri,Female Genital System,Idaho,Black or African American,0,15.2,88.2,1716943.0
+832,27020,Corpus Uteri,Female Genital System,Idaho,White,229,15.2,88.2,1716943.0
+833,27020,Corpus Uteri,Female Genital System,Illinois,Asian or Pacific Islander,73,14.0,92.5,12802023.0
+834,27020,Corpus Uteri,Female Genital System,Illinois,Black or African American,334,14.0,92.5,12802023.0
+835,27020,Corpus Uteri,Female Genital System,Illinois,White,1926,14.0,92.5,12802023.0
+836,27020,Corpus Uteri,Female Genital System,Illinois,Other Races and Unknown combined,31,14.0,92.5,12802023.0
+837,27020,Corpus Uteri,Female Genital System,Indiana,Black or African American,85,15.0,90.5,6666818.0
+838,27020,Corpus Uteri,Female Genital System,Indiana,White,1045,15.0,90.5,6666818.0
+839,27020,Corpus Uteri,Female Genital System,Iowa,White,574,12.3,95.0,3145711.0
+840,27020,Corpus Uteri,Female Genital System,Kansas,Black or African American,18,13.3,90.1,2913123.0
+841,27020,Corpus Uteri,Female Genital System,Kansas,White,446,13.3,90.1,2913123.0
+842,27020,Corpus Uteri,Female Genital System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+843,27020,Corpus Uteri,Female Genital System,Kentucky,Black or African American,55,18.8,94.0,4454189.0
+844,27020,Corpus Uteri,Female Genital System,Kentucky,White,688,18.8,94.0,4454189.0
+845,27020,Corpus Uteri,Female Genital System,Louisiana,Black or African American,166,19.7,88.2,4684333.0
+846,27020,Corpus Uteri,Female Genital System,Louisiana,White,407,19.7,88.2,4684333.0
+847,27020,Corpus Uteri,Female Genital System,Maine,White,310,13.5,89.9,1335907.0
+848,27020,Corpus Uteri,Female Genital System,Maine,Other Races and Unknown combined,0,13.5,89.9,1335907.0
+849,27020,Corpus Uteri,Female Genital System,Maryland,Asian or Pacific Islander,37,9.9,93.0,6052177.0
+850,27020,Corpus Uteri,Female Genital System,Maryland,Black or African American,326,9.9,93.0,6052177.0
+851,27020,Corpus Uteri,Female Genital System,Maryland,White,697,9.9,93.0,6052177.0
+852,27020,Corpus Uteri,Female Genital System,Maryland,Other Races and Unknown combined,24,9.9,93.0,6052177.0
+853,27020,Corpus Uteri,Female Genital System,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+854,27020,Corpus Uteri,Female Genital System,Massachusetts,Asian or Pacific Islander,42,11.4,97.0,6859819.0
+855,27020,Corpus Uteri,Female Genital System,Massachusetts,Black or African American,82,11.4,97.0,6859819.0
+856,27020,Corpus Uteri,Female Genital System,Massachusetts,White,1175,11.4,97.0,6859819.0
+857,27020,Corpus Uteri,Female Genital System,Massachusetts,Other Races and Unknown combined,30,11.4,97.0,6859819.0
+858,27020,Corpus Uteri,Female Genital System,Michigan,Asian or Pacific Islander,21,16.3,93.6,9962311.0
+859,27020,Corpus Uteri,Female Genital System,Michigan,Black or African American,214,16.3,93.6,9962311.0
+860,27020,Corpus Uteri,Female Genital System,Michigan,White,1582,16.3,93.6,9962311.0
+861,27020,Corpus Uteri,Female Genital System,Minnesota,Asian or Pacific Islander,21,10.8,95.2,5576606.0
+862,27020,Corpus Uteri,Female Genital System,Minnesota,Black or African American,28,10.8,95.2,5576606.0
+863,27020,Corpus Uteri,Female Genital System,Minnesota,White,1010,10.8,95.2,5576606.0
+864,27020,Corpus Uteri,Female Genital System,Minnesota,Other Races and Unknown combined,17,10.8,95.2,5576606.0
+865,27020,Corpus Uteri,Female Genital System,Mississippi,Black or African American,139,22.3,86.0,2984100.0
+866,27020,Corpus Uteri,Female Genital System,Mississippi,White,276,22.3,86.0,2984100.0
+867,27020,Corpus Uteri,Female Genital System,Missouri,Black or African American,96,15.3,89.4,6113532.0
+868,27020,Corpus Uteri,Female Genital System,Missouri,White,935,15.3,89.4,6113532.0
+869,27020,Corpus Uteri,Female Genital System,Montana,Asian or Pacific Islander,0,14.9,90.0,1050493.0
+870,27020,Corpus Uteri,Female Genital System,Montana,Black or African American,0,14.9,90.0,1050493.0
+871,27020,Corpus Uteri,Female Genital System,Montana,White,154,14.9,90.0,1050493.0
+872,27020,Corpus Uteri,Female Genital System,Nebraska,White,302,12.4,90.3,1920076.0
+873,27020,Corpus Uteri,Female Genital System,Nevada,Asian or Pacific Islander,16,14.9,86.9,2998039.0
+874,27020,Corpus Uteri,Female Genital System,Nevada,Black or African American,19,14.9,86.9,2998039.0
+875,27020,Corpus Uteri,Female Genital System,Nevada,White,312,14.9,86.9,2998039.0
+876,27020,Corpus Uteri,Female Genital System,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+877,27020,Corpus Uteri,Female Genital System,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+878,27020,Corpus Uteri,Female Genital System,New Hampshire,White,264,8.5,92.8,1342795.0
+879,27020,Corpus Uteri,Female Genital System,New Jersey,American Indian or Alaska Native,0,10.9,90.8,9005644.0
+880,27020,Corpus Uteri,Female Genital System,New Jersey,Asian or Pacific Islander,94,10.9,90.8,9005644.0
+881,27020,Corpus Uteri,Female Genital System,New Jersey,Black or African American,221,10.9,90.8,9005644.0
+882,27020,Corpus Uteri,Female Genital System,New Jersey,White,1466,10.9,90.8,9005644.0
+883,27020,Corpus Uteri,Female Genital System,New Jersey,Other Races and Unknown combined,31,10.9,90.8,9005644.0
+884,27020,Corpus Uteri,Female Genital System,New Mexico,American Indian or Alaska Native,29,20.9,88.8,2088070.0
+885,27020,Corpus Uteri,Female Genital System,New Mexico,White,259,20.9,88.8,2088070.0
+886,27020,Corpus Uteri,Female Genital System,New York,Asian or Pacific Islander,214,15.5,92.9,19849399.0
+887,27020,Corpus Uteri,Female Genital System,New York,Black or African American,665,15.5,92.9,19849399.0
+888,27020,Corpus Uteri,Female Genital System,New York,White,3032,15.5,92.9,19849399.0
+889,27020,Corpus Uteri,Female Genital System,New York,Other Races and Unknown combined,76,15.5,92.9,19849399.0
+890,27020,Corpus Uteri,Female Genital System,North Carolina,Asian or Pacific Islander,22,16.8,87.8,10273419.0
+891,27020,Corpus Uteri,Female Genital System,North Carolina,Black or African American,331,16.8,87.8,10273419.0
+892,27020,Corpus Uteri,Female Genital System,North Carolina,White,1222,16.8,87.8,10273419.0
+893,27020,Corpus Uteri,Female Genital System,North Carolina,Other Races and Unknown combined,32,16.8,87.8,10273419.0
+894,27020,Corpus Uteri,Female Genital System,North Dakota,White,96,11.2,92.4,755393.0
+895,27020,Corpus Uteri,Female Genital System,Ohio,Asian or Pacific Islander,22,15.4,93.3,11658609.0
+896,27020,Corpus Uteri,Female Genital System,Ohio,Black or African American,217,15.4,93.3,11658609.0
+897,27020,Corpus Uteri,Female Genital System,Ohio,White,1973,15.4,93.3,11658609.0
+898,27020,Corpus Uteri,Female Genital System,Ohio,Other Races and Unknown combined,21,15.4,93.3,11658609.0
+899,27020,Corpus Uteri,Female Genital System,Oklahoma,American Indian or Alaska Native,51,16.5,84.0,3930864.0
+900,27020,Corpus Uteri,Female Genital System,Oklahoma,Black or African American,35,16.5,84.0,3930864.0
+901,27020,Corpus Uteri,Female Genital System,Oklahoma,White,449,16.5,84.0,3930864.0
+902,27020,Corpus Uteri,Female Genital System,Oregon,Asian or Pacific Islander,18,15.7,92.6,4142776.0
+903,27020,Corpus Uteri,Female Genital System,Oregon,White,637,15.7,92.6,4142776.0
+904,27020,Corpus Uteri,Female Genital System,Pennsylvania,Asian or Pacific Islander,37,13.3,93.2,12805537.0
+905,27020,Corpus Uteri,Female Genital System,Pennsylvania,Black or African American,249,13.3,93.2,12805537.0
+906,27020,Corpus Uteri,Female Genital System,Pennsylvania,White,2571,13.3,93.2,12805537.0
+907,27020,Corpus Uteri,Female Genital System,Pennsylvania,Other Races and Unknown combined,24,13.3,93.2,12805537.0
+908,27020,Corpus Uteri,Female Genital System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+909,27020,Corpus Uteri,Female Genital System,Rhode Island,White,165,13.8,94.9,1059639.0
+910,27020,Corpus Uteri,Female Genital System,South Carolina,American Indian or Alaska Native,0,17.2,87.9,5024369.0
+911,27020,Corpus Uteri,Female Genital System,South Carolina,Black or African American,215,17.2,87.9,5024369.0
+912,27020,Corpus Uteri,Female Genital System,South Carolina,White,535,17.2,87.9,5024369.0
+913,27020,Corpus Uteri,Female Genital System,South Dakota,Black or African American,0,14.0,89.6,869666.0
+914,27020,Corpus Uteri,Female Genital System,South Dakota,White,141,14.0,89.6,869666.0
+915,27020,Corpus Uteri,Female Genital System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+916,27020,Corpus Uteri,Female Genital System,Tennessee,Black or African American,130,17.2,89.4,6715984.0
+917,27020,Corpus Uteri,Female Genital System,Tennessee,White,867,17.2,89.4,6715984.0
+918,27020,Corpus Uteri,Female Genital System,Texas,Asian or Pacific Islander,90,16.7,81.4,28304596.0
+919,27020,Corpus Uteri,Female Genital System,Texas,Black or African American,329,16.7,81.4,28304596.0
+920,27020,Corpus Uteri,Female Genital System,Texas,White,2555,16.7,81.4,28304596.0
+921,27020,Corpus Uteri,Female Genital System,Texas,Other Races and Unknown combined,35,16.7,81.4,28304596.0
+922,27020,Corpus Uteri,Female Genital System,Utah,White,348,11.7,90.3,3101833.0
+923,27020,Corpus Uteri,Female Genital System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+924,27020,Corpus Uteri,Female Genital System,Vermont,Asian or Pacific Islander,0,11.6,95.3,623657.0
+925,27020,Corpus Uteri,Female Genital System,Vermont,White,159,11.6,95.3,623657.0
+926,27020,Corpus Uteri,Female Genital System,Vermont,Other Races and Unknown combined,0,11.6,95.3,623657.0
+927,27020,Corpus Uteri,Female Genital System,Virginia,Asian or Pacific Islander,57,11.4,90.1,8470020.0
+928,27020,Corpus Uteri,Female Genital System,Virginia,Black or African American,240,11.4,90.1,8470020.0
+929,27020,Corpus Uteri,Female Genital System,Virginia,White,925,11.4,90.1,8470020.0
+930,27020,Corpus Uteri,Female Genital System,Virginia,Other Races and Unknown combined,77,11.4,90.1,8470020.0
+931,27020,Corpus Uteri,Female Genital System,Washington,American Indian or Alaska Native,18,12.7,93.1,7405743.0
+932,27020,Corpus Uteri,Female Genital System,Washington,Asian or Pacific Islander,66,12.7,93.1,7405743.0
+933,27020,Corpus Uteri,Female Genital System,Washington,Black or African American,32,12.7,93.1,7405743.0
+934,27020,Corpus Uteri,Female Genital System,Washington,White,988,12.7,93.1,7405743.0
+935,27020,Corpus Uteri,Female Genital System,West Virginia,White,376,17.7,93.5,1815857.0
+936,27020,Corpus Uteri,Female Genital System,Wisconsin,Black or African American,50,12.7,93.7,5795483.0
+937,27020,Corpus Uteri,Female Genital System,Wisconsin,White,1118,12.7,93.7,5795483.0
+938,27020,Corpus Uteri,Female Genital System,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+939,27020,Corpus Uteri,Female Genital System,Wyoming,White,78,11.6,86.6,579315.0
+940,27020,Corpus Uteri,Female Genital System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
+941,28010,Prostate,Male Genital System,Alabama,Black or African American,1052,18.4,89.2,4874747.0
+942,28010,Prostate,Male Genital System,Alabama,White,2197,18.4,89.2,4874747.0
+943,28010,Prostate,Male Genital System,Alabama,Other Races and Unknown combined,153,18.4,89.2,4874747.0
+944,28010,Prostate,Male Genital System,Alaska,American Indian or Alaska Native,19,10.1,84.5,739795.0
+945,28010,Prostate,Male Genital System,Alaska,White,195,10.1,84.5,739795.0
+946,28010,Prostate,Male Genital System,Arizona,American Indian or Alaska Native,45,17.7,88.1,7016270.0
+947,28010,Prostate,Male Genital System,Arizona,Asian or Pacific Islander,34,17.7,88.1,7016270.0
+948,28010,Prostate,Male Genital System,Arizona,Black or African American,135,17.7,88.1,7016270.0
+949,28010,Prostate,Male Genital System,Arizona,White,2717,17.7,88.1,7016270.0
+950,28010,Prostate,Male Genital System,Arizona,Other Races and Unknown combined,308,17.7,88.1,7016270.0
+951,28010,Prostate,Male Genital System,Arkansas,Black or African American,391,18.8,90.6,3004279.0
+952,28010,Prostate,Male Genital System,Arkansas,White,1610,18.8,90.6,3004279.0
+953,28010,Prostate,Male Genital System,Arkansas,Other Races and Unknown combined,54,18.8,90.6,3004279.0
+954,28010,Prostate,Male Genital System,California,American Indian or Alaska Native,79,15.8,91.6,39536653.0
+955,28010,Prostate,Male Genital System,California,Asian or Pacific Islander,1401,15.8,91.6,39536653.0
+956,28010,Prostate,Male Genital System,California,Black or African American,1612,15.8,91.6,39536653.0
+957,28010,Prostate,Male Genital System,California,White,13147,15.8,91.6,39536653.0
+958,28010,Prostate,Male Genital System,California,Other Races and Unknown combined,1424,15.8,91.6,39536653.0
+959,28010,Prostate,Male Genital System,Colorado,Asian or Pacific Islander,20,12.2,91.4,5607154.0
+960,28010,Prostate,Male Genital System,Colorado,Black or African American,153,12.2,91.4,5607154.0
+961,28010,Prostate,Male Genital System,Colorado,White,2183,12.2,91.4,5607154.0
+962,28010,Prostate,Male Genital System,Colorado,Other Races and Unknown combined,95,12.2,91.4,5607154.0
+963,28010,Prostate,Male Genital System,Connecticut,Asian or Pacific Islander,16,10.4,94.2,3588184.0
+964,28010,Prostate,Male Genital System,Connecticut,Black or African American,243,10.4,94.2,3588184.0
+965,28010,Prostate,Male Genital System,Connecticut,White,1999,10.4,94.2,3588184.0
+966,28010,Prostate,Male Genital System,Connecticut,Other Races and Unknown combined,121,10.4,94.2,3588184.0
+967,28010,Prostate,Male Genital System,Delaware,Black or African American,199,12.0,93.3,961939.0
+968,28010,Prostate,Male Genital System,Delaware,White,530,12.0,93.3,961939.0
+969,28010,Prostate,Male Genital System,District of Columbia,Black or African American,204,17.9,95.9,693972.0
+970,28010,Prostate,Male Genital System,District of Columbia,White,68,17.9,95.9,693972.0
+971,28010,Prostate,Male Genital System,Florida,Asian or Pacific Islander,99,16.1,84.6,20984400.0
+972,28010,Prostate,Male Genital System,Florida,Black or African American,1887,16.1,84.6,20984400.0
+973,28010,Prostate,Male Genital System,Florida,White,8646,16.1,84.6,20984400.0
+974,28010,Prostate,Male Genital System,Florida,Other Races and Unknown combined,229,16.1,84.6,20984400.0
+975,28010,Prostate,Male Genital System,Georgia,Asian or Pacific Islander,57,17.8,85.1,10429379.0
+976,28010,Prostate,Male Genital System,Georgia,Black or African American,2338,17.8,85.1,10429379.0
+977,28010,Prostate,Male Genital System,Georgia,White,3622,17.8,85.1,10429379.0
+978,28010,Prostate,Male Genital System,Georgia,Other Races and Unknown combined,42,17.8,85.1,10429379.0
+979,28010,Prostate,Male Genital System,Hawaii,Asian or Pacific Islander,463,10.8,95.8,1427538.0
+980,28010,Prostate,Male Genital System,Hawaii,Black or African American,27,10.8,95.8,1427538.0
+981,28010,Prostate,Male Genital System,Hawaii,White,254,10.8,95.8,1427538.0
+982,28010,Prostate,Male Genital System,Idaho,White,878,15.2,88.2,1716943.0
+983,28010,Prostate,Male Genital System,Idaho,Other Races and Unknown combined,53,15.2,88.2,1716943.0
+984,28010,Prostate,Male Genital System,Illinois,Asian or Pacific Islander,164,14.0,92.5,12802023.0
+985,28010,Prostate,Male Genital System,Illinois,Black or African American,1481,14.0,92.5,12802023.0
+986,28010,Prostate,Male Genital System,Illinois,White,5733,14.0,92.5,12802023.0
+987,28010,Prostate,Male Genital System,Illinois,Other Races and Unknown combined,274,14.0,92.5,12802023.0
+988,28010,Prostate,Male Genital System,Indiana,Black or African American,317,15.0,90.5,6666818.0
+989,28010,Prostate,Male Genital System,Indiana,White,2724,15.0,90.5,6666818.0
+990,28010,Prostate,Male Genital System,Indiana,Other Races and Unknown combined,51,15.0,90.5,6666818.0
+991,28010,Prostate,Male Genital System,Iowa,Black or African American,63,12.3,95.0,3145711.0
+992,28010,Prostate,Male Genital System,Iowa,White,1880,12.3,95.0,3145711.0
+993,28010,Prostate,Male Genital System,Iowa,Other Races and Unknown combined,21,12.3,95.0,3145711.0
+994,28010,Prostate,Male Genital System,Kansas,Black or African American,122,13.3,90.1,2913123.0
+995,28010,Prostate,Male Genital System,Kansas,White,1453,13.3,90.1,2913123.0
+996,28010,Prostate,Male Genital System,Kansas,Other Races and Unknown combined,81,13.3,90.1,2913123.0
+997,28010,Prostate,Male Genital System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+998,28010,Prostate,Male Genital System,Kentucky,Black or African American,202,18.8,94.0,4454189.0
+999,28010,Prostate,Male Genital System,Kentucky,White,2015,18.8,94.0,4454189.0
+1000,28010,Prostate,Male Genital System,Kentucky,Other Races and Unknown combined,375,18.8,94.0,4454189.0
+1001,28010,Prostate,Male Genital System,Louisiana,Asian or Pacific Islander,18,19.7,88.2,4684333.0
+1002,28010,Prostate,Male Genital System,Louisiana,Black or African American,1152,19.7,88.2,4684333.0
+1003,28010,Prostate,Male Genital System,Louisiana,White,2052,19.7,88.2,4684333.0
+1004,28010,Prostate,Male Genital System,Louisiana,Other Races and Unknown combined,41,19.7,88.2,4684333.0
+1005,28010,Prostate,Male Genital System,Maine,White,837,13.5,89.9,1335907.0
+1006,28010,Prostate,Male Genital System,Maryland,Asian or Pacific Islander,133,9.9,93.0,6052177.0
+1007,28010,Prostate,Male Genital System,Maryland,Black or African American,1551,9.9,93.0,6052177.0
+1008,28010,Prostate,Male Genital System,Maryland,White,2239,9.9,93.0,6052177.0
+1009,28010,Prostate,Male Genital System,Maryland,Other Races and Unknown combined,55,9.9,93.0,6052177.0
+1010,28010,Prostate,Male Genital System,Massachusetts,Asian or Pacific Islander,87,11.4,97.0,6859819.0
+1011,28010,Prostate,Male Genital System,Massachusetts,Black or African American,353,11.4,97.0,6859819.0
+1012,28010,Prostate,Male Genital System,Massachusetts,White,3336,11.4,97.0,6859819.0
+1013,28010,Prostate,Male Genital System,Massachusetts,Other Races and Unknown combined,192,11.4,97.0,6859819.0
+1014,28010,Prostate,Male Genital System,Michigan,Asian or Pacific Islander,49,16.3,93.6,9962311.0
+1015,28010,Prostate,Male Genital System,Michigan,Black or African American,1001,16.3,93.6,9962311.0
+1016,28010,Prostate,Male Genital System,Michigan,White,5109,16.3,93.6,9962311.0
+1017,28010,Prostate,Male Genital System,Michigan,Other Races and Unknown combined,132,16.3,93.6,9962311.0
+1018,28010,Prostate,Male Genital System,Minnesota,American Indian or Alaska Native,26,10.8,95.2,5576606.0
+1019,28010,Prostate,Male Genital System,Minnesota,Asian or Pacific Islander,24,10.8,95.2,5576606.0
+1020,28010,Prostate,Male Genital System,Minnesota,Black or African American,161,10.8,95.2,5576606.0
+1021,28010,Prostate,Male Genital System,Minnesota,White,3217,10.8,95.2,5576606.0
+1022,28010,Prostate,Male Genital System,Minnesota,Other Races and Unknown combined,174,10.8,95.2,5576606.0
+1023,28010,Prostate,Male Genital System,Mississippi,Black or African American,916,22.3,86.0,2984100.0
+1024,28010,Prostate,Male Genital System,Mississippi,White,1202,22.3,86.0,2984100.0
+1025,28010,Prostate,Male Genital System,Mississippi,Other Races and Unknown combined,24,22.3,86.0,2984100.0
+1026,28010,Prostate,Male Genital System,Missouri,Asian or Pacific Islander,20,15.3,89.4,6113532.0
+1027,28010,Prostate,Male Genital System,Missouri,Black or African American,483,15.3,89.4,6113532.0
+1028,28010,Prostate,Male Genital System,Missouri,White,2797,15.3,89.4,6113532.0
+1029,28010,Prostate,Male Genital System,Missouri,Other Races and Unknown combined,25,15.3,89.4,6113532.0
+1030,28010,Prostate,Male Genital System,Montana,American Indian or Alaska Native,28,14.9,90.0,1050493.0
+1031,28010,Prostate,Male Genital System,Montana,Asian or Pacific Islander,0,14.9,90.0,1050493.0
+1032,28010,Prostate,Male Genital System,Montana,White,737,14.9,90.0,1050493.0
+1033,28010,Prostate,Male Genital System,Montana,Other Races and Unknown combined,16,14.9,90.0,1050493.0
+1034,28010,Prostate,Male Genital System,Nebraska,Black or African American,57,12.4,90.3,1920076.0
+1035,28010,Prostate,Male Genital System,Nebraska,White,1097,12.4,90.3,1920076.0
+1036,28010,Prostate,Male Genital System,Nebraska,Other Races and Unknown combined,17,12.4,90.3,1920076.0
+1037,28010,Prostate,Male Genital System,Nevada,Asian or Pacific Islander,53,14.9,86.9,2998039.0
+1038,28010,Prostate,Male Genital System,Nevada,Black or African American,93,14.9,86.9,2998039.0
+1039,28010,Prostate,Male Genital System,Nevada,White,1000,14.9,86.9,2998039.0
+1040,28010,Prostate,Male Genital System,Nevada,Other Races and Unknown combined,43,14.9,86.9,2998039.0
+1041,28010,Prostate,Male Genital System,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+1042,28010,Prostate,Male Genital System,New Hampshire,White,858,8.5,92.8,1342795.0
+1043,28010,Prostate,Male Genital System,New Hampshire,Other Races and Unknown combined,25,8.5,92.8,1342795.0
+1044,28010,Prostate,Male Genital System,New Jersey,Asian or Pacific Islander,219,10.9,90.8,9005644.0
+1045,28010,Prostate,Male Genital System,New Jersey,Black or African American,981,10.9,90.8,9005644.0
+1046,28010,Prostate,Male Genital System,New Jersey,White,4686,10.9,90.8,9005644.0
+1047,28010,Prostate,Male Genital System,New Jersey,Other Races and Unknown combined,647,10.9,90.8,9005644.0
+1048,28010,Prostate,Male Genital System,New Mexico,American Indian or Alaska Native,32,20.9,88.8,2088070.0
+1049,28010,Prostate,Male Genital System,New Mexico,Asian or Pacific Islander,17,20.9,88.8,2088070.0
+1050,28010,Prostate,Male Genital System,New Mexico,Black or African American,29,20.9,88.8,2088070.0
+1051,28010,Prostate,Male Genital System,New Mexico,White,801,20.9,88.8,2088070.0
+1052,28010,Prostate,Male Genital System,New Mexico,Other Races and Unknown combined,43,20.9,88.8,2088070.0
+1053,28010,Prostate,Male Genital System,New York,Asian or Pacific Islander,512,15.5,92.9,19849399.0
+1054,28010,Prostate,Male Genital System,New York,Black or African American,2883,15.5,92.9,19849399.0
+1055,28010,Prostate,Male Genital System,New York,White,9751,15.5,92.9,19849399.0
+1056,28010,Prostate,Male Genital System,New York,Other Races and Unknown combined,478,15.5,92.9,19849399.0
+1057,28010,Prostate,Male Genital System,North Carolina,American Indian or Alaska Native,52,16.8,87.8,10273419.0
+1058,28010,Prostate,Male Genital System,North Carolina,Asian or Pacific Islander,48,16.8,87.8,10273419.0
+1059,28010,Prostate,Male Genital System,North Carolina,Black or African American,1713,16.8,87.8,10273419.0
+1060,28010,Prostate,Male Genital System,North Carolina,White,4379,16.8,87.8,10273419.0
+1061,28010,Prostate,Male Genital System,North Carolina,Other Races and Unknown combined,325,16.8,87.8,10273419.0
+1062,28010,Prostate,Male Genital System,North Dakota,White,537,11.2,92.4,755393.0
+1063,28010,Prostate,Male Genital System,Ohio,Asian or Pacific Islander,38,15.4,93.3,11658609.0
+1064,28010,Prostate,Male Genital System,Ohio,Black or African American,1063,15.4,93.3,11658609.0
+1065,28010,Prostate,Male Genital System,Ohio,White,5734,15.4,93.3,11658609.0
+1066,28010,Prostate,Male Genital System,Ohio,Other Races and Unknown combined,213,15.4,93.3,11658609.0
+1067,28010,Prostate,Male Genital System,Oklahoma,American Indian or Alaska Native,159,16.5,84.0,3930864.0
+1068,28010,Prostate,Male Genital System,Oklahoma,Black or African American,207,16.5,84.0,3930864.0
+1069,28010,Prostate,Male Genital System,Oklahoma,White,1606,16.5,84.0,3930864.0
+1070,28010,Prostate,Male Genital System,Oklahoma,Other Races and Unknown combined,87,16.5,84.0,3930864.0
+1071,28010,Prostate,Male Genital System,Oregon,American Indian or Alaska Native,20,15.7,92.6,4142776.0
+1072,28010,Prostate,Male Genital System,Oregon,Asian or Pacific Islander,30,15.7,92.6,4142776.0
+1073,28010,Prostate,Male Genital System,Oregon,Black or African American,60,15.7,92.6,4142776.0
+1074,28010,Prostate,Male Genital System,Oregon,White,2095,15.7,92.6,4142776.0
+1075,28010,Prostate,Male Genital System,Pennsylvania,Asian or Pacific Islander,68,13.3,93.2,12805537.0
+1076,28010,Prostate,Male Genital System,Pennsylvania,Black or African American,971,13.3,93.2,12805537.0
+1077,28010,Prostate,Male Genital System,Pennsylvania,White,6905,13.3,93.2,12805537.0
+1078,28010,Prostate,Male Genital System,Pennsylvania,Other Races and Unknown combined,632,13.3,93.2,12805537.0
+1079,28010,Prostate,Male Genital System,Rhode Island,Black or African American,32,13.8,94.9,1059639.0
+1080,28010,Prostate,Male Genital System,Rhode Island,White,535,13.8,94.9,1059639.0
+1081,28010,Prostate,Male Genital System,Rhode Island,Other Races and Unknown combined,27,13.8,94.9,1059639.0
+1082,28010,Prostate,Male Genital System,South Carolina,Asian or Pacific Islander,22,17.2,87.9,5024369.0
+1083,28010,Prostate,Male Genital System,South Carolina,Black or African American,1124,17.2,87.9,5024369.0
+1084,28010,Prostate,Male Genital System,South Carolina,White,2296,17.2,87.9,5024369.0
+1085,28010,Prostate,Male Genital System,South Carolina,Other Races and Unknown combined,74,17.2,87.9,5024369.0
+1086,28010,Prostate,Male Genital System,South Dakota,American Indian or Alaska Native,24,14.0,89.6,869666.0
+1087,28010,Prostate,Male Genital System,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+1088,28010,Prostate,Male Genital System,South Dakota,White,565,14.0,89.6,869666.0
+1089,28010,Prostate,Male Genital System,Tennessee,Asian or Pacific Islander,16,17.2,89.4,6715984.0
+1090,28010,Prostate,Male Genital System,Tennessee,Black or African American,819,17.2,89.4,6715984.0
+1091,28010,Prostate,Male Genital System,Tennessee,White,3337,17.2,89.4,6715984.0
+1092,28010,Prostate,Male Genital System,Tennessee,Other Races and Unknown combined,66,17.2,89.4,6715984.0
+1093,28010,Prostate,Male Genital System,Texas,American Indian or Alaska Native,33,16.7,81.4,28304596.0
+1094,28010,Prostate,Male Genital System,Texas,Asian or Pacific Islander,220,16.7,81.4,28304596.0
+1095,28010,Prostate,Male Genital System,Texas,Black or African American,1773,16.7,81.4,28304596.0
+1096,28010,Prostate,Male Genital System,Texas,White,8788,16.7,81.4,28304596.0
+1097,28010,Prostate,Male Genital System,Texas,Other Races and Unknown combined,406,16.7,81.4,28304596.0
+1098,28010,Prostate,Male Genital System,Utah,Asian or Pacific Islander,20,11.7,90.3,3101833.0
+1099,28010,Prostate,Male Genital System,Utah,White,1402,11.7,90.3,3101833.0
+1100,28010,Prostate,Male Genital System,Vermont,White,355,11.6,95.3,623657.0
+1101,28010,Prostate,Male Genital System,Virginia,Asian or Pacific Islander,86,11.4,90.1,8470020.0
+1102,28010,Prostate,Male Genital System,Virginia,Black or African American,1239,11.4,90.1,8470020.0
+1103,28010,Prostate,Male Genital System,Virginia,White,2859,11.4,90.1,8470020.0
+1104,28010,Prostate,Male Genital System,Virginia,Other Races and Unknown combined,320,11.4,90.1,8470020.0
+1105,28010,Prostate,Male Genital System,Washington,American Indian or Alaska Native,37,12.7,93.1,7405743.0
+1106,28010,Prostate,Male Genital System,Washington,Asian or Pacific Islander,147,12.7,93.1,7405743.0
+1107,28010,Prostate,Male Genital System,Washington,Black or African American,154,12.7,93.1,7405743.0
+1108,28010,Prostate,Male Genital System,Washington,White,3362,12.7,93.1,7405743.0
+1109,28010,Prostate,Male Genital System,Washington,Other Races and Unknown combined,114,12.7,93.1,7405743.0
+1110,28010,Prostate,Male Genital System,West Virginia,Black or African American,60,17.7,93.5,1815857.0
+1111,28010,Prostate,Male Genital System,West Virginia,White,1052,17.7,93.5,1815857.0
+1112,28010,Prostate,Male Genital System,West Virginia,Other Races and Unknown combined,25,17.7,93.5,1815857.0
+1113,28010,Prostate,Male Genital System,Wisconsin,American Indian or Alaska Native,25,12.7,93.7,5795483.0
+1114,28010,Prostate,Male Genital System,Wisconsin,Asian or Pacific Islander,20,12.7,93.7,5795483.0
+1115,28010,Prostate,Male Genital System,Wisconsin,Black or African American,254,12.7,93.7,5795483.0
+1116,28010,Prostate,Male Genital System,Wisconsin,White,3514,12.7,93.7,5795483.0
+1117,28010,Prostate,Male Genital System,Wisconsin,Other Races and Unknown combined,82,12.7,93.7,5795483.0
+1118,28010,Prostate,Male Genital System,Wyoming,White,345,11.6,86.6,579315.0
+1119,29010,Urinary Bladder,Urinary System,Alabama,American Indian or Alaska Native,0,18.4,89.2,4874747.0
+1120,29010,Urinary Bladder,Urinary System,Alabama,Black or African American,112,18.4,89.2,4874747.0
+1121,29010,Urinary Bladder,Urinary System,Alabama,White,944,18.4,89.2,4874747.0
+1122,29010,Urinary Bladder,Urinary System,Alabama,Other Races and Unknown combined,18,18.4,89.2,4874747.0
+1123,29010,Urinary Bladder,Urinary System,Alaska,American Indian or Alaska Native,16,10.1,84.5,739795.0
+1124,29010,Urinary Bladder,Urinary System,Alaska,White,118,10.1,84.5,739795.0
+1125,29010,Urinary Bladder,Urinary System,Arizona,Asian or Pacific Islander,22,17.7,88.1,7016270.0
+1126,29010,Urinary Bladder,Urinary System,Arizona,White,1447,17.7,88.1,7016270.0
+1127,29010,Urinary Bladder,Urinary System,Arizona,Other Races and Unknown combined,75,17.7,88.1,7016270.0
+1128,29010,Urinary Bladder,Urinary System,Arkansas,Black or African American,40,18.8,90.6,3004279.0
+1129,29010,Urinary Bladder,Urinary System,Arkansas,White,613,18.8,90.6,3004279.0
+1130,29010,Urinary Bladder,Urinary System,California,American Indian or Alaska Native,28,15.8,91.6,39536653.0
+1131,29010,Urinary Bladder,Urinary System,California,Asian or Pacific Islander,533,15.8,91.6,39536653.0
+1132,29010,Urinary Bladder,Urinary System,California,Black or African American,294,15.8,91.6,39536653.0
+1133,29010,Urinary Bladder,Urinary System,California,White,5676,15.8,91.6,39536653.0
+1134,29010,Urinary Bladder,Urinary System,California,Other Races and Unknown combined,167,15.8,91.6,39536653.0
+1135,29010,Urinary Bladder,Urinary System,Colorado,Black or African American,22,12.2,91.4,5607154.0
+1136,29010,Urinary Bladder,Urinary System,Colorado,White,919,12.2,91.4,5607154.0
+1137,29010,Urinary Bladder,Urinary System,Colorado,Other Races and Unknown combined,26,12.2,91.4,5607154.0
+1138,29010,Urinary Bladder,Urinary System,Connecticut,Black or African American,38,10.4,94.2,3588184.0
+1139,29010,Urinary Bladder,Urinary System,Connecticut,White,1083,10.4,94.2,3588184.0
+1140,29010,Urinary Bladder,Urinary System,Connecticut,Other Races and Unknown combined,26,10.4,94.2,3588184.0
+1141,29010,Urinary Bladder,Urinary System,Delaware,Black or African American,34,12.0,93.3,961939.0
+1142,29010,Urinary Bladder,Urinary System,Delaware,White,260,12.0,93.3,961939.0
+1143,29010,Urinary Bladder,Urinary System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+1144,29010,Urinary Bladder,Urinary System,District of Columbia,Asian or Pacific Islander,0,17.9,95.9,693972.0
+1145,29010,Urinary Bladder,Urinary System,District of Columbia,Black or African American,48,17.9,95.9,693972.0
+1146,29010,Urinary Bladder,Urinary System,District of Columbia,White,21,17.9,95.9,693972.0
+1147,29010,Urinary Bladder,Urinary System,Florida,Asian or Pacific Islander,32,16.1,84.6,20984400.0
+1148,29010,Urinary Bladder,Urinary System,Florida,Black or African American,239,16.1,84.6,20984400.0
+1149,29010,Urinary Bladder,Urinary System,Florida,White,4833,16.1,84.6,20984400.0
+1150,29010,Urinary Bladder,Urinary System,Florida,Other Races and Unknown combined,158,16.1,84.6,20984400.0
+1151,29010,Urinary Bladder,Urinary System,Georgia,Asian or Pacific Islander,22,17.8,85.1,10429379.0
+1152,29010,Urinary Bladder,Urinary System,Georgia,Black or African American,264,17.8,85.1,10429379.0
+1153,29010,Urinary Bladder,Urinary System,Georgia,White,1549,17.8,85.1,10429379.0
+1154,29010,Urinary Bladder,Urinary System,Hawaii,Asian or Pacific Islander,136,10.8,95.8,1427538.0
+1155,29010,Urinary Bladder,Urinary System,Hawaii,White,116,10.8,95.8,1427538.0
+1156,29010,Urinary Bladder,Urinary System,Idaho,White,369,15.2,88.2,1716943.0
+1157,29010,Urinary Bladder,Urinary System,Illinois,Asian or Pacific Islander,42,14.0,92.5,12802023.0
+1158,29010,Urinary Bladder,Urinary System,Illinois,Black or African American,210,14.0,92.5,12802023.0
+1159,29010,Urinary Bladder,Urinary System,Illinois,White,2866,14.0,92.5,12802023.0
+1160,29010,Urinary Bladder,Urinary System,Illinois,Other Races and Unknown combined,58,14.0,92.5,12802023.0
+1161,29010,Urinary Bladder,Urinary System,Indiana,Black or African American,53,15.0,90.5,6666818.0
+1162,29010,Urinary Bladder,Urinary System,Indiana,White,1516,15.0,90.5,6666818.0
+1163,29010,Urinary Bladder,Urinary System,Indiana,Other Races and Unknown combined,19,15.0,90.5,6666818.0
+1164,29010,Urinary Bladder,Urinary System,Iowa,White,828,12.3,95.0,3145711.0
+1165,29010,Urinary Bladder,Urinary System,Kansas,Black or African American,19,13.3,90.1,2913123.0
+1166,29010,Urinary Bladder,Urinary System,Kansas,White,612,13.3,90.1,2913123.0
+1167,29010,Urinary Bladder,Urinary System,Kansas,Other Races and Unknown combined,20,13.3,90.1,2913123.0
+1168,29010,Urinary Bladder,Urinary System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+1169,29010,Urinary Bladder,Urinary System,Kentucky,Black or African American,31,18.8,94.0,4454189.0
+1170,29010,Urinary Bladder,Urinary System,Kentucky,White,1091,18.8,94.0,4454189.0
+1171,29010,Urinary Bladder,Urinary System,Louisiana,Black or African American,133,19.7,88.2,4684333.0
+1172,29010,Urinary Bladder,Urinary System,Louisiana,White,766,19.7,88.2,4684333.0
+1173,29010,Urinary Bladder,Urinary System,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+1174,29010,Urinary Bladder,Urinary System,Maine,White,496,13.5,89.9,1335907.0
+1175,29010,Urinary Bladder,Urinary System,Maine,Other Races and Unknown combined,0,13.5,89.9,1335907.0
+1176,29010,Urinary Bladder,Urinary System,Maryland,American Indian or Alaska Native,0,9.9,93.0,6052177.0
+1177,29010,Urinary Bladder,Urinary System,Maryland,Asian or Pacific Islander,29,9.9,93.0,6052177.0
+1178,29010,Urinary Bladder,Urinary System,Maryland,Black or African American,244,9.9,93.0,6052177.0
+1179,29010,Urinary Bladder,Urinary System,Maryland,White,1188,9.9,93.0,6052177.0
+1180,29010,Urinary Bladder,Urinary System,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+1181,29010,Urinary Bladder,Urinary System,Massachusetts,Asian or Pacific Islander,22,11.4,97.0,6859819.0
+1182,29010,Urinary Bladder,Urinary System,Massachusetts,Black or African American,47,11.4,97.0,6859819.0
+1183,29010,Urinary Bladder,Urinary System,Massachusetts,White,1807,11.4,97.0,6859819.0
+1184,29010,Urinary Bladder,Urinary System,Massachusetts,Other Races and Unknown combined,27,11.4,97.0,6859819.0
+1185,29010,Urinary Bladder,Urinary System,Michigan,Black or African American,162,16.3,93.6,9962311.0
+1186,29010,Urinary Bladder,Urinary System,Michigan,White,2371,16.3,93.6,9962311.0
+1187,29010,Urinary Bladder,Urinary System,Michigan,Other Races and Unknown combined,17,16.3,93.6,9962311.0
+1188,29010,Urinary Bladder,Urinary System,Minnesota,Black or African American,22,10.8,95.2,5576606.0
+1189,29010,Urinary Bladder,Urinary System,Minnesota,White,1299,10.8,95.2,5576606.0
+1190,29010,Urinary Bladder,Urinary System,Minnesota,Other Races and Unknown combined,62,10.8,95.2,5576606.0
+1191,29010,Urinary Bladder,Urinary System,Mississippi,Black or African American,94,22.3,86.0,2984100.0
+1192,29010,Urinary Bladder,Urinary System,Mississippi,White,462,22.3,86.0,2984100.0
+1193,29010,Urinary Bladder,Urinary System,Missouri,Black or African American,94,15.3,89.4,6113532.0
+1194,29010,Urinary Bladder,Urinary System,Missouri,White,1339,15.3,89.4,6113532.0
+1195,29010,Urinary Bladder,Urinary System,Montana,Asian or Pacific Islander,0,14.9,90.0,1050493.0
+1196,29010,Urinary Bladder,Urinary System,Montana,Black or African American,0,14.9,90.0,1050493.0
+1197,29010,Urinary Bladder,Urinary System,Montana,White,296,14.9,90.0,1050493.0
+1198,29010,Urinary Bladder,Urinary System,Montana,Other Races and Unknown combined,0,14.9,90.0,1050493.0
+1199,29010,Urinary Bladder,Urinary System,Nebraska,American Indian or Alaska Native,0,12.4,90.3,1920076.0
+1200,29010,Urinary Bladder,Urinary System,Nebraska,White,455,12.4,90.3,1920076.0
+1201,29010,Urinary Bladder,Urinary System,Nevada,White,556,14.9,86.9,2998039.0
+1202,29010,Urinary Bladder,Urinary System,New Hampshire,White,435,8.5,92.8,1342795.0
+1203,29010,Urinary Bladder,Urinary System,New Jersey,Asian or Pacific Islander,53,10.9,90.8,9005644.0
+1204,29010,Urinary Bladder,Urinary System,New Jersey,Black or African American,161,10.9,90.8,9005644.0
+1205,29010,Urinary Bladder,Urinary System,New Jersey,White,2201,10.9,90.8,9005644.0
+1206,29010,Urinary Bladder,Urinary System,New Jersey,Other Races and Unknown combined,127,10.9,90.8,9005644.0
+1207,29010,Urinary Bladder,Urinary System,New Mexico,American Indian or Alaska Native,16,20.9,88.8,2088070.0
+1208,29010,Urinary Bladder,Urinary System,New Mexico,White,353,20.9,88.8,2088070.0
+1209,29010,Urinary Bladder,Urinary System,New York,Asian or Pacific Islander,151,15.5,92.9,19849399.0
+1210,29010,Urinary Bladder,Urinary System,New York,Black or African American,379,15.5,92.9,19849399.0
+1211,29010,Urinary Bladder,Urinary System,New York,White,4726,15.5,92.9,19849399.0
+1212,29010,Urinary Bladder,Urinary System,New York,Other Races and Unknown combined,67,15.5,92.9,19849399.0
+1213,29010,Urinary Bladder,Urinary System,North Carolina,Black or African American,237,16.8,87.8,10273419.0
+1214,29010,Urinary Bladder,Urinary System,North Carolina,White,1938,16.8,87.8,10273419.0
+1215,29010,Urinary Bladder,Urinary System,North Carolina,Other Races and Unknown combined,38,16.8,87.8,10273419.0
+1216,29010,Urinary Bladder,Urinary System,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+1217,29010,Urinary Bladder,Urinary System,North Dakota,Black or African American,0,11.2,92.4,755393.0
+1218,29010,Urinary Bladder,Urinary System,North Dakota,White,144,11.2,92.4,755393.0
+1219,29010,Urinary Bladder,Urinary System,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+1220,29010,Urinary Bladder,Urinary System,Ohio,Black or African American,175,15.4,93.3,11658609.0
+1221,29010,Urinary Bladder,Urinary System,Ohio,White,2895,15.4,93.3,11658609.0
+1222,29010,Urinary Bladder,Urinary System,Ohio,Other Races and Unknown combined,30,15.4,93.3,11658609.0
+1223,29010,Urinary Bladder,Urinary System,Oklahoma,American Indian or Alaska Native,50,16.5,84.0,3930864.0
+1224,29010,Urinary Bladder,Urinary System,Oklahoma,Black or African American,41,16.5,84.0,3930864.0
+1225,29010,Urinary Bladder,Urinary System,Oklahoma,White,771,16.5,84.0,3930864.0
+1226,29010,Urinary Bladder,Urinary System,Oregon,White,978,15.7,92.6,4142776.0
+1227,29010,Urinary Bladder,Urinary System,Pennsylvania,Asian or Pacific Islander,34,13.3,93.2,12805537.0
+1228,29010,Urinary Bladder,Urinary System,Pennsylvania,Black or African American,199,13.3,93.2,12805537.0
+1229,29010,Urinary Bladder,Urinary System,Pennsylvania,White,3785,13.3,93.2,12805537.0
+1230,29010,Urinary Bladder,Urinary System,Pennsylvania,Other Races and Unknown combined,30,13.3,93.2,12805537.0
+1231,29010,Urinary Bladder,Urinary System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+1232,29010,Urinary Bladder,Urinary System,Rhode Island,White,308,13.8,94.9,1059639.0
+1233,29010,Urinary Bladder,Urinary System,South Carolina,Black or African American,127,17.2,87.9,5024369.0
+1234,29010,Urinary Bladder,Urinary System,South Carolina,White,993,17.2,87.9,5024369.0
+1235,29010,Urinary Bladder,Urinary System,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+1236,29010,Urinary Bladder,Urinary System,South Dakota,White,188,14.0,89.6,869666.0
+1237,29010,Urinary Bladder,Urinary System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+1238,29010,Urinary Bladder,Urinary System,Tennessee,Black or African American,109,17.2,89.4,6715984.0
+1239,29010,Urinary Bladder,Urinary System,Tennessee,White,1401,17.2,89.4,6715984.0
+1240,29010,Urinary Bladder,Urinary System,Texas,Asian or Pacific Islander,62,16.7,81.4,28304596.0
+1241,29010,Urinary Bladder,Urinary System,Texas,Black or African American,251,16.7,81.4,28304596.0
+1242,29010,Urinary Bladder,Urinary System,Texas,White,3317,16.7,81.4,28304596.0
+1243,29010,Urinary Bladder,Urinary System,Texas,Other Races and Unknown combined,36,16.7,81.4,28304596.0
+1244,29010,Urinary Bladder,Urinary System,Utah,White,396,11.7,90.3,3101833.0
+1245,29010,Urinary Bladder,Urinary System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+1246,29010,Urinary Bladder,Urinary System,Vermont,Black or African American,0,11.6,95.3,623657.0
+1247,29010,Urinary Bladder,Urinary System,Vermont,White,173,11.6,95.3,623657.0
+1248,29010,Urinary Bladder,Urinary System,Virginia,Asian or Pacific Islander,29,11.4,90.1,8470020.0
+1249,29010,Urinary Bladder,Urinary System,Virginia,Black or African American,217,11.4,90.1,8470020.0
+1250,29010,Urinary Bladder,Urinary System,Virginia,White,1356,11.4,90.1,8470020.0
+1251,29010,Urinary Bladder,Urinary System,Virginia,Other Races and Unknown combined,35,11.4,90.1,8470020.0
+1252,29010,Urinary Bladder,Urinary System,Washington,Asian or Pacific Islander,48,12.7,93.1,7405743.0
+1253,29010,Urinary Bladder,Urinary System,Washington,Black or African American,28,12.7,93.1,7405743.0
+1254,29010,Urinary Bladder,Urinary System,Washington,White,1582,12.7,93.1,7405743.0
+1255,29010,Urinary Bladder,Urinary System,Washington,Other Races and Unknown combined,22,12.7,93.1,7405743.0
+1256,29010,Urinary Bladder,Urinary System,West Virginia,White,511,17.7,93.5,1815857.0
+1257,29010,Urinary Bladder,Urinary System,Wisconsin,Black or African American,37,12.7,93.7,5795483.0
+1258,29010,Urinary Bladder,Urinary System,Wisconsin,White,1464,12.7,93.7,5795483.0
+1259,29010,Urinary Bladder,Urinary System,Wyoming,Black or African American,0,11.6,86.6,579315.0
+1260,29010,Urinary Bladder,Urinary System,Wyoming,White,138,11.6,86.6,579315.0
+1261,29020,Kidney and Renal Pelvis,Urinary System,Alabama,Black or African American,235,18.4,89.2,4874747.0
+1262,29020,Kidney and Renal Pelvis,Urinary System,Alabama,White,800,18.4,89.2,4874747.0
+1263,29020,Kidney and Renal Pelvis,Urinary System,Alaska,American Indian or Alaska Native,29,10.1,84.5,739795.0
+1264,29020,Kidney and Renal Pelvis,Urinary System,Alaska,White,99,10.1,84.5,739795.0
+1265,29020,Kidney and Renal Pelvis,Urinary System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+1266,29020,Kidney and Renal Pelvis,Urinary System,Arizona,American Indian or Alaska Native,81,17.7,88.1,7016270.0
+1267,29020,Kidney and Renal Pelvis,Urinary System,Arizona,Black or African American,45,17.7,88.1,7016270.0
+1268,29020,Kidney and Renal Pelvis,Urinary System,Arizona,White,1095,17.7,88.1,7016270.0
+1269,29020,Kidney and Renal Pelvis,Urinary System,Arkansas,Black or African American,87,18.8,90.6,3004279.0
+1270,29020,Kidney and Renal Pelvis,Urinary System,Arkansas,White,574,18.8,90.6,3004279.0
+1271,29020,Kidney and Renal Pelvis,Urinary System,California,American Indian or Alaska Native,54,15.8,91.6,39536653.0
+1272,29020,Kidney and Renal Pelvis,Urinary System,California,Asian or Pacific Islander,571,15.8,91.6,39536653.0
+1273,29020,Kidney and Renal Pelvis,Urinary System,California,Black or African American,470,15.8,91.6,39536653.0
+1274,29020,Kidney and Renal Pelvis,Urinary System,California,White,5068,15.8,91.6,39536653.0
+1275,29020,Kidney and Renal Pelvis,Urinary System,California,Other Races and Unknown combined,73,15.8,91.6,39536653.0
+1276,29020,Kidney and Renal Pelvis,Urinary System,Colorado,Black or African American,42,12.2,91.4,5607154.0
+1277,29020,Kidney and Renal Pelvis,Urinary System,Colorado,White,733,12.2,91.4,5607154.0
+1278,29020,Kidney and Renal Pelvis,Urinary System,Connecticut,Black or African American,62,10.4,94.2,3588184.0
+1279,29020,Kidney and Renal Pelvis,Urinary System,Connecticut,White,600,10.4,94.2,3588184.0
+1280,29020,Kidney and Renal Pelvis,Urinary System,Connecticut,Other Races and Unknown combined,29,10.4,94.2,3588184.0
+1281,29020,Kidney and Renal Pelvis,Urinary System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+1282,29020,Kidney and Renal Pelvis,Urinary System,Delaware,Black or African American,37,12.0,93.3,961939.0
+1283,29020,Kidney and Renal Pelvis,Urinary System,Delaware,White,162,12.0,93.3,961939.0
+1284,29020,Kidney and Renal Pelvis,Urinary System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+1285,29020,Kidney and Renal Pelvis,Urinary System,District of Columbia,Black or African American,52,17.9,95.9,693972.0
+1286,29020,Kidney and Renal Pelvis,Urinary System,District of Columbia,White,16,17.9,95.9,693972.0
+1287,29020,Kidney and Renal Pelvis,Urinary System,District of Columbia,Other Races and Unknown combined,0,17.9,95.9,693972.0
+1288,29020,Kidney and Renal Pelvis,Urinary System,Florida,Asian or Pacific Islander,34,16.1,84.6,20984400.0
+1289,29020,Kidney and Renal Pelvis,Urinary System,Florida,Black or African American,448,16.1,84.6,20984400.0
+1290,29020,Kidney and Renal Pelvis,Urinary System,Florida,White,3333,16.1,84.6,20984400.0
+1291,29020,Kidney and Renal Pelvis,Urinary System,Florida,Other Races and Unknown combined,99,16.1,84.6,20984400.0
+1292,29020,Kidney and Renal Pelvis,Urinary System,Georgia,Asian or Pacific Islander,25,17.8,85.1,10429379.0
+1293,29020,Kidney and Renal Pelvis,Urinary System,Georgia,Black or African American,518,17.8,85.1,10429379.0
+1294,29020,Kidney and Renal Pelvis,Urinary System,Georgia,White,1245,17.8,85.1,10429379.0
+1295,29020,Kidney and Renal Pelvis,Urinary System,Hawaii,Asian or Pacific Islander,160,10.8,95.8,1427538.0
+1296,29020,Kidney and Renal Pelvis,Urinary System,Hawaii,White,82,10.8,95.8,1427538.0
+1297,29020,Kidney and Renal Pelvis,Urinary System,Idaho,Black or African American,0,15.2,88.2,1716943.0
+1298,29020,Kidney and Renal Pelvis,Urinary System,Idaho,White,288,15.2,88.2,1716943.0
+1299,29020,Kidney and Renal Pelvis,Urinary System,Illinois,Asian or Pacific Islander,60,14.0,92.5,12802023.0
+1300,29020,Kidney and Renal Pelvis,Urinary System,Illinois,Black or African American,397,14.0,92.5,12802023.0
+1301,29020,Kidney and Renal Pelvis,Urinary System,Illinois,White,2167,14.0,92.5,12802023.0
+1302,29020,Kidney and Renal Pelvis,Urinary System,Illinois,Other Races and Unknown combined,26,14.0,92.5,12802023.0
+1303,29020,Kidney and Renal Pelvis,Urinary System,Indiana,Black or African American,109,15.0,90.5,6666818.0
+1304,29020,Kidney and Renal Pelvis,Urinary System,Indiana,White,1304,15.0,90.5,6666818.0
+1305,29020,Kidney and Renal Pelvis,Urinary System,Iowa,Black or African American,22,12.3,95.0,3145711.0
+1306,29020,Kidney and Renal Pelvis,Urinary System,Iowa,White,694,12.3,95.0,3145711.0
+1307,29020,Kidney and Renal Pelvis,Urinary System,Kansas,Black or African American,37,13.3,90.1,2913123.0
+1308,29020,Kidney and Renal Pelvis,Urinary System,Kansas,White,569,13.3,90.1,2913123.0
+1309,29020,Kidney and Renal Pelvis,Urinary System,Kentucky,Black or African American,73,18.8,94.0,4454189.0
+1310,29020,Kidney and Renal Pelvis,Urinary System,Kentucky,White,994,18.8,94.0,4454189.0
+1311,29020,Kidney and Renal Pelvis,Urinary System,Louisiana,Black or African American,311,19.7,88.2,4684333.0
+1312,29020,Kidney and Renal Pelvis,Urinary System,Louisiana,White,770,19.7,88.2,4684333.0
+1313,29020,Kidney and Renal Pelvis,Urinary System,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+1314,29020,Kidney and Renal Pelvis,Urinary System,Maine,White,304,13.5,89.9,1335907.0
+1315,29020,Kidney and Renal Pelvis,Urinary System,Maryland,Asian or Pacific Islander,21,9.9,93.0,6052177.0
+1316,29020,Kidney and Renal Pelvis,Urinary System,Maryland,Black or African American,296,9.9,93.0,6052177.0
+1317,29020,Kidney and Renal Pelvis,Urinary System,Maryland,White,718,9.9,93.0,6052177.0
+1318,29020,Kidney and Renal Pelvis,Urinary System,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+1319,29020,Kidney and Renal Pelvis,Urinary System,Massachusetts,Asian or Pacific Islander,34,11.4,97.0,6859819.0
+1320,29020,Kidney and Renal Pelvis,Urinary System,Massachusetts,Black or African American,88,11.4,97.0,6859819.0
+1321,29020,Kidney and Renal Pelvis,Urinary System,Massachusetts,White,1189,11.4,97.0,6859819.0
+1322,29020,Kidney and Renal Pelvis,Urinary System,Massachusetts,Other Races and Unknown combined,46,11.4,97.0,6859819.0
+1323,29020,Kidney and Renal Pelvis,Urinary System,Michigan,Asian or Pacific Islander,16,16.3,93.6,9962311.0
+1324,29020,Kidney and Renal Pelvis,Urinary System,Michigan,Black or African American,250,16.3,93.6,9962311.0
+1325,29020,Kidney and Renal Pelvis,Urinary System,Michigan,White,1525,16.3,93.6,9962311.0
+1326,29020,Kidney and Renal Pelvis,Urinary System,Minnesota,American Indian or Alaska Native,31,10.8,95.2,5576606.0
+1327,29020,Kidney and Renal Pelvis,Urinary System,Minnesota,Black or African American,48,10.8,95.2,5576606.0
+1328,29020,Kidney and Renal Pelvis,Urinary System,Minnesota,White,1004,10.8,95.2,5576606.0
+1329,29020,Kidney and Renal Pelvis,Urinary System,Minnesota,Other Races and Unknown combined,19,10.8,95.2,5576606.0
+1330,29020,Kidney and Renal Pelvis,Urinary System,Mississippi,Black or African American,210,22.3,86.0,2984100.0
+1331,29020,Kidney and Renal Pelvis,Urinary System,Mississippi,White,477,22.3,86.0,2984100.0
+1332,29020,Kidney and Renal Pelvis,Urinary System,Missouri,Black or African American,154,15.3,89.4,6113532.0
+1333,29020,Kidney and Renal Pelvis,Urinary System,Missouri,White,1204,15.3,89.4,6113532.0
+1334,29020,Kidney and Renal Pelvis,Urinary System,Montana,American Indian or Alaska Native,18,14.9,90.0,1050493.0
+1335,29020,Kidney and Renal Pelvis,Urinary System,Montana,White,188,14.9,90.0,1050493.0
+1336,29020,Kidney and Renal Pelvis,Urinary System,Nebraska,Black or African American,23,12.4,90.3,1920076.0
+1337,29020,Kidney and Renal Pelvis,Urinary System,Nebraska,White,367,12.4,90.3,1920076.0
+1338,29020,Kidney and Renal Pelvis,Urinary System,Nevada,Asian or Pacific Islander,31,14.9,86.9,2998039.0
+1339,29020,Kidney and Renal Pelvis,Urinary System,Nevada,Black or African American,40,14.9,86.9,2998039.0
+1340,29020,Kidney and Renal Pelvis,Urinary System,Nevada,White,401,14.9,86.9,2998039.0
+1341,29020,Kidney and Renal Pelvis,Urinary System,New Hampshire,White,221,8.5,92.8,1342795.0
+1342,29020,Kidney and Renal Pelvis,Urinary System,New Jersey,American Indian or Alaska Native,0,10.9,90.8,9005644.0
+1343,29020,Kidney and Renal Pelvis,Urinary System,New Jersey,Asian or Pacific Islander,64,10.9,90.8,9005644.0
+1344,29020,Kidney and Renal Pelvis,Urinary System,New Jersey,Black or African American,227,10.9,90.8,9005644.0
+1345,29020,Kidney and Renal Pelvis,Urinary System,New Jersey,White,1401,10.9,90.8,9005644.0
+1346,29020,Kidney and Renal Pelvis,Urinary System,New Jersey,Other Races and Unknown combined,40,10.9,90.8,9005644.0
+1347,29020,Kidney and Renal Pelvis,Urinary System,New Mexico,American Indian or Alaska Native,38,20.9,88.8,2088070.0
+1348,29020,Kidney and Renal Pelvis,Urinary System,New Mexico,Asian or Pacific Islander,0,20.9,88.8,2088070.0
+1349,29020,Kidney and Renal Pelvis,Urinary System,New Mexico,White,302,20.9,88.8,2088070.0
+1350,29020,Kidney and Renal Pelvis,Urinary System,New York,Asian or Pacific Islander,155,15.5,92.9,19849399.0
+1351,29020,Kidney and Renal Pelvis,Urinary System,New York,Black or African American,573,15.5,92.9,19849399.0
+1352,29020,Kidney and Renal Pelvis,Urinary System,New York,White,3078,15.5,92.9,19849399.0
+1353,29020,Kidney and Renal Pelvis,Urinary System,New York,Other Races and Unknown combined,83,15.5,92.9,19849399.0
+1354,29020,Kidney and Renal Pelvis,Urinary System,North Carolina,American Indian or Alaska Native,22,16.8,87.8,10273419.0
+1355,29020,Kidney and Renal Pelvis,Urinary System,North Carolina,Black or African American,452,16.8,87.8,10273419.0
+1356,29020,Kidney and Renal Pelvis,Urinary System,North Carolina,White,1431,16.8,87.8,10273419.0
+1357,29020,Kidney and Renal Pelvis,Urinary System,North Carolina,Other Races and Unknown combined,32,16.8,87.8,10273419.0
+1358,29020,Kidney and Renal Pelvis,Urinary System,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+1359,29020,Kidney and Renal Pelvis,Urinary System,North Dakota,Black or African American,0,11.2,92.4,755393.0
+1360,29020,Kidney and Renal Pelvis,Urinary System,North Dakota,White,132,11.2,92.4,755393.0
+1361,29020,Kidney and Renal Pelvis,Urinary System,Ohio,Black or African American,293,15.4,93.3,11658609.0
+1362,29020,Kidney and Renal Pelvis,Urinary System,Ohio,White,2121,15.4,93.3,11658609.0
+1363,29020,Kidney and Renal Pelvis,Urinary System,Oklahoma,American Indian or Alaska Native,115,16.5,84.0,3930864.0
+1364,29020,Kidney and Renal Pelvis,Urinary System,Oklahoma,Black or African American,62,16.5,84.0,3930864.0
+1365,29020,Kidney and Renal Pelvis,Urinary System,Oklahoma,White,740,16.5,84.0,3930864.0
+1366,29020,Kidney and Renal Pelvis,Urinary System,Oregon,White,685,15.7,92.6,4142776.0
+1367,29020,Kidney and Renal Pelvis,Urinary System,Pennsylvania,Asian or Pacific Islander,20,13.3,93.2,12805537.0
+1368,29020,Kidney and Renal Pelvis,Urinary System,Pennsylvania,Black or African American,315,13.3,93.2,12805537.0
+1369,29020,Kidney and Renal Pelvis,Urinary System,Pennsylvania,White,2460,13.3,93.2,12805537.0
+1370,29020,Kidney and Renal Pelvis,Urinary System,Pennsylvania,Other Races and Unknown combined,28,13.3,93.2,12805537.0
+1371,29020,Kidney and Renal Pelvis,Urinary System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+1372,29020,Kidney and Renal Pelvis,Urinary System,Rhode Island,White,184,13.8,94.9,1059639.0
+1373,29020,Kidney and Renal Pelvis,Urinary System,South Carolina,Black or African American,261,17.2,87.9,5024369.0
+1374,29020,Kidney and Renal Pelvis,Urinary System,South Carolina,White,793,17.2,87.9,5024369.0
+1375,29020,Kidney and Renal Pelvis,Urinary System,South Dakota,White,135,14.0,89.6,869666.0
+1376,29020,Kidney and Renal Pelvis,Urinary System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+1377,29020,Kidney and Renal Pelvis,Urinary System,Tennessee,Black or African American,205,17.2,89.4,6715984.0
+1378,29020,Kidney and Renal Pelvis,Urinary System,Tennessee,White,1199,17.2,89.4,6715984.0
+1379,29020,Kidney and Renal Pelvis,Urinary System,Texas,American Indian or Alaska Native,18,16.7,81.4,28304596.0
+1380,29020,Kidney and Renal Pelvis,Urinary System,Texas,Asian or Pacific Islander,71,16.7,81.4,28304596.0
+1381,29020,Kidney and Renal Pelvis,Urinary System,Texas,Black or African American,578,16.7,81.4,28304596.0
+1382,29020,Kidney and Renal Pelvis,Urinary System,Texas,White,4305,16.7,81.4,28304596.0
+1383,29020,Kidney and Renal Pelvis,Urinary System,Texas,Other Races and Unknown combined,41,16.7,81.4,28304596.0
+1384,29020,Kidney and Renal Pelvis,Urinary System,Utah,White,343,11.7,90.3,3101833.0
+1385,29020,Kidney and Renal Pelvis,Urinary System,Vermont,White,101,11.6,95.3,623657.0
+1386,29020,Kidney and Renal Pelvis,Urinary System,Vermont,Other Races and Unknown combined,0,11.6,95.3,623657.0
+1387,29020,Kidney and Renal Pelvis,Urinary System,Virginia,Asian or Pacific Islander,39,11.4,90.1,8470020.0
+1388,29020,Kidney and Renal Pelvis,Urinary System,Virginia,Black or African American,365,11.4,90.1,8470020.0
+1389,29020,Kidney and Renal Pelvis,Urinary System,Virginia,White,1029,11.4,90.1,8470020.0
+1390,29020,Kidney and Renal Pelvis,Urinary System,Virginia,Other Races and Unknown combined,20,11.4,90.1,8470020.0
+1391,29020,Kidney and Renal Pelvis,Urinary System,Washington,American Indian or Alaska Native,20,12.7,93.1,7405743.0
+1392,29020,Kidney and Renal Pelvis,Urinary System,Washington,Asian or Pacific Islander,63,12.7,93.1,7405743.0
+1393,29020,Kidney and Renal Pelvis,Urinary System,Washington,Black or African American,50,12.7,93.1,7405743.0
+1394,29020,Kidney and Renal Pelvis,Urinary System,Washington,White,1076,12.7,93.1,7405743.0
+1395,29020,Kidney and Renal Pelvis,Urinary System,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+1396,29020,Kidney and Renal Pelvis,Urinary System,West Virginia,White,489,17.7,93.5,1815857.0
+1397,29020,Kidney and Renal Pelvis,Urinary System,West Virginia,Other Races and Unknown combined,0,17.7,93.5,1815857.0
+1398,29020,Kidney and Renal Pelvis,Urinary System,Wisconsin,Black or African American,83,12.7,93.7,5795483.0
+1399,29020,Kidney and Renal Pelvis,Urinary System,Wisconsin,White,1111,12.7,93.7,5795483.0
+1400,29020,Kidney and Renal Pelvis,Urinary System,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+1401,29020,Kidney and Renal Pelvis,Urinary System,Wyoming,Black or African American,0,11.6,86.6,579315.0
+1402,29020,Kidney and Renal Pelvis,Urinary System,Wyoming,White,84,11.6,86.6,579315.0
+1403,29020,Kidney and Renal Pelvis,Urinary System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
+1404,32010,Thyroid,Endocrine System,Alabama,American Indian or Alaska Native,0,18.4,89.2,4874747.0
+1405,32010,Thyroid,Endocrine System,Alabama,Black or African American,85,18.4,89.2,4874747.0
+1406,32010,Thyroid,Endocrine System,Alabama,White,417,18.4,89.2,4874747.0
+1407,32010,Thyroid,Endocrine System,Alaska,American Indian or Alaska Native,17,10.1,84.5,739795.0
+1408,32010,Thyroid,Endocrine System,Alaska,White,47,10.1,84.5,739795.0
+1409,32010,Thyroid,Endocrine System,Arizona,American Indian or Alaska Native,27,17.7,88.1,7016270.0
+1410,32010,Thyroid,Endocrine System,Arizona,Asian or Pacific Islander,28,17.7,88.1,7016270.0
+1411,32010,Thyroid,Endocrine System,Arizona,Black or African American,27,17.7,88.1,7016270.0
+1412,32010,Thyroid,Endocrine System,Arizona,White,859,17.7,88.1,7016270.0
+1413,32010,Thyroid,Endocrine System,Arkansas,Black or African American,44,18.8,90.6,3004279.0
+1414,32010,Thyroid,Endocrine System,Arkansas,White,363,18.8,90.6,3004279.0
+1415,32010,Thyroid,Endocrine System,California,American Indian or Alaska Native,39,15.8,91.6,39536653.0
+1416,32010,Thyroid,Endocrine System,California,Asian or Pacific Islander,946,15.8,91.6,39536653.0
+1417,32010,Thyroid,Endocrine System,California,Black or African American,186,15.8,91.6,39536653.0
+1418,32010,Thyroid,Endocrine System,California,White,4121,15.8,91.6,39536653.0
+1419,32010,Thyroid,Endocrine System,California,Other Races and Unknown combined,101,15.8,91.6,39536653.0
+1420,32010,Thyroid,Endocrine System,Colorado,Asian or Pacific Islander,29,12.2,91.4,5607154.0
+1421,32010,Thyroid,Endocrine System,Colorado,White,752,12.2,91.4,5607154.0
+1422,32010,Thyroid,Endocrine System,Colorado,Other Races and Unknown combined,17,12.2,91.4,5607154.0
+1423,32010,Thyroid,Endocrine System,Connecticut,American Indian or Alaska Native,0,10.4,94.2,3588184.0
+1424,32010,Thyroid,Endocrine System,Connecticut,Asian or Pacific Islander,23,10.4,94.2,3588184.0
+1425,32010,Thyroid,Endocrine System,Connecticut,Black or African American,44,10.4,94.2,3588184.0
+1426,32010,Thyroid,Endocrine System,Connecticut,White,606,10.4,94.2,3588184.0
+1427,32010,Thyroid,Endocrine System,Connecticut,Other Races and Unknown combined,31,10.4,94.2,3588184.0
+1428,32010,Thyroid,Endocrine System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+1429,32010,Thyroid,Endocrine System,Delaware,Black or African American,22,12.0,93.3,961939.0
+1430,32010,Thyroid,Endocrine System,Delaware,White,111,12.0,93.3,961939.0
+1431,32010,Thyroid,Endocrine System,District of Columbia,Black or African American,28,17.9,95.9,693972.0
+1432,32010,Thyroid,Endocrine System,District of Columbia,White,51,17.9,95.9,693972.0
+1433,32010,Thyroid,Endocrine System,Florida,Asian or Pacific Islander,84,16.1,84.6,20984400.0
+1434,32010,Thyroid,Endocrine System,Florida,Black or African American,252,16.1,84.6,20984400.0
+1435,32010,Thyroid,Endocrine System,Florida,White,2360,16.1,84.6,20984400.0
+1436,32010,Thyroid,Endocrine System,Florida,Other Races and Unknown combined,84,16.1,84.6,20984400.0
+1437,32010,Thyroid,Endocrine System,Georgia,Asian or Pacific Islander,64,17.8,85.1,10429379.0
+1438,32010,Thyroid,Endocrine System,Georgia,Black or African American,266,17.8,85.1,10429379.0
+1439,32010,Thyroid,Endocrine System,Georgia,White,976,17.8,85.1,10429379.0
+1440,32010,Thyroid,Endocrine System,Hawaii,Asian or Pacific Islander,158,10.8,95.8,1427538.0
+1441,32010,Thyroid,Endocrine System,Hawaii,Black or African American,0,10.8,95.8,1427538.0
+1442,32010,Thyroid,Endocrine System,Hawaii,White,55,10.8,95.8,1427538.0
+1443,32010,Thyroid,Endocrine System,Idaho,American Indian or Alaska Native,0,15.2,88.2,1716943.0
+1444,32010,Thyroid,Endocrine System,Idaho,White,247,15.2,88.2,1716943.0
+1445,32010,Thyroid,Endocrine System,Illinois,Asian or Pacific Islander,114,14.0,92.5,12802023.0
+1446,32010,Thyroid,Endocrine System,Illinois,Black or African American,162,14.0,92.5,12802023.0
+1447,32010,Thyroid,Endocrine System,Illinois,White,1853,14.0,92.5,12802023.0
+1448,32010,Thyroid,Endocrine System,Illinois,Other Races and Unknown combined,36,14.0,92.5,12802023.0
+1449,32010,Thyroid,Endocrine System,Indiana,American Indian or Alaska Native,0,15.0,90.5,6666818.0
+1450,32010,Thyroid,Endocrine System,Indiana,Black or African American,51,15.0,90.5,6666818.0
+1451,32010,Thyroid,Endocrine System,Indiana,White,798,15.0,90.5,6666818.0
+1452,32010,Thyroid,Endocrine System,Iowa,American Indian or Alaska Native,0,12.3,95.0,3145711.0
+1453,32010,Thyroid,Endocrine System,Iowa,White,461,12.3,95.0,3145711.0
+1454,32010,Thyroid,Endocrine System,Kansas,Black or African American,18,13.3,90.1,2913123.0
+1455,32010,Thyroid,Endocrine System,Kansas,White,439,13.3,90.1,2913123.0
+1456,32010,Thyroid,Endocrine System,Kansas,Other Races and Unknown combined,27,13.3,90.1,2913123.0
+1457,32010,Thyroid,Endocrine System,Kentucky,Black or African American,46,18.8,94.0,4454189.0
+1458,32010,Thyroid,Endocrine System,Kentucky,White,717,18.8,94.0,4454189.0
+1459,32010,Thyroid,Endocrine System,Louisiana,American Indian or Alaska Native,0,19.7,88.2,4684333.0
+1460,32010,Thyroid,Endocrine System,Louisiana,Asian or Pacific Islander,18,19.7,88.2,4684333.0
+1461,32010,Thyroid,Endocrine System,Louisiana,Black or African American,146,19.7,88.2,4684333.0
+1462,32010,Thyroid,Endocrine System,Louisiana,White,542,19.7,88.2,4684333.0
+1463,32010,Thyroid,Endocrine System,Maine,White,241,13.5,89.9,1335907.0
+1464,32010,Thyroid,Endocrine System,Maine,Other Races and Unknown combined,0,13.5,89.9,1335907.0
+1465,32010,Thyroid,Endocrine System,Maryland,Asian or Pacific Islander,87,9.9,93.0,6052177.0
+1466,32010,Thyroid,Endocrine System,Maryland,Black or African American,205,9.9,93.0,6052177.0
+1467,32010,Thyroid,Endocrine System,Maryland,White,593,9.9,93.0,6052177.0
+1468,32010,Thyroid,Endocrine System,Maryland,Other Races and Unknown combined,23,9.9,93.0,6052177.0
+1469,32010,Thyroid,Endocrine System,Massachusetts,Asian or Pacific Islander,98,11.4,97.0,6859819.0
+1470,32010,Thyroid,Endocrine System,Massachusetts,Black or African American,75,11.4,97.0,6859819.0
+1471,32010,Thyroid,Endocrine System,Massachusetts,White,1243,11.4,97.0,6859819.0
+1472,32010,Thyroid,Endocrine System,Massachusetts,Other Races and Unknown combined,73,11.4,97.0,6859819.0
+1473,32010,Thyroid,Endocrine System,Michigan,Asian or Pacific Islander,32,16.3,93.6,9962311.0
+1474,32010,Thyroid,Endocrine System,Michigan,Black or African American,132,16.3,93.6,9962311.0
+1475,32010,Thyroid,Endocrine System,Michigan,White,1116,16.3,93.6,9962311.0
+1476,32010,Thyroid,Endocrine System,Minnesota,Asian or Pacific Islander,24,10.8,95.2,5576606.0
+1477,32010,Thyroid,Endocrine System,Minnesota,Black or African American,30,10.8,95.2,5576606.0
+1478,32010,Thyroid,Endocrine System,Minnesota,White,668,10.8,95.2,5576606.0
+1479,32010,Thyroid,Endocrine System,Minnesota,Other Races and Unknown combined,19,10.8,95.2,5576606.0
+1480,32010,Thyroid,Endocrine System,Mississippi,Black or African American,90,22.3,86.0,2984100.0
+1481,32010,Thyroid,Endocrine System,Mississippi,White,243,22.3,86.0,2984100.0
+1482,32010,Thyroid,Endocrine System,Missouri,Asian or Pacific Islander,22,15.3,89.4,6113532.0
+1483,32010,Thyroid,Endocrine System,Missouri,Black or African American,61,15.3,89.4,6113532.0
+1484,32010,Thyroid,Endocrine System,Missouri,White,675,15.3,89.4,6113532.0
+1485,32010,Thyroid,Endocrine System,Montana,Black or African American,0,14.9,90.0,1050493.0
+1486,32010,Thyroid,Endocrine System,Montana,White,155,14.9,90.0,1050493.0
+1487,32010,Thyroid,Endocrine System,Montana,Other Races and Unknown combined,0,14.9,90.0,1050493.0
+1488,32010,Thyroid,Endocrine System,Nebraska,White,268,12.4,90.3,1920076.0
+1489,32010,Thyroid,Endocrine System,Nevada,Asian or Pacific Islander,45,14.9,86.9,2998039.0
+1490,32010,Thyroid,Endocrine System,Nevada,White,370,14.9,86.9,2998039.0
+1491,32010,Thyroid,Endocrine System,Nevada,Other Races and Unknown combined,22,14.9,86.9,2998039.0
+1492,32010,Thyroid,Endocrine System,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+1493,32010,Thyroid,Endocrine System,New Hampshire,White,212,8.5,92.8,1342795.0
+1494,32010,Thyroid,Endocrine System,New Hampshire,Other Races and Unknown combined,0,8.5,92.8,1342795.0
+1495,32010,Thyroid,Endocrine System,New Jersey,Asian or Pacific Islander,149,10.9,90.8,9005644.0
+1496,32010,Thyroid,Endocrine System,New Jersey,Black or African American,154,10.9,90.8,9005644.0
+1497,32010,Thyroid,Endocrine System,New Jersey,White,1416,10.9,90.8,9005644.0
+1498,32010,Thyroid,Endocrine System,New Jersey,Other Races and Unknown combined,75,10.9,90.8,9005644.0
+1499,32010,Thyroid,Endocrine System,New Mexico,American Indian or Alaska Native,18,20.9,88.8,2088070.0
+1500,32010,Thyroid,Endocrine System,New Mexico,White,328,20.9,88.8,2088070.0
+1501,32010,Thyroid,Endocrine System,New York,Asian or Pacific Islander,486,15.5,92.9,19849399.0
+1502,32010,Thyroid,Endocrine System,New York,Black or African American,421,15.5,92.9,19849399.0
+1503,32010,Thyroid,Endocrine System,New York,White,3205,15.5,92.9,19849399.0
+1504,32010,Thyroid,Endocrine System,New York,Other Races and Unknown combined,170,15.5,92.9,19849399.0
+1505,32010,Thyroid,Endocrine System,North Carolina,Asian or Pacific Islander,31,16.8,87.8,10273419.0
+1506,32010,Thyroid,Endocrine System,North Carolina,Black or African American,200,16.8,87.8,10273419.0
+1507,32010,Thyroid,Endocrine System,North Carolina,White,1041,16.8,87.8,10273419.0
+1508,32010,Thyroid,Endocrine System,North Carolina,Other Races and Unknown combined,46,16.8,87.8,10273419.0
+1509,32010,Thyroid,Endocrine System,North Dakota,White,115,11.2,92.4,755393.0
+1510,32010,Thyroid,Endocrine System,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+1511,32010,Thyroid,Endocrine System,Ohio,Asian or Pacific Islander,27,15.4,93.3,11658609.0
+1512,32010,Thyroid,Endocrine System,Ohio,Black or African American,151,15.4,93.3,11658609.0
+1513,32010,Thyroid,Endocrine System,Ohio,White,1629,15.4,93.3,11658609.0
+1514,32010,Thyroid,Endocrine System,Ohio,Other Races and Unknown combined,24,15.4,93.3,11658609.0
+1515,32010,Thyroid,Endocrine System,Oklahoma,American Indian or Alaska Native,54,16.5,84.0,3930864.0
+1516,32010,Thyroid,Endocrine System,Oklahoma,Black or African American,31,16.5,84.0,3930864.0
+1517,32010,Thyroid,Endocrine System,Oklahoma,White,432,16.5,84.0,3930864.0
+1518,32010,Thyroid,Endocrine System,Oregon,Asian or Pacific Islander,30,15.7,92.6,4142776.0
+1519,32010,Thyroid,Endocrine System,Oregon,White,526,15.7,92.6,4142776.0
+1520,32010,Thyroid,Endocrine System,Pennsylvania,Asian or Pacific Islander,74,13.3,93.2,12805537.0
+1521,32010,Thyroid,Endocrine System,Pennsylvania,Black or African American,204,13.3,93.2,12805537.0
+1522,32010,Thyroid,Endocrine System,Pennsylvania,White,2318,13.3,93.2,12805537.0
+1523,32010,Thyroid,Endocrine System,Pennsylvania,Other Races and Unknown combined,44,13.3,93.2,12805537.0
+1524,32010,Thyroid,Endocrine System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+1525,32010,Thyroid,Endocrine System,Rhode Island,White,186,13.8,94.9,1059639.0
+1526,32010,Thyroid,Endocrine System,South Carolina,Black or African American,127,17.2,87.9,5024369.0
+1527,32010,Thyroid,Endocrine System,South Carolina,White,449,17.2,87.9,5024369.0
+1528,32010,Thyroid,Endocrine System,South Dakota,Black or African American,0,14.0,89.6,869666.0
+1529,32010,Thyroid,Endocrine System,South Dakota,White,114,14.0,89.6,869666.0
+1530,32010,Thyroid,Endocrine System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+1531,32010,Thyroid,Endocrine System,Tennessee,Black or African American,86,17.2,89.4,6715984.0
+1532,32010,Thyroid,Endocrine System,Tennessee,White,812,17.2,89.4,6715984.0
+1533,32010,Thyroid,Endocrine System,Texas,American Indian or Alaska Native,16,16.7,81.4,28304596.0
+1534,32010,Thyroid,Endocrine System,Texas,Asian or Pacific Islander,139,16.7,81.4,28304596.0
+1535,32010,Thyroid,Endocrine System,Texas,Black or African American,278,16.7,81.4,28304596.0
+1536,32010,Thyroid,Endocrine System,Texas,White,2737,16.7,81.4,28304596.0
+1537,32010,Thyroid,Endocrine System,Texas,Other Races and Unknown combined,70,16.7,81.4,28304596.0
+1538,32010,Thyroid,Endocrine System,Utah,Asian or Pacific Islander,16,11.7,90.3,3101833.0
+1539,32010,Thyroid,Endocrine System,Utah,White,505,11.7,90.3,3101833.0
+1540,32010,Thyroid,Endocrine System,Vermont,Black or African American,0,11.6,95.3,623657.0
+1541,32010,Thyroid,Endocrine System,Vermont,White,97,11.6,95.3,623657.0
+1542,32010,Thyroid,Endocrine System,Virginia,Asian or Pacific Islander,126,11.4,90.1,8470020.0
+1543,32010,Thyroid,Endocrine System,Virginia,Black or African American,160,11.4,90.1,8470020.0
+1544,32010,Thyroid,Endocrine System,Virginia,White,797,11.4,90.1,8470020.0
+1545,32010,Thyroid,Endocrine System,Virginia,Other Races and Unknown combined,45,11.4,90.1,8470020.0
+1546,32010,Thyroid,Endocrine System,Washington,Asian or Pacific Islander,94,12.7,93.1,7405743.0
+1547,32010,Thyroid,Endocrine System,Washington,White,884,12.7,93.1,7405743.0
+1548,32010,Thyroid,Endocrine System,Washington,Other Races and Unknown combined,16,12.7,93.1,7405743.0
+1549,32010,Thyroid,Endocrine System,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+1550,32010,Thyroid,Endocrine System,West Virginia,White,305,17.7,93.5,1815857.0
+1551,32010,Thyroid,Endocrine System,Wisconsin,Black or African American,34,12.7,93.7,5795483.0
+1552,32010,Thyroid,Endocrine System,Wisconsin,White,785,12.7,93.7,5795483.0
+1553,32010,Thyroid,Endocrine System,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+1554,32010,Thyroid,Endocrine System,Wyoming,Black or African American,0,11.6,86.6,579315.0
+1555,32010,Thyroid,Endocrine System,Wyoming,White,102,11.6,86.6,579315.0
+1556,32010,Thyroid,Endocrine System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
+1557,33041,Non-Hodgkin Lymphoma,Lymphomas,Alabama,Black or African American,162,18.4,89.2,4874747.0
+1558,33041,Non-Hodgkin Lymphoma,Lymphomas,Alabama,White,741,18.4,89.2,4874747.0
+1559,33041,Non-Hodgkin Lymphoma,Lymphomas,Alabama,Other Races and Unknown combined,24,18.4,89.2,4874747.0
+1560,33041,Non-Hodgkin Lymphoma,Lymphomas,Alaska,American Indian or Alaska Native,22,10.1,84.5,739795.0
+1561,33041,Non-Hodgkin Lymphoma,Lymphomas,Alaska,White,95,10.1,84.5,739795.0
+1562,33041,Non-Hodgkin Lymphoma,Lymphomas,Arizona,American Indian or Alaska Native,39,17.7,88.1,7016270.0
+1563,33041,Non-Hodgkin Lymphoma,Lymphomas,Arizona,Asian or Pacific Islander,24,17.7,88.1,7016270.0
+1564,33041,Non-Hodgkin Lymphoma,Lymphomas,Arizona,Black or African American,23,17.7,88.1,7016270.0
+1565,33041,Non-Hodgkin Lymphoma,Lymphomas,Arizona,White,1081,17.7,88.1,7016270.0
+1566,33041,Non-Hodgkin Lymphoma,Lymphomas,Arizona,Other Races and Unknown combined,22,17.7,88.1,7016270.0
+1567,33041,Non-Hodgkin Lymphoma,Lymphomas,Arkansas,Black or African American,58,18.8,90.6,3004279.0
+1568,33041,Non-Hodgkin Lymphoma,Lymphomas,Arkansas,White,516,18.8,90.6,3004279.0
+1569,33041,Non-Hodgkin Lymphoma,Lymphomas,California,American Indian or Alaska Native,34,15.8,91.6,39536653.0
+1570,33041,Non-Hodgkin Lymphoma,Lymphomas,California,Asian or Pacific Islander,897,15.8,91.6,39536653.0
+1571,33041,Non-Hodgkin Lymphoma,Lymphomas,California,Black or African American,354,15.8,91.6,39536653.0
+1572,33041,Non-Hodgkin Lymphoma,Lymphomas,California,White,5953,15.8,91.6,39536653.0
+1573,33041,Non-Hodgkin Lymphoma,Lymphomas,California,Other Races and Unknown combined,234,15.8,91.6,39536653.0
+1574,33041,Non-Hodgkin Lymphoma,Lymphomas,Colorado,Asian or Pacific Islander,21,12.2,91.4,5607154.0
+1575,33041,Non-Hodgkin Lymphoma,Lymphomas,Colorado,Black or African American,33,12.2,91.4,5607154.0
+1576,33041,Non-Hodgkin Lymphoma,Lymphomas,Colorado,White,912,12.2,91.4,5607154.0
+1577,33041,Non-Hodgkin Lymphoma,Lymphomas,Connecticut,Black or African American,48,10.4,94.2,3588184.0
+1578,33041,Non-Hodgkin Lymphoma,Lymphomas,Connecticut,White,863,10.4,94.2,3588184.0
+1579,33041,Non-Hodgkin Lymphoma,Lymphomas,Connecticut,Other Races and Unknown combined,41,10.4,94.2,3588184.0
+1580,33041,Non-Hodgkin Lymphoma,Lymphomas,Delaware,Black or African American,31,12.0,93.3,961939.0
+1581,33041,Non-Hodgkin Lymphoma,Lymphomas,Delaware,White,195,12.0,93.3,961939.0
+1582,33041,Non-Hodgkin Lymphoma,Lymphomas,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+1583,33041,Non-Hodgkin Lymphoma,Lymphomas,District of Columbia,Black or African American,51,17.9,95.9,693972.0
+1584,33041,Non-Hodgkin Lymphoma,Lymphomas,District of Columbia,White,21,17.9,95.9,693972.0
+1585,33041,Non-Hodgkin Lymphoma,Lymphomas,Florida,Asian or Pacific Islander,63,16.1,84.6,20984400.0
+1586,33041,Non-Hodgkin Lymphoma,Lymphomas,Florida,Black or African American,420,16.1,84.6,20984400.0
+1587,33041,Non-Hodgkin Lymphoma,Lymphomas,Florida,White,3898,16.1,84.6,20984400.0
+1588,33041,Non-Hodgkin Lymphoma,Lymphomas,Florida,Other Races and Unknown combined,95,16.1,84.6,20984400.0
+1589,33041,Non-Hodgkin Lymphoma,Lymphomas,Georgia,Asian or Pacific Islander,42,17.8,85.1,10429379.0
+1590,33041,Non-Hodgkin Lymphoma,Lymphomas,Georgia,Black or African American,391,17.8,85.1,10429379.0
+1591,33041,Non-Hodgkin Lymphoma,Lymphomas,Georgia,White,1480,17.8,85.1,10429379.0
+1592,33041,Non-Hodgkin Lymphoma,Lymphomas,Hawaii,Asian or Pacific Islander,166,10.8,95.8,1427538.0
+1593,33041,Non-Hodgkin Lymphoma,Lymphomas,Hawaii,White,89,10.8,95.8,1427538.0
+1594,33041,Non-Hodgkin Lymphoma,Lymphomas,Idaho,White,356,15.2,88.2,1716943.0
+1595,33041,Non-Hodgkin Lymphoma,Lymphomas,Illinois,Asian or Pacific Islander,84,14.0,92.5,12802023.0
+1596,33041,Non-Hodgkin Lymphoma,Lymphomas,Illinois,Black or African American,248,14.0,92.5,12802023.0
+1597,33041,Non-Hodgkin Lymphoma,Lymphomas,Illinois,White,2468,14.0,92.5,12802023.0
+1598,33041,Non-Hodgkin Lymphoma,Lymphomas,Illinois,Other Races and Unknown combined,43,14.0,92.5,12802023.0
+1599,33041,Non-Hodgkin Lymphoma,Lymphomas,Indiana,Black or African American,84,15.0,90.5,6666818.0
+1600,33041,Non-Hodgkin Lymphoma,Lymphomas,Indiana,White,1286,15.0,90.5,6666818.0
+1601,33041,Non-Hodgkin Lymphoma,Lymphomas,Iowa,White,787,12.3,95.0,3145711.0
+1602,33041,Non-Hodgkin Lymphoma,Lymphomas,Kansas,Black or African American,19,13.3,90.1,2913123.0
+1603,33041,Non-Hodgkin Lymphoma,Lymphomas,Kansas,White,574,13.3,90.1,2913123.0
+1604,33041,Non-Hodgkin Lymphoma,Lymphomas,Kansas,Other Races and Unknown combined,20,13.3,90.1,2913123.0
+1605,33041,Non-Hodgkin Lymphoma,Lymphomas,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+1606,33041,Non-Hodgkin Lymphoma,Lymphomas,Kentucky,Black or African American,43,18.8,94.0,4454189.0
+1607,33041,Non-Hodgkin Lymphoma,Lymphomas,Kentucky,White,921,18.8,94.0,4454189.0
+1608,33041,Non-Hodgkin Lymphoma,Lymphomas,Louisiana,American Indian or Alaska Native,0,19.7,88.2,4684333.0
+1609,33041,Non-Hodgkin Lymphoma,Lymphomas,Louisiana,Black or African American,199,19.7,88.2,4684333.0
+1610,33041,Non-Hodgkin Lymphoma,Lymphomas,Louisiana,White,773,19.7,88.2,4684333.0
+1611,33041,Non-Hodgkin Lymphoma,Lymphomas,Maine,Black or African American,0,13.5,89.9,1335907.0
+1612,33041,Non-Hodgkin Lymphoma,Lymphomas,Maine,White,382,13.5,89.9,1335907.0
+1613,33041,Non-Hodgkin Lymphoma,Lymphomas,Maryland,Asian or Pacific Islander,46,9.9,93.0,6052177.0
+1614,33041,Non-Hodgkin Lymphoma,Lymphomas,Maryland,Black or African American,241,9.9,93.0,6052177.0
+1615,33041,Non-Hodgkin Lymphoma,Lymphomas,Maryland,White,800,9.9,93.0,6052177.0
+1616,33041,Non-Hodgkin Lymphoma,Lymphomas,Maryland,Other Races and Unknown combined,17,9.9,93.0,6052177.0
+1617,33041,Non-Hodgkin Lymphoma,Lymphomas,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+1618,33041,Non-Hodgkin Lymphoma,Lymphomas,Massachusetts,Asian or Pacific Islander,46,11.4,97.0,6859819.0
+1619,33041,Non-Hodgkin Lymphoma,Lymphomas,Massachusetts,Black or African American,86,11.4,97.0,6859819.0
+1620,33041,Non-Hodgkin Lymphoma,Lymphomas,Massachusetts,White,1370,11.4,97.0,6859819.0
+1621,33041,Non-Hodgkin Lymphoma,Lymphomas,Michigan,Asian or Pacific Islander,31,16.3,93.6,9962311.0
+1622,33041,Non-Hodgkin Lymphoma,Lymphomas,Michigan,Black or African American,196,16.3,93.6,9962311.0
+1623,33041,Non-Hodgkin Lymphoma,Lymphomas,Michigan,White,2099,16.3,93.6,9962311.0
+1624,33041,Non-Hodgkin Lymphoma,Lymphomas,Michigan,Other Races and Unknown combined,18,16.3,93.6,9962311.0
+1625,33041,Non-Hodgkin Lymphoma,Lymphomas,Minnesota,Asian or Pacific Islander,29,10.8,95.2,5576606.0
+1626,33041,Non-Hodgkin Lymphoma,Lymphomas,Minnesota,Black or African American,34,10.8,95.2,5576606.0
+1627,33041,Non-Hodgkin Lymphoma,Lymphomas,Minnesota,White,1233,10.8,95.2,5576606.0
+1628,33041,Non-Hodgkin Lymphoma,Lymphomas,Minnesota,Other Races and Unknown combined,69,10.8,95.2,5576606.0
+1629,33041,Non-Hodgkin Lymphoma,Lymphomas,Mississippi,Black or African American,144,22.3,86.0,2984100.0
+1630,33041,Non-Hodgkin Lymphoma,Lymphomas,Mississippi,White,389,22.3,86.0,2984100.0
+1631,33041,Non-Hodgkin Lymphoma,Lymphomas,Missouri,Black or African American,93,15.3,89.4,6113532.0
+1632,33041,Non-Hodgkin Lymphoma,Lymphomas,Missouri,White,1218,15.3,89.4,6113532.0
+1633,33041,Non-Hodgkin Lymphoma,Lymphomas,Montana,White,208,14.9,90.0,1050493.0
+1634,33041,Non-Hodgkin Lymphoma,Lymphomas,Nebraska,American Indian or Alaska Native,0,12.4,90.3,1920076.0
+1635,33041,Non-Hodgkin Lymphoma,Lymphomas,Nebraska,White,408,12.4,90.3,1920076.0
+1636,33041,Non-Hodgkin Lymphoma,Lymphomas,Nevada,Asian or Pacific Islander,18,14.9,86.9,2998039.0
+1637,33041,Non-Hodgkin Lymphoma,Lymphomas,Nevada,Black or African American,20,14.9,86.9,2998039.0
+1638,33041,Non-Hodgkin Lymphoma,Lymphomas,Nevada,White,355,14.9,86.9,2998039.0
+1639,33041,Non-Hodgkin Lymphoma,Lymphomas,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+1640,33041,Non-Hodgkin Lymphoma,Lymphomas,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+1641,33041,Non-Hodgkin Lymphoma,Lymphomas,New Hampshire,White,331,8.5,92.8,1342795.0
+1642,33041,Non-Hodgkin Lymphoma,Lymphomas,New Jersey,Asian or Pacific Islander,96,10.9,90.8,9005644.0
+1643,33041,Non-Hodgkin Lymphoma,Lymphomas,New Jersey,Black or African American,178,10.9,90.8,9005644.0
+1644,33041,Non-Hodgkin Lymphoma,Lymphomas,New Jersey,White,1915,10.9,90.8,9005644.0
+1645,33041,Non-Hodgkin Lymphoma,Lymphomas,New Jersey,Other Races and Unknown combined,114,10.9,90.8,9005644.0
+1646,33041,Non-Hodgkin Lymphoma,Lymphomas,New Mexico,White,312,20.9,88.8,2088070.0
+1647,33041,Non-Hodgkin Lymphoma,Lymphomas,New York,Asian or Pacific Islander,232,15.5,92.9,19849399.0
+1648,33041,Non-Hodgkin Lymphoma,Lymphomas,New York,Black or African American,551,15.5,92.9,19849399.0
+1649,33041,Non-Hodgkin Lymphoma,Lymphomas,New York,White,3984,15.5,92.9,19849399.0
+1650,33041,Non-Hodgkin Lymphoma,Lymphomas,New York,Other Races and Unknown combined,117,15.5,92.9,19849399.0
+1651,33041,Non-Hodgkin Lymphoma,Lymphomas,North Carolina,Asian or Pacific Islander,27,16.8,87.8,10273419.0
+1652,33041,Non-Hodgkin Lymphoma,Lymphomas,North Carolina,Black or African American,300,16.8,87.8,10273419.0
+1653,33041,Non-Hodgkin Lymphoma,Lymphomas,North Carolina,White,1644,16.8,87.8,10273419.0
+1654,33041,Non-Hodgkin Lymphoma,Lymphomas,North Carolina,Other Races and Unknown combined,64,16.8,87.8,10273419.0
+1655,33041,Non-Hodgkin Lymphoma,Lymphomas,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+1656,33041,Non-Hodgkin Lymphoma,Lymphomas,North Dakota,White,143,11.2,92.4,755393.0
+1657,33041,Non-Hodgkin Lymphoma,Lymphomas,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+1658,33041,Non-Hodgkin Lymphoma,Lymphomas,Ohio,American Indian or Alaska Native,0,15.4,93.3,11658609.0
+1659,33041,Non-Hodgkin Lymphoma,Lymphomas,Ohio,Asian or Pacific Islander,21,15.4,93.3,11658609.0
+1660,33041,Non-Hodgkin Lymphoma,Lymphomas,Ohio,Black or African American,214,15.4,93.3,11658609.0
+1661,33041,Non-Hodgkin Lymphoma,Lymphomas,Ohio,White,2441,15.4,93.3,11658609.0
+1662,33041,Non-Hodgkin Lymphoma,Lymphomas,Ohio,Other Races and Unknown combined,36,15.4,93.3,11658609.0
+1663,33041,Non-Hodgkin Lymphoma,Lymphomas,Oklahoma,American Indian or Alaska Native,67,16.5,84.0,3930864.0
+1664,33041,Non-Hodgkin Lymphoma,Lymphomas,Oklahoma,Asian or Pacific Islander,19,16.5,84.0,3930864.0
+1665,33041,Non-Hodgkin Lymphoma,Lymphomas,Oklahoma,Black or African American,40,16.5,84.0,3930864.0
+1666,33041,Non-Hodgkin Lymphoma,Lymphomas,Oklahoma,White,636,16.5,84.0,3930864.0
+1667,33041,Non-Hodgkin Lymphoma,Lymphomas,Oregon,Asian or Pacific Islander,19,15.7,92.6,4142776.0
+1668,33041,Non-Hodgkin Lymphoma,Lymphomas,Oregon,White,736,15.7,92.6,4142776.0
+1669,33041,Non-Hodgkin Lymphoma,Lymphomas,Pennsylvania,Asian or Pacific Islander,39,13.3,93.2,12805537.0
+1670,33041,Non-Hodgkin Lymphoma,Lymphomas,Pennsylvania,Black or African American,202,13.3,93.2,12805537.0
+1671,33041,Non-Hodgkin Lymphoma,Lymphomas,Pennsylvania,White,3091,13.3,93.2,12805537.0
+1672,33041,Non-Hodgkin Lymphoma,Lymphomas,Pennsylvania,Other Races and Unknown combined,69,13.3,93.2,12805537.0
+1673,33041,Non-Hodgkin Lymphoma,Lymphomas,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+1674,33041,Non-Hodgkin Lymphoma,Lymphomas,Rhode Island,White,248,13.8,94.9,1059639.0
+1675,33041,Non-Hodgkin Lymphoma,Lymphomas,South Carolina,Black or African American,151,17.2,87.9,5024369.0
+1676,33041,Non-Hodgkin Lymphoma,Lymphomas,South Carolina,White,776,17.2,87.9,5024369.0
+1677,33041,Non-Hodgkin Lymphoma,Lymphomas,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+1678,33041,Non-Hodgkin Lymphoma,Lymphomas,South Dakota,White,160,14.0,89.6,869666.0
+1679,33041,Non-Hodgkin Lymphoma,Lymphomas,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+1680,33041,Non-Hodgkin Lymphoma,Lymphomas,Tennessee,American Indian or Alaska Native,0,17.2,89.4,6715984.0
+1681,33041,Non-Hodgkin Lymphoma,Lymphomas,Tennessee,Black or African American,117,17.2,89.4,6715984.0
+1682,33041,Non-Hodgkin Lymphoma,Lymphomas,Tennessee,White,1169,17.2,89.4,6715984.0
+1683,33041,Non-Hodgkin Lymphoma,Lymphomas,Tennessee,Other Races and Unknown combined,29,17.2,89.4,6715984.0
+1684,33041,Non-Hodgkin Lymphoma,Lymphomas,Texas,American Indian or Alaska Native,20,16.7,81.4,28304596.0
+1685,33041,Non-Hodgkin Lymphoma,Lymphomas,Texas,Asian or Pacific Islander,103,16.7,81.4,28304596.0
+1686,33041,Non-Hodgkin Lymphoma,Lymphomas,Texas,Black or African American,391,16.7,81.4,28304596.0
+1687,33041,Non-Hodgkin Lymphoma,Lymphomas,Texas,White,3838,16.7,81.4,28304596.0
+1688,33041,Non-Hodgkin Lymphoma,Lymphomas,Texas,Other Races and Unknown combined,47,16.7,81.4,28304596.0
+1689,33041,Non-Hodgkin Lymphoma,Lymphomas,Utah,White,452,11.7,90.3,3101833.0
+1690,33041,Non-Hodgkin Lymphoma,Lymphomas,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+1691,33041,Non-Hodgkin Lymphoma,Lymphomas,Vermont,White,167,11.6,95.3,623657.0
+1692,33041,Non-Hodgkin Lymphoma,Lymphomas,Virginia,Asian or Pacific Islander,42,11.4,90.1,8470020.0
+1693,33041,Non-Hodgkin Lymphoma,Lymphomas,Virginia,Black or African American,214,11.4,90.1,8470020.0
+1694,33041,Non-Hodgkin Lymphoma,Lymphomas,Virginia,White,1255,11.4,90.1,8470020.0
+1695,33041,Non-Hodgkin Lymphoma,Lymphomas,Virginia,Other Races and Unknown combined,47,11.4,90.1,8470020.0
+1696,33041,Non-Hodgkin Lymphoma,Lymphomas,Washington,American Indian or Alaska Native,20,12.7,93.1,7405743.0
+1697,33041,Non-Hodgkin Lymphoma,Lymphomas,Washington,Asian or Pacific Islander,89,12.7,93.1,7405743.0
+1698,33041,Non-Hodgkin Lymphoma,Lymphomas,Washington,Black or African American,33,12.7,93.1,7405743.0
+1699,33041,Non-Hodgkin Lymphoma,Lymphomas,Washington,White,1379,12.7,93.1,7405743.0
+1700,33041,Non-Hodgkin Lymphoma,Lymphomas,Washington,Other Races and Unknown combined,21,12.7,93.1,7405743.0
+1701,33041,Non-Hodgkin Lymphoma,Lymphomas,West Virginia,Asian or Pacific Islander,0,17.7,93.5,1815857.0
+1702,33041,Non-Hodgkin Lymphoma,Lymphomas,West Virginia,White,454,17.7,93.5,1815857.0
+1703,33041,Non-Hodgkin Lymphoma,Lymphomas,Wisconsin,Black or African American,45,12.7,93.7,5795483.0
+1704,33041,Non-Hodgkin Lymphoma,Lymphomas,Wisconsin,White,1351,12.7,93.7,5795483.0
+1705,33041,Non-Hodgkin Lymphoma,Lymphomas,Wyoming,Black or African American,0,11.6,86.6,579315.0
+1706,33041,Non-Hodgkin Lymphoma,Lymphomas,Wyoming,White,109,11.6,86.6,579315.0
+1707,37000,Miscellaneous,Miscellaneous,Alabama,Black or African American,190,18.4,89.2,4874747.0
+1708,37000,Miscellaneous,Miscellaneous,Alabama,White,799,18.4,89.2,4874747.0
+1709,37000,Miscellaneous,Miscellaneous,Alabama,Other Races and Unknown combined,17,18.4,89.2,4874747.0
+1710,37000,Miscellaneous,Miscellaneous,Alaska,White,54,10.1,84.5,739795.0
+1711,37000,Miscellaneous,Miscellaneous,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+1712,37000,Miscellaneous,Miscellaneous,Arizona,American Indian or Alaska Native,24,17.7,88.1,7016270.0
+1713,37000,Miscellaneous,Miscellaneous,Arizona,Asian or Pacific Islander,17,17.7,88.1,7016270.0
+1714,37000,Miscellaneous,Miscellaneous,Arizona,Black or African American,23,17.7,88.1,7016270.0
+1715,37000,Miscellaneous,Miscellaneous,Arizona,White,1108,17.7,88.1,7016270.0
+1716,37000,Miscellaneous,Miscellaneous,Arizona,Other Races and Unknown combined,26,17.7,88.1,7016270.0
+1717,37000,Miscellaneous,Miscellaneous,Arkansas,Black or African American,76,18.8,90.6,3004279.0
+1718,37000,Miscellaneous,Miscellaneous,Arkansas,White,488,18.8,90.6,3004279.0
+1719,37000,Miscellaneous,Miscellaneous,California,American Indian or Alaska Native,37,15.8,91.6,39536653.0
+1720,37000,Miscellaneous,Miscellaneous,California,Asian or Pacific Islander,582,15.8,91.6,39536653.0
+1721,37000,Miscellaneous,Miscellaneous,California,Black or African American,373,15.8,91.6,39536653.0
+1722,37000,Miscellaneous,Miscellaneous,California,White,4647,15.8,91.6,39536653.0
+1723,37000,Miscellaneous,Miscellaneous,California,Other Races and Unknown combined,112,15.8,91.6,39536653.0
+1724,37000,Miscellaneous,Miscellaneous,Colorado,Asian or Pacific Islander,17,12.2,91.4,5607154.0
+1725,37000,Miscellaneous,Miscellaneous,Colorado,Black or African American,22,12.2,91.4,5607154.0
+1726,37000,Miscellaneous,Miscellaneous,Colorado,White,642,12.2,91.4,5607154.0
+1727,37000,Miscellaneous,Miscellaneous,Connecticut,American Indian or Alaska Native,0,10.4,94.2,3588184.0
+1728,37000,Miscellaneous,Miscellaneous,Connecticut,Black or African American,50,10.4,94.2,3588184.0
+1729,37000,Miscellaneous,Miscellaneous,Connecticut,White,573,10.4,94.2,3588184.0
+1730,37000,Miscellaneous,Miscellaneous,Connecticut,Other Races and Unknown combined,28,10.4,94.2,3588184.0
+1731,37000,Miscellaneous,Miscellaneous,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+1732,37000,Miscellaneous,Miscellaneous,Delaware,Black or African American,18,12.0,93.3,961939.0
+1733,37000,Miscellaneous,Miscellaneous,Delaware,White,138,12.0,93.3,961939.0
+1734,37000,Miscellaneous,Miscellaneous,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+1735,37000,Miscellaneous,Miscellaneous,District of Columbia,Black or African American,62,17.9,95.9,693972.0
+1736,37000,Miscellaneous,Miscellaneous,District of Columbia,White,20,17.9,95.9,693972.0
+1737,37000,Miscellaneous,Miscellaneous,Florida,Asian or Pacific Islander,42,16.1,84.6,20984400.0
+1738,37000,Miscellaneous,Miscellaneous,Florida,Black or African American,421,16.1,84.6,20984400.0
+1739,37000,Miscellaneous,Miscellaneous,Florida,White,3804,16.1,84.6,20984400.0
+1740,37000,Miscellaneous,Miscellaneous,Florida,Other Races and Unknown combined,86,16.1,84.6,20984400.0
+1741,37000,Miscellaneous,Miscellaneous,Georgia,American Indian or Alaska Native,0,17.8,85.1,10429379.0
+1742,37000,Miscellaneous,Miscellaneous,Georgia,Asian or Pacific Islander,33,17.8,85.1,10429379.0
+1743,37000,Miscellaneous,Miscellaneous,Georgia,Black or African American,410,17.8,85.1,10429379.0
+1744,37000,Miscellaneous,Miscellaneous,Georgia,White,1233,17.8,85.1,10429379.0
+1745,37000,Miscellaneous,Miscellaneous,Hawaii,Asian or Pacific Islander,129,10.8,95.8,1427538.0
+1746,37000,Miscellaneous,Miscellaneous,Hawaii,White,69,10.8,95.8,1427538.0
+1747,37000,Miscellaneous,Miscellaneous,Idaho,American Indian or Alaska Native,0,15.2,88.2,1716943.0
+1748,37000,Miscellaneous,Miscellaneous,Idaho,White,260,15.2,88.2,1716943.0
+1749,37000,Miscellaneous,Miscellaneous,Illinois,Asian or Pacific Islander,46,14.0,92.5,12802023.0
+1750,37000,Miscellaneous,Miscellaneous,Illinois,Black or African American,235,14.0,92.5,12802023.0
+1751,37000,Miscellaneous,Miscellaneous,Illinois,White,1682,14.0,92.5,12802023.0
+1752,37000,Miscellaneous,Miscellaneous,Illinois,Other Races and Unknown combined,35,14.0,92.5,12802023.0
+1753,37000,Miscellaneous,Miscellaneous,Indiana,Black or African American,74,15.0,90.5,6666818.0
+1754,37000,Miscellaneous,Miscellaneous,Indiana,White,962,15.0,90.5,6666818.0
+1755,37000,Miscellaneous,Miscellaneous,Iowa,American Indian or Alaska Native,0,12.3,95.0,3145711.0
+1756,37000,Miscellaneous,Miscellaneous,Iowa,White,544,12.3,95.0,3145711.0
+1757,37000,Miscellaneous,Miscellaneous,Kansas,Black or African American,21,13.3,90.1,2913123.0
+1758,37000,Miscellaneous,Miscellaneous,Kansas,White,568,13.3,90.1,2913123.0
+1759,37000,Miscellaneous,Miscellaneous,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+1760,37000,Miscellaneous,Miscellaneous,Kentucky,Black or African American,46,18.8,94.0,4454189.0
+1761,37000,Miscellaneous,Miscellaneous,Kentucky,White,900,18.8,94.0,4454189.0
+1762,37000,Miscellaneous,Miscellaneous,Kentucky,Other Races and Unknown combined,26,18.8,94.0,4454189.0
+1763,37000,Miscellaneous,Miscellaneous,Louisiana,American Indian or Alaska Native,0,19.7,88.2,4684333.0
+1764,37000,Miscellaneous,Miscellaneous,Louisiana,Black or African American,239,19.7,88.2,4684333.0
+1765,37000,Miscellaneous,Miscellaneous,Louisiana,White,621,19.7,88.2,4684333.0
+1766,37000,Miscellaneous,Miscellaneous,Maine,Black or African American,0,13.5,89.9,1335907.0
+1767,37000,Miscellaneous,Miscellaneous,Maine,White,293,13.5,89.9,1335907.0
+1768,37000,Miscellaneous,Miscellaneous,Maryland,Asian or Pacific Islander,26,9.9,93.0,6052177.0
+1769,37000,Miscellaneous,Miscellaneous,Maryland,Black or African American,219,9.9,93.0,6052177.0
+1770,37000,Miscellaneous,Miscellaneous,Maryland,White,760,9.9,93.0,6052177.0
+1771,37000,Miscellaneous,Miscellaneous,Massachusetts,Asian or Pacific Islander,21,11.4,97.0,6859819.0
+1772,37000,Miscellaneous,Miscellaneous,Massachusetts,Black or African American,51,11.4,97.0,6859819.0
+1773,37000,Miscellaneous,Miscellaneous,Massachusetts,White,899,11.4,97.0,6859819.0
+1774,37000,Miscellaneous,Miscellaneous,Michigan,Asian or Pacific Islander,20,16.3,93.6,9962311.0
+1775,37000,Miscellaneous,Miscellaneous,Michigan,Black or African American,179,16.3,93.6,9962311.0
+1776,37000,Miscellaneous,Miscellaneous,Michigan,White,1617,16.3,93.6,9962311.0
+1777,37000,Miscellaneous,Miscellaneous,Michigan,Other Races and Unknown combined,17,16.3,93.6,9962311.0
+1778,37000,Miscellaneous,Miscellaneous,Minnesota,Asian or Pacific Islander,19,10.8,95.2,5576606.0
+1779,37000,Miscellaneous,Miscellaneous,Minnesota,Black or African American,30,10.8,95.2,5576606.0
+1780,37000,Miscellaneous,Miscellaneous,Minnesota,White,1024,10.8,95.2,5576606.0
+1781,37000,Miscellaneous,Miscellaneous,Minnesota,Other Races and Unknown combined,45,10.8,95.2,5576606.0
+1782,37000,Miscellaneous,Miscellaneous,Mississippi,Black or African American,117,22.3,86.0,2984100.0
+1783,37000,Miscellaneous,Miscellaneous,Mississippi,White,316,22.3,86.0,2984100.0
+1784,37000,Miscellaneous,Miscellaneous,Missouri,American Indian or Alaska Native,0,15.3,89.4,6113532.0
+1785,37000,Miscellaneous,Miscellaneous,Missouri,Black or African American,93,15.3,89.4,6113532.0
+1786,37000,Miscellaneous,Miscellaneous,Missouri,White,996,15.3,89.4,6113532.0
+1787,37000,Miscellaneous,Miscellaneous,Montana,Black or African American,0,14.9,90.0,1050493.0
+1788,37000,Miscellaneous,Miscellaneous,Montana,White,267,14.9,90.0,1050493.0
+1789,37000,Miscellaneous,Miscellaneous,Nebraska,White,342,12.4,90.3,1920076.0
+1790,37000,Miscellaneous,Miscellaneous,Nebraska,Other Races and Unknown combined,0,12.4,90.3,1920076.0
+1791,37000,Miscellaneous,Miscellaneous,Nevada,Asian or Pacific Islander,17,14.9,86.9,2998039.0
+1792,37000,Miscellaneous,Miscellaneous,Nevada,Black or African American,24,14.9,86.9,2998039.0
+1793,37000,Miscellaneous,Miscellaneous,Nevada,White,344,14.9,86.9,2998039.0
+1794,37000,Miscellaneous,Miscellaneous,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+1795,37000,Miscellaneous,Miscellaneous,New Hampshire,White,240,8.5,92.8,1342795.0
+1796,37000,Miscellaneous,Miscellaneous,New Jersey,Asian or Pacific Islander,56,10.9,90.8,9005644.0
+1797,37000,Miscellaneous,Miscellaneous,New Jersey,Black or African American,172,10.9,90.8,9005644.0
+1798,37000,Miscellaneous,Miscellaneous,New Jersey,White,1437,10.9,90.8,9005644.0
+1799,37000,Miscellaneous,Miscellaneous,New Jersey,Other Races and Unknown combined,106,10.9,90.8,9005644.0
+1800,37000,Miscellaneous,Miscellaneous,New Mexico,American Indian or Alaska Native,24,20.9,88.8,2088070.0
+1801,37000,Miscellaneous,Miscellaneous,New Mexico,White,262,20.9,88.8,2088070.0
+1802,37000,Miscellaneous,Miscellaneous,New York,Asian or Pacific Islander,186,15.5,92.9,19849399.0
+1803,37000,Miscellaneous,Miscellaneous,New York,Black or African American,478,15.5,92.9,19849399.0
+1804,37000,Miscellaneous,Miscellaneous,New York,White,3407,15.5,92.9,19849399.0
+1805,37000,Miscellaneous,Miscellaneous,New York,Other Races and Unknown combined,112,15.5,92.9,19849399.0
+1806,37000,Miscellaneous,Miscellaneous,North Carolina,Asian or Pacific Islander,20,16.8,87.8,10273419.0
+1807,37000,Miscellaneous,Miscellaneous,North Carolina,Black or African American,332,16.8,87.8,10273419.0
+1808,37000,Miscellaneous,Miscellaneous,North Carolina,White,1418,16.8,87.8,10273419.0
+1809,37000,Miscellaneous,Miscellaneous,North Carolina,Other Races and Unknown combined,48,16.8,87.8,10273419.0
+1810,37000,Miscellaneous,Miscellaneous,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+1811,37000,Miscellaneous,Miscellaneous,North Dakota,White,117,11.2,92.4,755393.0
+1812,37000,Miscellaneous,Miscellaneous,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+1813,37000,Miscellaneous,Miscellaneous,Ohio,Black or African American,173,15.4,93.3,11658609.0
+1814,37000,Miscellaneous,Miscellaneous,Ohio,White,1610,15.4,93.3,11658609.0
+1815,37000,Miscellaneous,Miscellaneous,Ohio,Other Races and Unknown combined,19,15.4,93.3,11658609.0
+1816,37000,Miscellaneous,Miscellaneous,Oklahoma,American Indian or Alaska Native,70,16.5,84.0,3930864.0
+1817,37000,Miscellaneous,Miscellaneous,Oklahoma,Black or African American,33,16.5,84.0,3930864.0
+1818,37000,Miscellaneous,Miscellaneous,Oklahoma,White,607,16.5,84.0,3930864.0
+1819,37000,Miscellaneous,Miscellaneous,Oregon,Asian or Pacific Islander,20,15.7,92.6,4142776.0
+1820,37000,Miscellaneous,Miscellaneous,Oregon,White,547,15.7,92.6,4142776.0
+1821,37000,Miscellaneous,Miscellaneous,Pennsylvania,Asian or Pacific Islander,26,13.3,93.2,12805537.0
+1822,37000,Miscellaneous,Miscellaneous,Pennsylvania,Black or African American,202,13.3,93.2,12805537.0
+1823,37000,Miscellaneous,Miscellaneous,Pennsylvania,White,2656,13.3,93.2,12805537.0
+1824,37000,Miscellaneous,Miscellaneous,Pennsylvania,Other Races and Unknown combined,28,13.3,93.2,12805537.0
+1825,37000,Miscellaneous,Miscellaneous,Rhode Island,White,149,13.8,94.9,1059639.0
+1826,37000,Miscellaneous,Miscellaneous,South Carolina,Black or African American,189,17.2,87.9,5024369.0
+1827,37000,Miscellaneous,Miscellaneous,South Carolina,White,682,17.2,87.9,5024369.0
+1828,37000,Miscellaneous,Miscellaneous,South Dakota,White,161,14.0,89.6,869666.0
+1829,37000,Miscellaneous,Miscellaneous,Tennessee,Black or African American,148,17.2,89.4,6715984.0
+1830,37000,Miscellaneous,Miscellaneous,Tennessee,White,1018,17.2,89.4,6715984.0
+1831,37000,Miscellaneous,Miscellaneous,Tennessee,Other Races and Unknown combined,26,17.2,89.4,6715984.0
+1832,37000,Miscellaneous,Miscellaneous,Texas,Asian or Pacific Islander,65,16.7,81.4,28304596.0
+1833,37000,Miscellaneous,Miscellaneous,Texas,Black or African American,396,16.7,81.4,28304596.0
+1834,37000,Miscellaneous,Miscellaneous,Texas,White,3443,16.7,81.4,28304596.0
+1835,37000,Miscellaneous,Miscellaneous,Texas,Other Races and Unknown combined,34,16.7,81.4,28304596.0
+1836,37000,Miscellaneous,Miscellaneous,Utah,White,275,11.7,90.3,3101833.0
+1837,37000,Miscellaneous,Miscellaneous,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+1838,37000,Miscellaneous,Miscellaneous,Vermont,Asian or Pacific Islander,0,11.6,95.3,623657.0
+1839,37000,Miscellaneous,Miscellaneous,Vermont,White,127,11.6,95.3,623657.0
+1840,37000,Miscellaneous,Miscellaneous,Virginia,American Indian or Alaska Native,0,11.4,90.1,8470020.0
+1841,37000,Miscellaneous,Miscellaneous,Virginia,Asian or Pacific Islander,17,11.4,90.1,8470020.0
+1842,37000,Miscellaneous,Miscellaneous,Virginia,Black or African American,167,11.4,90.1,8470020.0
+1843,37000,Miscellaneous,Miscellaneous,Virginia,White,678,11.4,90.1,8470020.0
+1844,37000,Miscellaneous,Miscellaneous,Virginia,Other Races and Unknown combined,25,11.4,90.1,8470020.0
+1845,37000,Miscellaneous,Miscellaneous,Washington,American Indian or Alaska Native,26,12.7,93.1,7405743.0
+1846,37000,Miscellaneous,Miscellaneous,Washington,Asian or Pacific Islander,69,12.7,93.1,7405743.0
+1847,37000,Miscellaneous,Miscellaneous,Washington,Black or African American,30,12.7,93.1,7405743.0
+1848,37000,Miscellaneous,Miscellaneous,Washington,White,1042,12.7,93.1,7405743.0
+1849,37000,Miscellaneous,Miscellaneous,West Virginia,American Indian or Alaska Native,0,17.7,93.5,1815857.0
+1850,37000,Miscellaneous,Miscellaneous,West Virginia,Asian or Pacific Islander,0,17.7,93.5,1815857.0
+1851,37000,Miscellaneous,Miscellaneous,West Virginia,White,336,17.7,93.5,1815857.0
+1852,37000,Miscellaneous,Miscellaneous,Wisconsin,Black or African American,41,12.7,93.7,5795483.0
+1853,37000,Miscellaneous,Miscellaneous,Wisconsin,White,1088,12.7,93.7,5795483.0
+1854,37000,Miscellaneous,Miscellaneous,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+1855,37000,Miscellaneous,Miscellaneous,Wyoming,White,95,11.6,86.6,579315.0
+1856,37000,Miscellaneous,Miscellaneous,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0

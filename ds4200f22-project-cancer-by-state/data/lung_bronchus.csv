@@ -1,0 +1,164 @@
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
+0,22030,Lung and Bronchus,Respiratory System,Alabama,Black or African American,688,18.4,89.2,4874747.0
+1,22030,Lung and Bronchus,Respiratory System,Alabama,White,3184,18.4,89.2,4874747.0
+2,22030,Lung and Bronchus,Respiratory System,Alaska,American Indian or Alaska Native,86,10.1,84.5,739795.0
+3,22030,Lung and Bronchus,Respiratory System,Alaska,White,246,10.1,84.5,739795.0
+4,22030,Lung and Bronchus,Respiratory System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+5,22030,Lung and Bronchus,Respiratory System,Arizona,American Indian or Alaska Native,41,17.7,88.1,7016270.0
+6,22030,Lung and Bronchus,Respiratory System,Arizona,Asian or Pacific Islander,57,17.7,88.1,7016270.0
+7,22030,Lung and Bronchus,Respiratory System,Arizona,Black or African American,102,17.7,88.1,7016270.0
+8,22030,Lung and Bronchus,Respiratory System,Arizona,White,3737,17.7,88.1,7016270.0
+9,22030,Lung and Bronchus,Respiratory System,Arizona,Other Races and Unknown combined,38,17.7,88.1,7016270.0
+10,22030,Lung and Bronchus,Respiratory System,Arkansas,American Indian or Alaska Native,18,18.8,90.6,3004279.0
+11,22030,Lung and Bronchus,Respiratory System,Arkansas,Black or African American,319,18.8,90.6,3004279.0
+12,22030,Lung and Bronchus,Respiratory System,Arkansas,White,2534,18.8,90.6,3004279.0
+13,22030,Lung and Bronchus,Respiratory System,California,American Indian or Alaska Native,122,15.8,91.6,39536653.0
+14,22030,Lung and Bronchus,Respiratory System,California,Asian or Pacific Islander,2284,15.8,91.6,39536653.0
+15,22030,Lung and Bronchus,Respiratory System,California,Black or African American,1304,15.8,91.6,39536653.0
+16,22030,Lung and Bronchus,Respiratory System,California,White,13152,15.8,91.6,39536653.0
+17,22030,Lung and Bronchus,Respiratory System,California,Other Races and Unknown combined,86,15.8,91.6,39536653.0
+18,22030,Lung and Bronchus,Respiratory System,Colorado,Asian or Pacific Islander,42,12.2,91.4,5607154.0
+19,22030,Lung and Bronchus,Respiratory System,Colorado,Black or African American,84,12.2,91.4,5607154.0
+20,22030,Lung and Bronchus,Respiratory System,Colorado,White,2158,12.2,91.4,5607154.0
+21,22030,Lung and Bronchus,Respiratory System,Connecticut,Asian or Pacific Islander,23,10.4,94.2,3588184.0
+22,22030,Lung and Bronchus,Respiratory System,Connecticut,Black or African American,197,10.4,94.2,3588184.0
+23,22030,Lung and Bronchus,Respiratory System,Connecticut,White,2327,10.4,94.2,3588184.0
+24,22030,Lung and Bronchus,Respiratory System,Connecticut,Other Races and Unknown combined,30,10.4,94.2,3588184.0
+25,22030,Lung and Bronchus,Respiratory System,Delaware,Black or African American,120,12.0,93.3,961939.0
+26,22030,Lung and Bronchus,Respiratory System,Delaware,White,754,12.0,93.3,961939.0
+27,22030,Lung and Bronchus,Respiratory System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+28,22030,Lung and Bronchus,Respiratory System,District of Columbia,Black or African American,220,17.9,95.9,693972.0
+29,22030,Lung and Bronchus,Respiratory System,District of Columbia,White,48,17.9,95.9,693972.0
+30,22030,Lung and Bronchus,Respiratory System,Florida,American Indian or Alaska Native,19,16.1,84.6,20984400.0
+31,22030,Lung and Bronchus,Respiratory System,Florida,Asian or Pacific Islander,148,16.1,84.6,20984400.0
+32,22030,Lung and Bronchus,Respiratory System,Florida,Black or African American,1286,16.1,84.6,20984400.0
+33,22030,Lung and Bronchus,Respiratory System,Florida,White,14547,16.1,84.6,20984400.0
+34,22030,Lung and Bronchus,Respiratory System,Florida,Other Races and Unknown combined,225,16.1,84.6,20984400.0
+35,22030,Lung and Bronchus,Respiratory System,Georgia,Asian or Pacific Islander,72,17.8,85.1,10429379.0
+36,22030,Lung and Bronchus,Respiratory System,Georgia,Black or African American,1469,17.8,85.1,10429379.0
+37,22030,Lung and Bronchus,Respiratory System,Georgia,White,4953,17.8,85.1,10429379.0
+38,22030,Lung and Bronchus,Respiratory System,Hawaii,Asian or Pacific Islander,572,10.8,95.8,1427538.0
+39,22030,Lung and Bronchus,Respiratory System,Hawaii,White,218,10.8,95.8,1427538.0
+40,22030,Lung and Bronchus,Respiratory System,Idaho,White,909,15.2,88.2,1716943.0
+41,22030,Lung and Bronchus,Respiratory System,Illinois,Asian or Pacific Islander,208,14.0,92.5,12802023.0
+42,22030,Lung and Bronchus,Respiratory System,Illinois,Black or African American,1426,14.0,92.5,12802023.0
+43,22030,Lung and Bronchus,Respiratory System,Illinois,White,7791,14.0,92.5,12802023.0
+44,22030,Lung and Bronchus,Respiratory System,Illinois,Other Races and Unknown combined,37,14.0,92.5,12802023.0
+45,22030,Lung and Bronchus,Respiratory System,Indiana,Asian or Pacific Islander,24,15.0,90.5,6666818.0
+46,22030,Lung and Bronchus,Respiratory System,Indiana,Black or African American,367,15.0,90.5,6666818.0
+47,22030,Lung and Bronchus,Respiratory System,Indiana,White,5184,15.0,90.5,6666818.0
+48,22030,Lung and Bronchus,Respiratory System,Iowa,Black or African American,39,12.3,95.0,3145711.0
+49,22030,Lung and Bronchus,Respiratory System,Iowa,White,2402,12.3,95.0,3145711.0
+50,22030,Lung and Bronchus,Respiratory System,Kansas,Black or African American,107,13.3,90.1,2913123.0
+51,22030,Lung and Bronchus,Respiratory System,Kansas,White,1827,13.3,90.1,2913123.0
+52,22030,Lung and Bronchus,Respiratory System,Kentucky,Black or African American,257,18.8,94.0,4454189.0
+53,22030,Lung and Bronchus,Respiratory System,Kentucky,White,4567,18.8,94.0,4454189.0
+54,22030,Lung and Bronchus,Respiratory System,Louisiana,Asian or Pacific Islander,23,19.7,88.2,4684333.0
+55,22030,Lung and Bronchus,Respiratory System,Louisiana,Black or African American,943,19.7,88.2,4684333.0
+56,22030,Lung and Bronchus,Respiratory System,Louisiana,White,2494,19.7,88.2,4684333.0
+57,22030,Lung and Bronchus,Respiratory System,Maine,White,1330,13.5,89.9,1335907.0
+58,22030,Lung and Bronchus,Respiratory System,Maryland,Asian or Pacific Islander,83,9.9,93.0,6052177.0
+59,22030,Lung and Bronchus,Respiratory System,Maryland,Black or African American,894,9.9,93.0,6052177.0
+60,22030,Lung and Bronchus,Respiratory System,Maryland,White,2814,9.9,93.0,6052177.0
+61,22030,Lung and Bronchus,Respiratory System,Massachusetts,Asian or Pacific Islander,145,11.4,97.0,6859819.0
+62,22030,Lung and Bronchus,Respiratory System,Massachusetts,Black or African American,200,11.4,97.0,6859819.0
+63,22030,Lung and Bronchus,Respiratory System,Massachusetts,White,4748,11.4,97.0,6859819.0
+64,22030,Lung and Bronchus,Respiratory System,Massachusetts,Other Races and Unknown combined,21,11.4,97.0,6859819.0
+65,22030,Lung and Bronchus,Respiratory System,Michigan,American Indian or Alaska Native,81,16.3,93.6,9962311.0
+66,22030,Lung and Bronchus,Respiratory System,Michigan,Asian or Pacific Islander,51,16.3,93.6,9962311.0
+67,22030,Lung and Bronchus,Respiratory System,Michigan,Black or African American,948,16.3,93.6,9962311.0
+68,22030,Lung and Bronchus,Respiratory System,Michigan,White,6714,16.3,93.6,9962311.0
+69,22030,Lung and Bronchus,Respiratory System,Michigan,Other Races and Unknown combined,16,16.3,93.6,9962311.0
+70,22030,Lung and Bronchus,Respiratory System,Minnesota,American Indian or Alaska Native,60,10.8,95.2,5576606.0
+71,22030,Lung and Bronchus,Respiratory System,Minnesota,Asian or Pacific Islander,54,10.8,95.2,5576606.0
+72,22030,Lung and Bronchus,Respiratory System,Minnesota,Black or African American,114,10.8,95.2,5576606.0
+73,22030,Lung and Bronchus,Respiratory System,Minnesota,White,3448,10.8,95.2,5576606.0
+74,22030,Lung and Bronchus,Respiratory System,Minnesota,Other Races and Unknown combined,31,10.8,95.2,5576606.0
+75,22030,Lung and Bronchus,Respiratory System,Mississippi,Black or African American,679,22.3,86.0,2984100.0
+76,22030,Lung and Bronchus,Respiratory System,Mississippi,White,1879,22.3,86.0,2984100.0
+77,22030,Lung and Bronchus,Respiratory System,Mississippi,Other Races and Unknown combined,0,22.3,86.0,2984100.0
+78,22030,Lung and Bronchus,Respiratory System,Missouri,Asian or Pacific Islander,26,15.3,89.4,6113532.0
+79,22030,Lung and Bronchus,Respiratory System,Missouri,Black or African American,515,15.3,89.4,6113532.0
+80,22030,Lung and Bronchus,Respiratory System,Missouri,White,4798,15.3,89.4,6113532.0
+81,22030,Lung and Bronchus,Respiratory System,Montana,American Indian or Alaska Native,39,14.9,90.0,1050493.0
+82,22030,Lung and Bronchus,Respiratory System,Montana,White,679,14.9,90.0,1050493.0
+83,22030,Lung and Bronchus,Respiratory System,Nebraska,Black or African American,43,12.4,90.3,1920076.0
+84,22030,Lung and Bronchus,Respiratory System,Nebraska,White,1197,12.4,90.3,1920076.0
+85,22030,Lung and Bronchus,Respiratory System,Nevada,Asian or Pacific Islander,94,14.9,86.9,2998039.0
+86,22030,Lung and Bronchus,Respiratory System,Nevada,Black or African American,101,14.9,86.9,2998039.0
+87,22030,Lung and Bronchus,Respiratory System,Nevada,White,1310,14.9,86.9,2998039.0
+88,22030,Lung and Bronchus,Respiratory System,Nevada,Other Races and Unknown combined,24,14.9,86.9,2998039.0
+89,22030,Lung and Bronchus,Respiratory System,New Hampshire,White,1084,8.5,92.8,1342795.0
+90,22030,Lung and Bronchus,Respiratory System,New Jersey,Asian or Pacific Islander,175,10.9,90.8,9005644.0
+91,22030,Lung and Bronchus,Respiratory System,New Jersey,Black or African American,671,10.9,90.8,9005644.0
+92,22030,Lung and Bronchus,Respiratory System,New Jersey,White,5041,10.9,90.8,9005644.0
+93,22030,Lung and Bronchus,Respiratory System,New Jersey,Other Races and Unknown combined,42,10.9,90.8,9005644.0
+94,22030,Lung and Bronchus,Respiratory System,New Mexico,American Indian or Alaska Native,21,20.9,88.8,2088070.0
+95,22030,Lung and Bronchus,Respiratory System,New Mexico,Black or African American,16,20.9,88.8,2088070.0
+96,22030,Lung and Bronchus,Respiratory System,New Mexico,White,913,20.9,88.8,2088070.0
+97,22030,Lung and Bronchus,Respiratory System,New York,Asian or Pacific Islander,695,15.5,92.9,19849399.0
+98,22030,Lung and Bronchus,Respiratory System,New York,Black or African American,1704,15.5,92.9,19849399.0
+99,22030,Lung and Bronchus,Respiratory System,New York,White,11486,15.5,92.9,19849399.0
+100,22030,Lung and Bronchus,Respiratory System,New York,Other Races and Unknown combined,87,15.5,92.9,19849399.0
+101,22030,Lung and Bronchus,Respiratory System,North Carolina,American Indian or Alaska Native,72,16.8,87.8,10273419.0
+102,22030,Lung and Bronchus,Respiratory System,North Carolina,Asian or Pacific Islander,64,16.8,87.8,10273419.0
+103,22030,Lung and Bronchus,Respiratory System,North Carolina,Black or African American,1426,16.8,87.8,10273419.0
+104,22030,Lung and Bronchus,Respiratory System,North Carolina,White,6502,16.8,87.8,10273419.0
+105,22030,Lung and Bronchus,Respiratory System,North Carolina,Other Races and Unknown combined,65,16.8,87.8,10273419.0
+106,22030,Lung and Bronchus,Respiratory System,North Dakota,American Indian or Alaska Native,30,11.2,92.4,755393.0
+107,22030,Lung and Bronchus,Respiratory System,North Dakota,White,422,11.2,92.4,755393.0
+108,22030,Lung and Bronchus,Respiratory System,Ohio,Asian or Pacific Islander,32,15.4,93.3,11658609.0
+109,22030,Lung and Bronchus,Respiratory System,Ohio,Black or African American,1052,15.4,93.3,11658609.0
+110,22030,Lung and Bronchus,Respiratory System,Ohio,White,8713,15.4,93.3,11658609.0
+111,22030,Lung and Bronchus,Respiratory System,Ohio,Other Races and Unknown combined,39,15.4,93.3,11658609.0
+112,22030,Lung and Bronchus,Respiratory System,Oklahoma,American Indian or Alaska Native,288,16.5,84.0,3930864.0
+113,22030,Lung and Bronchus,Respiratory System,Oklahoma,Asian or Pacific Islander,25,16.5,84.0,3930864.0
+114,22030,Lung and Bronchus,Respiratory System,Oklahoma,Black or African American,154,16.5,84.0,3930864.0
+115,22030,Lung and Bronchus,Respiratory System,Oklahoma,White,2611,16.5,84.0,3930864.0
+116,22030,Lung and Bronchus,Respiratory System,Oregon,American Indian or Alaska Native,40,15.7,92.6,4142776.0
+117,22030,Lung and Bronchus,Respiratory System,Oregon,Asian or Pacific Islander,58,15.7,92.6,4142776.0
+118,22030,Lung and Bronchus,Respiratory System,Oregon,Black or African American,45,15.7,92.6,4142776.0
+119,22030,Lung and Bronchus,Respiratory System,Oregon,White,2341,15.7,92.6,4142776.0
+120,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Asian or Pacific Islander,110,13.3,93.2,12805537.0
+121,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Black or African American,1011,13.3,93.2,12805537.0
+122,22030,Lung and Bronchus,Respiratory System,Pennsylvania,White,9653,13.3,93.2,12805537.0
+123,22030,Lung and Bronchus,Respiratory System,Pennsylvania,Other Races and Unknown combined,31,13.3,93.2,12805537.0
+124,22030,Lung and Bronchus,Respiratory System,Rhode Island,Asian or Pacific Islander,16,13.8,94.9,1059639.0
+125,22030,Lung and Bronchus,Respiratory System,Rhode Island,Black or African American,36,13.8,94.9,1059639.0
+126,22030,Lung and Bronchus,Respiratory System,Rhode Island,White,860,13.8,94.9,1059639.0
+127,22030,Lung and Bronchus,Respiratory System,South Carolina,Asian or Pacific Islander,25,17.2,87.9,5024369.0
+128,22030,Lung and Bronchus,Respiratory System,South Carolina,Black or African American,837,17.2,87.9,5024369.0
+129,22030,Lung and Bronchus,Respiratory System,South Carolina,White,3135,17.2,87.9,5024369.0
+130,22030,Lung and Bronchus,Respiratory System,South Dakota,American Indian or Alaska Native,40,14.0,89.6,869666.0
+131,22030,Lung and Bronchus,Respiratory System,South Dakota,White,544,14.0,89.6,869666.0
+132,22030,Lung and Bronchus,Respiratory System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+133,22030,Lung and Bronchus,Respiratory System,Tennessee,Asian or Pacific Islander,36,17.2,89.4,6715984.0
+134,22030,Lung and Bronchus,Respiratory System,Tennessee,Black or African American,692,17.2,89.4,6715984.0
+135,22030,Lung and Bronchus,Respiratory System,Tennessee,White,5450,17.2,89.4,6715984.0
+136,22030,Lung and Bronchus,Respiratory System,Tennessee,Other Races and Unknown combined,18,17.2,89.4,6715984.0
+137,22030,Lung and Bronchus,Respiratory System,Texas,American Indian or Alaska Native,40,16.7,81.4,28304596.0
+138,22030,Lung and Bronchus,Respiratory System,Texas,Asian or Pacific Islander,257,16.7,81.4,28304596.0
+139,22030,Lung and Bronchus,Respiratory System,Texas,Black or African American,1604,16.7,81.4,28304596.0
+140,22030,Lung and Bronchus,Respiratory System,Texas,White,11137,16.7,81.4,28304596.0
+141,22030,Lung and Bronchus,Respiratory System,Texas,Other Races and Unknown combined,42,16.7,81.4,28304596.0
+142,22030,Lung and Bronchus,Respiratory System,Utah,American Indian or Alaska Native,0,11.7,90.3,3101833.0
+143,22030,Lung and Bronchus,Respiratory System,Utah,White,615,11.7,90.3,3101833.0
+144,22030,Lung and Bronchus,Respiratory System,Vermont,White,512,11.6,95.3,623657.0
+145,22030,Lung and Bronchus,Respiratory System,Virginia,Asian or Pacific Islander,129,11.4,90.1,8470020.0
+146,22030,Lung and Bronchus,Respiratory System,Virginia,Black or African American,932,11.4,90.1,8470020.0
+147,22030,Lung and Bronchus,Respiratory System,Virginia,White,4176,11.4,90.1,8470020.0
+148,22030,Lung and Bronchus,Respiratory System,Virginia,Other Races and Unknown combined,54,11.4,90.1,8470020.0
+149,22030,Lung and Bronchus,Respiratory System,Washington,American Indian or Alaska Native,64,12.7,93.1,7405743.0
+150,22030,Lung and Bronchus,Respiratory System,Washington,Asian or Pacific Islander,210,12.7,93.1,7405743.0
+151,22030,Lung and Bronchus,Respiratory System,Washington,Black or African American,112,12.7,93.1,7405743.0
+152,22030,Lung and Bronchus,Respiratory System,Washington,White,3895,12.7,93.1,7405743.0
+153,22030,Lung and Bronchus,Respiratory System,Washington,Other Races and Unknown combined,27,12.7,93.1,7405743.0
+154,22030,Lung and Bronchus,Respiratory System,West Virginia,Black or African American,34,17.7,93.5,1815857.0
+155,22030,Lung and Bronchus,Respiratory System,West Virginia,White,1968,17.7,93.5,1815857.0
+156,22030,Lung and Bronchus,Respiratory System,West Virginia,Other Races and Unknown combined,22,17.7,93.5,1815857.0
+157,22030,Lung and Bronchus,Respiratory System,Wisconsin,American Indian or Alaska Native,31,12.7,93.7,5795483.0
+158,22030,Lung and Bronchus,Respiratory System,Wisconsin,Asian or Pacific Islander,40,12.7,93.7,5795483.0
+159,22030,Lung and Bronchus,Respiratory System,Wisconsin,Black or African American,233,12.7,93.7,5795483.0
+160,22030,Lung and Bronchus,Respiratory System,Wisconsin,White,3810,12.7,93.7,5795483.0
+161,22030,Lung and Bronchus,Respiratory System,Wisconsin,Other Races and Unknown combined,18,12.7,93.7,5795483.0
+162,22030,Lung and Bronchus,Respiratory System,Wyoming,White,269,11.6,86.6,579315.0

@@ -1,0 +1,143 @@
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
+0,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alabama,American Indian or Alaska Native,0,18.4,89.2,4874747.0
+1,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alabama,Black or African American,112,18.4,89.2,4874747.0
+2,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alabama,White,944,18.4,89.2,4874747.0
+3,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alabama,Other Races and Unknown combined,18,18.4,89.2,4874747.0
+4,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alaska,American Indian or Alaska Native,16,10.1,84.5,739795.0
+5,29010,"Urinary Bladder, invasive and in situ",Urinary System,Alaska,White,118,10.1,84.5,739795.0
+6,29010,"Urinary Bladder, invasive and in situ",Urinary System,Arizona,Asian or Pacific Islander,22,17.7,88.1,7016270.0
+7,29010,"Urinary Bladder, invasive and in situ",Urinary System,Arizona,White,1447,17.7,88.1,7016270.0
+8,29010,"Urinary Bladder, invasive and in situ",Urinary System,Arizona,Other Races and Unknown combined,75,17.7,88.1,7016270.0
+9,29010,"Urinary Bladder, invasive and in situ",Urinary System,Arkansas,Black or African American,40,18.8,90.6,3004279.0
+10,29010,"Urinary Bladder, invasive and in situ",Urinary System,Arkansas,White,613,18.8,90.6,3004279.0
+11,29010,"Urinary Bladder, invasive and in situ",Urinary System,California,American Indian or Alaska Native,28,15.8,91.6,39536653.0
+12,29010,"Urinary Bladder, invasive and in situ",Urinary System,California,Asian or Pacific Islander,533,15.8,91.6,39536653.0
+13,29010,"Urinary Bladder, invasive and in situ",Urinary System,California,Black or African American,294,15.8,91.6,39536653.0
+14,29010,"Urinary Bladder, invasive and in situ",Urinary System,California,White,5676,15.8,91.6,39536653.0
+15,29010,"Urinary Bladder, invasive and in situ",Urinary System,California,Other Races and Unknown combined,167,15.8,91.6,39536653.0
+16,29010,"Urinary Bladder, invasive and in situ",Urinary System,Colorado,Black or African American,22,12.2,91.4,5607154.0
+17,29010,"Urinary Bladder, invasive and in situ",Urinary System,Colorado,White,919,12.2,91.4,5607154.0
+18,29010,"Urinary Bladder, invasive and in situ",Urinary System,Colorado,Other Races and Unknown combined,26,12.2,91.4,5607154.0
+19,29010,"Urinary Bladder, invasive and in situ",Urinary System,Connecticut,Black or African American,38,10.4,94.2,3588184.0
+20,29010,"Urinary Bladder, invasive and in situ",Urinary System,Connecticut,White,1083,10.4,94.2,3588184.0
+21,29010,"Urinary Bladder, invasive and in situ",Urinary System,Connecticut,Other Races and Unknown combined,26,10.4,94.2,3588184.0
+22,29010,"Urinary Bladder, invasive and in situ",Urinary System,Delaware,Black or African American,34,12.0,93.3,961939.0
+23,29010,"Urinary Bladder, invasive and in situ",Urinary System,Delaware,White,260,12.0,93.3,961939.0
+24,29010,"Urinary Bladder, invasive and in situ",Urinary System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+25,29010,"Urinary Bladder, invasive and in situ",Urinary System,District of Columbia,Asian or Pacific Islander,0,17.9,95.9,693972.0
+26,29010,"Urinary Bladder, invasive and in situ",Urinary System,District of Columbia,Black or African American,48,17.9,95.9,693972.0
+27,29010,"Urinary Bladder, invasive and in situ",Urinary System,District of Columbia,White,21,17.9,95.9,693972.0
+28,29010,"Urinary Bladder, invasive and in situ",Urinary System,Florida,Asian or Pacific Islander,32,16.1,84.6,20984400.0
+29,29010,"Urinary Bladder, invasive and in situ",Urinary System,Florida,Black or African American,239,16.1,84.6,20984400.0
+30,29010,"Urinary Bladder, invasive and in situ",Urinary System,Florida,White,4833,16.1,84.6,20984400.0
+31,29010,"Urinary Bladder, invasive and in situ",Urinary System,Florida,Other Races and Unknown combined,158,16.1,84.6,20984400.0
+32,29010,"Urinary Bladder, invasive and in situ",Urinary System,Georgia,Asian or Pacific Islander,22,17.8,85.1,10429379.0
+33,29010,"Urinary Bladder, invasive and in situ",Urinary System,Georgia,Black or African American,264,17.8,85.1,10429379.0
+34,29010,"Urinary Bladder, invasive and in situ",Urinary System,Georgia,White,1549,17.8,85.1,10429379.0
+35,29010,"Urinary Bladder, invasive and in situ",Urinary System,Hawaii,Asian or Pacific Islander,136,10.8,95.8,1427538.0
+36,29010,"Urinary Bladder, invasive and in situ",Urinary System,Hawaii,White,116,10.8,95.8,1427538.0
+37,29010,"Urinary Bladder, invasive and in situ",Urinary System,Idaho,White,369,15.2,88.2,1716943.0
+38,29010,"Urinary Bladder, invasive and in situ",Urinary System,Illinois,Asian or Pacific Islander,42,14.0,92.5,12802023.0
+39,29010,"Urinary Bladder, invasive and in situ",Urinary System,Illinois,Black or African American,210,14.0,92.5,12802023.0
+40,29010,"Urinary Bladder, invasive and in situ",Urinary System,Illinois,White,2866,14.0,92.5,12802023.0
+41,29010,"Urinary Bladder, invasive and in situ",Urinary System,Illinois,Other Races and Unknown combined,58,14.0,92.5,12802023.0
+42,29010,"Urinary Bladder, invasive and in situ",Urinary System,Indiana,Black or African American,53,15.0,90.5,6666818.0
+43,29010,"Urinary Bladder, invasive and in situ",Urinary System,Indiana,White,1516,15.0,90.5,6666818.0
+44,29010,"Urinary Bladder, invasive and in situ",Urinary System,Indiana,Other Races and Unknown combined,19,15.0,90.5,6666818.0
+45,29010,"Urinary Bladder, invasive and in situ",Urinary System,Iowa,White,828,12.3,95.0,3145711.0
+46,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kansas,Black or African American,19,13.3,90.1,2913123.0
+47,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kansas,White,612,13.3,90.1,2913123.0
+48,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kansas,Other Races and Unknown combined,20,13.3,90.1,2913123.0
+49,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+50,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kentucky,Black or African American,31,18.8,94.0,4454189.0
+51,29010,"Urinary Bladder, invasive and in situ",Urinary System,Kentucky,White,1091,18.8,94.0,4454189.0
+52,29010,"Urinary Bladder, invasive and in situ",Urinary System,Louisiana,Black or African American,133,19.7,88.2,4684333.0
+53,29010,"Urinary Bladder, invasive and in situ",Urinary System,Louisiana,White,766,19.7,88.2,4684333.0
+54,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maine,Asian or Pacific Islander,0,13.5,89.9,1335907.0
+55,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maine,White,496,13.5,89.9,1335907.0
+56,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maine,Other Races and Unknown combined,0,13.5,89.9,1335907.0
+57,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maryland,American Indian or Alaska Native,0,9.9,93.0,6052177.0
+58,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maryland,Asian or Pacific Islander,29,9.9,93.0,6052177.0
+59,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maryland,Black or African American,244,9.9,93.0,6052177.0
+60,29010,"Urinary Bladder, invasive and in situ",Urinary System,Maryland,White,1188,9.9,93.0,6052177.0
+61,29010,"Urinary Bladder, invasive and in situ",Urinary System,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+62,29010,"Urinary Bladder, invasive and in situ",Urinary System,Massachusetts,Asian or Pacific Islander,22,11.4,97.0,6859819.0
+63,29010,"Urinary Bladder, invasive and in situ",Urinary System,Massachusetts,Black or African American,47,11.4,97.0,6859819.0
+64,29010,"Urinary Bladder, invasive and in situ",Urinary System,Massachusetts,White,1807,11.4,97.0,6859819.0
+65,29010,"Urinary Bladder, invasive and in situ",Urinary System,Massachusetts,Other Races and Unknown combined,27,11.4,97.0,6859819.0
+66,29010,"Urinary Bladder, invasive and in situ",Urinary System,Michigan,Black or African American,162,16.3,93.6,9962311.0
+67,29010,"Urinary Bladder, invasive and in situ",Urinary System,Michigan,White,2371,16.3,93.6,9962311.0
+68,29010,"Urinary Bladder, invasive and in situ",Urinary System,Michigan,Other Races and Unknown combined,17,16.3,93.6,9962311.0
+69,29010,"Urinary Bladder, invasive and in situ",Urinary System,Minnesota,Black or African American,22,10.8,95.2,5576606.0
+70,29010,"Urinary Bladder, invasive and in situ",Urinary System,Minnesota,White,1299,10.8,95.2,5576606.0
+71,29010,"Urinary Bladder, invasive and in situ",Urinary System,Minnesota,Other Races and Unknown combined,62,10.8,95.2,5576606.0
+72,29010,"Urinary Bladder, invasive and in situ",Urinary System,Mississippi,Black or African American,94,22.3,86.0,2984100.0
+73,29010,"Urinary Bladder, invasive and in situ",Urinary System,Mississippi,White,462,22.3,86.0,2984100.0
+74,29010,"Urinary Bladder, invasive and in situ",Urinary System,Missouri,Black or African American,94,15.3,89.4,6113532.0
+75,29010,"Urinary Bladder, invasive and in situ",Urinary System,Missouri,White,1339,15.3,89.4,6113532.0
+76,29010,"Urinary Bladder, invasive and in situ",Urinary System,Montana,Asian or Pacific Islander,0,14.9,90.0,1050493.0
+77,29010,"Urinary Bladder, invasive and in situ",Urinary System,Montana,Black or African American,0,14.9,90.0,1050493.0
+78,29010,"Urinary Bladder, invasive and in situ",Urinary System,Montana,White,296,14.9,90.0,1050493.0
+79,29010,"Urinary Bladder, invasive and in situ",Urinary System,Montana,Other Races and Unknown combined,0,14.9,90.0,1050493.0
+80,29010,"Urinary Bladder, invasive and in situ",Urinary System,Nebraska,American Indian or Alaska Native,0,12.4,90.3,1920076.0
+81,29010,"Urinary Bladder, invasive and in situ",Urinary System,Nebraska,White,455,12.4,90.3,1920076.0
+82,29010,"Urinary Bladder, invasive and in situ",Urinary System,Nevada,White,556,14.9,86.9,2998039.0
+83,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Hampshire,White,435,8.5,92.8,1342795.0
+84,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Jersey,Asian or Pacific Islander,53,10.9,90.8,9005644.0
+85,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Jersey,Black or African American,161,10.9,90.8,9005644.0
+86,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Jersey,White,2201,10.9,90.8,9005644.0
+87,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Jersey,Other Races and Unknown combined,127,10.9,90.8,9005644.0
+88,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Mexico,American Indian or Alaska Native,16,20.9,88.8,2088070.0
+89,29010,"Urinary Bladder, invasive and in situ",Urinary System,New Mexico,White,353,20.9,88.8,2088070.0
+90,29010,"Urinary Bladder, invasive and in situ",Urinary System,New York,Asian or Pacific Islander,151,15.5,92.9,19849399.0
+91,29010,"Urinary Bladder, invasive and in situ",Urinary System,New York,Black or African American,379,15.5,92.9,19849399.0
+92,29010,"Urinary Bladder, invasive and in situ",Urinary System,New York,White,4726,15.5,92.9,19849399.0
+93,29010,"Urinary Bladder, invasive and in situ",Urinary System,New York,Other Races and Unknown combined,67,15.5,92.9,19849399.0
+94,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Carolina,Black or African American,237,16.8,87.8,10273419.0
+95,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Carolina,White,1938,16.8,87.8,10273419.0
+96,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Carolina,Other Races and Unknown combined,38,16.8,87.8,10273419.0
+97,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Dakota,Asian or Pacific Islander,0,11.2,92.4,755393.0
+98,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Dakota,Black or African American,0,11.2,92.4,755393.0
+99,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Dakota,White,144,11.2,92.4,755393.0
+100,29010,"Urinary Bladder, invasive and in situ",Urinary System,North Dakota,Other Races and Unknown combined,0,11.2,92.4,755393.0
+101,29010,"Urinary Bladder, invasive and in situ",Urinary System,Ohio,Black or African American,175,15.4,93.3,11658609.0
+102,29010,"Urinary Bladder, invasive and in situ",Urinary System,Ohio,White,2895,15.4,93.3,11658609.0
+103,29010,"Urinary Bladder, invasive and in situ",Urinary System,Ohio,Other Races and Unknown combined,30,15.4,93.3,11658609.0
+104,29010,"Urinary Bladder, invasive and in situ",Urinary System,Oklahoma,American Indian or Alaska Native,50,16.5,84.0,3930864.0
+105,29010,"Urinary Bladder, invasive and in situ",Urinary System,Oklahoma,Black or African American,41,16.5,84.0,3930864.0
+106,29010,"Urinary Bladder, invasive and in situ",Urinary System,Oklahoma,White,771,16.5,84.0,3930864.0
+107,29010,"Urinary Bladder, invasive and in situ",Urinary System,Oregon,White,978,15.7,92.6,4142776.0
+108,29010,"Urinary Bladder, invasive and in situ",Urinary System,Pennsylvania,Asian or Pacific Islander,34,13.3,93.2,12805537.0
+109,29010,"Urinary Bladder, invasive and in situ",Urinary System,Pennsylvania,Black or African American,199,13.3,93.2,12805537.0
+110,29010,"Urinary Bladder, invasive and in situ",Urinary System,Pennsylvania,White,3785,13.3,93.2,12805537.0
+111,29010,"Urinary Bladder, invasive and in situ",Urinary System,Pennsylvania,Other Races and Unknown combined,30,13.3,93.2,12805537.0
+112,29010,"Urinary Bladder, invasive and in situ",Urinary System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+113,29010,"Urinary Bladder, invasive and in situ",Urinary System,Rhode Island,White,308,13.8,94.9,1059639.0
+114,29010,"Urinary Bladder, invasive and in situ",Urinary System,South Carolina,Black or African American,127,17.2,87.9,5024369.0
+115,29010,"Urinary Bladder, invasive and in situ",Urinary System,South Carolina,White,993,17.2,87.9,5024369.0
+116,29010,"Urinary Bladder, invasive and in situ",Urinary System,South Dakota,Asian or Pacific Islander,0,14.0,89.6,869666.0
+117,29010,"Urinary Bladder, invasive and in situ",Urinary System,South Dakota,White,188,14.0,89.6,869666.0
+118,29010,"Urinary Bladder, invasive and in situ",Urinary System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+119,29010,"Urinary Bladder, invasive and in situ",Urinary System,Tennessee,Black or African American,109,17.2,89.4,6715984.0
+120,29010,"Urinary Bladder, invasive and in situ",Urinary System,Tennessee,White,1401,17.2,89.4,6715984.0
+121,29010,"Urinary Bladder, invasive and in situ",Urinary System,Texas,Asian or Pacific Islander,62,16.7,81.4,28304596.0
+122,29010,"Urinary Bladder, invasive and in situ",Urinary System,Texas,Black or African American,251,16.7,81.4,28304596.0
+123,29010,"Urinary Bladder, invasive and in situ",Urinary System,Texas,White,3317,16.7,81.4,28304596.0
+124,29010,"Urinary Bladder, invasive and in situ",Urinary System,Texas,Other Races and Unknown combined,36,16.7,81.4,28304596.0
+125,29010,"Urinary Bladder, invasive and in situ",Urinary System,Utah,White,396,11.7,90.3,3101833.0
+126,29010,"Urinary Bladder, invasive and in situ",Urinary System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+127,29010,"Urinary Bladder, invasive and in situ",Urinary System,Vermont,Black or African American,0,11.6,95.3,623657.0
+128,29010,"Urinary Bladder, invasive and in situ",Urinary System,Vermont,White,173,11.6,95.3,623657.0
+129,29010,"Urinary Bladder, invasive and in situ",Urinary System,Virginia,Asian or Pacific Islander,29,11.4,90.1,8470020.0
+130,29010,"Urinary Bladder, invasive and in situ",Urinary System,Virginia,Black or African American,217,11.4,90.1,8470020.0
+131,29010,"Urinary Bladder, invasive and in situ",Urinary System,Virginia,White,1356,11.4,90.1,8470020.0
+132,29010,"Urinary Bladder, invasive and in situ",Urinary System,Virginia,Other Races and Unknown combined,35,11.4,90.1,8470020.0
+133,29010,"Urinary Bladder, invasive and in situ",Urinary System,Washington,Asian or Pacific Islander,48,12.7,93.1,7405743.0
+134,29010,"Urinary Bladder, invasive and in situ",Urinary System,Washington,Black or African American,28,12.7,93.1,7405743.0
+135,29010,"Urinary Bladder, invasive and in situ",Urinary System,Washington,White,1582,12.7,93.1,7405743.0
+136,29010,"Urinary Bladder, invasive and in situ",Urinary System,Washington,Other Races and Unknown combined,22,12.7,93.1,7405743.0
+137,29010,"Urinary Bladder, invasive and in situ",Urinary System,West Virginia,White,511,17.7,93.5,1815857.0
+138,29010,"Urinary Bladder, invasive and in situ",Urinary System,Wisconsin,Black or African American,37,12.7,93.7,5795483.0
+139,29010,"Urinary Bladder, invasive and in situ",Urinary System,Wisconsin,White,1464,12.7,93.7,5795483.0
+140,29010,"Urinary Bladder, invasive and in situ",Urinary System,Wyoming,Black or African American,0,11.6,86.6,579315.0
+141,29010,"Urinary Bladder, invasive and in situ",Urinary System,Wyoming,White,138,11.6,86.6,579315.0

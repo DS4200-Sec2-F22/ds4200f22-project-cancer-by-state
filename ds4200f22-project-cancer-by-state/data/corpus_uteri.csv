@@ -1,0 +1,150 @@
+,Cancer_id,Cancer_type,Cancer_category,State_name,Race_name,Count,Percentage_population_below_poverty_in_state,Percentage_population_insured_in_state,State_population
+0,27020,Corpus Uteri,Female Genital System,Alabama,American Indian or Alaska Native,0,18.4,89.2,4874747.0
+1,27020,Corpus Uteri,Female Genital System,Alabama,Black or African American,154,18.4,89.2,4874747.0
+2,27020,Corpus Uteri,Female Genital System,Alabama,White,447,18.4,89.2,4874747.0
+3,27020,Corpus Uteri,Female Genital System,Alaska,White,64,10.1,84.5,739795.0
+4,27020,Corpus Uteri,Female Genital System,Alaska,Other Races and Unknown combined,0,10.1,84.5,739795.0
+5,27020,Corpus Uteri,Female Genital System,Arizona,American Indian or Alaska Native,40,17.7,88.1,7016270.0
+6,27020,Corpus Uteri,Female Genital System,Arizona,Asian or Pacific Islander,20,17.7,88.1,7016270.0
+7,27020,Corpus Uteri,Female Genital System,Arizona,Black or African American,30,17.7,88.1,7016270.0
+8,27020,Corpus Uteri,Female Genital System,Arizona,White,853,17.7,88.1,7016270.0
+9,27020,Corpus Uteri,Female Genital System,Arizona,Other Races and Unknown combined,18,17.7,88.1,7016270.0
+10,27020,Corpus Uteri,Female Genital System,Arkansas,Black or African American,49,18.8,90.6,3004279.0
+11,27020,Corpus Uteri,Female Genital System,Arkansas,White,363,18.8,90.6,3004279.0
+12,27020,Corpus Uteri,Female Genital System,California,American Indian or Alaska Native,45,15.8,91.6,39536653.0
+13,27020,Corpus Uteri,Female Genital System,California,Asian or Pacific Islander,758,15.8,91.6,39536653.0
+14,27020,Corpus Uteri,Female Genital System,California,Black or African American,347,15.8,91.6,39536653.0
+15,27020,Corpus Uteri,Female Genital System,California,White,4430,15.8,91.6,39536653.0
+16,27020,Corpus Uteri,Female Genital System,California,Other Races and Unknown combined,85,15.8,91.6,39536653.0
+17,27020,Corpus Uteri,Female Genital System,Colorado,Black or African American,18,12.2,91.4,5607154.0
+18,27020,Corpus Uteri,Female Genital System,Colorado,White,623,12.2,91.4,5607154.0
+19,27020,Corpus Uteri,Female Genital System,Connecticut,American Indian or Alaska Native,0,10.4,94.2,3588184.0
+20,27020,Corpus Uteri,Female Genital System,Connecticut,Black or African American,59,10.4,94.2,3588184.0
+21,27020,Corpus Uteri,Female Genital System,Connecticut,White,604,10.4,94.2,3588184.0
+22,27020,Corpus Uteri,Female Genital System,Connecticut,Other Races and Unknown combined,28,10.4,94.2,3588184.0
+23,27020,Corpus Uteri,Female Genital System,Delaware,American Indian or Alaska Native,0,12.0,93.3,961939.0
+24,27020,Corpus Uteri,Female Genital System,Delaware,Black or African American,31,12.0,93.3,961939.0
+25,27020,Corpus Uteri,Female Genital System,Delaware,White,156,12.0,93.3,961939.0
+26,27020,Corpus Uteri,Female Genital System,District of Columbia,American Indian or Alaska Native,0,17.9,95.9,693972.0
+27,27020,Corpus Uteri,Female Genital System,District of Columbia,Black or African American,57,17.9,95.9,693972.0
+28,27020,Corpus Uteri,Female Genital System,District of Columbia,White,19,17.9,95.9,693972.0
+29,27020,Corpus Uteri,Female Genital System,Florida,Asian or Pacific Islander,48,16.1,84.6,20984400.0
+30,27020,Corpus Uteri,Female Genital System,Florida,Black or African American,495,16.1,84.6,20984400.0
+31,27020,Corpus Uteri,Female Genital System,Florida,White,2775,16.1,84.6,20984400.0
+32,27020,Corpus Uteri,Female Genital System,Florida,Other Races and Unknown combined,79,16.1,84.6,20984400.0
+33,27020,Corpus Uteri,Female Genital System,Georgia,Asian or Pacific Islander,26,17.8,85.1,10429379.0
+34,27020,Corpus Uteri,Female Genital System,Georgia,Black or African American,432,17.8,85.1,10429379.0
+35,27020,Corpus Uteri,Female Genital System,Georgia,White,949,17.8,85.1,10429379.0
+36,27020,Corpus Uteri,Female Genital System,Hawaii,American Indian or Alaska Native,0,10.8,95.8,1427538.0
+37,27020,Corpus Uteri,Female Genital System,Hawaii,Asian or Pacific Islander,200,10.8,95.8,1427538.0
+38,27020,Corpus Uteri,Female Genital System,Hawaii,White,50,10.8,95.8,1427538.0
+39,27020,Corpus Uteri,Female Genital System,Idaho,Black or African American,0,15.2,88.2,1716943.0
+40,27020,Corpus Uteri,Female Genital System,Idaho,White,229,15.2,88.2,1716943.0
+41,27020,Corpus Uteri,Female Genital System,Illinois,Asian or Pacific Islander,73,14.0,92.5,12802023.0
+42,27020,Corpus Uteri,Female Genital System,Illinois,Black or African American,334,14.0,92.5,12802023.0
+43,27020,Corpus Uteri,Female Genital System,Illinois,White,1926,14.0,92.5,12802023.0
+44,27020,Corpus Uteri,Female Genital System,Illinois,Other Races and Unknown combined,31,14.0,92.5,12802023.0
+45,27020,Corpus Uteri,Female Genital System,Indiana,Black or African American,85,15.0,90.5,6666818.0
+46,27020,Corpus Uteri,Female Genital System,Indiana,White,1045,15.0,90.5,6666818.0
+47,27020,Corpus Uteri,Female Genital System,Iowa,White,574,12.3,95.0,3145711.0
+48,27020,Corpus Uteri,Female Genital System,Kansas,Black or African American,18,13.3,90.1,2913123.0
+49,27020,Corpus Uteri,Female Genital System,Kansas,White,446,13.3,90.1,2913123.0
+50,27020,Corpus Uteri,Female Genital System,Kentucky,American Indian or Alaska Native,0,18.8,94.0,4454189.0
+51,27020,Corpus Uteri,Female Genital System,Kentucky,Black or African American,55,18.8,94.0,4454189.0
+52,27020,Corpus Uteri,Female Genital System,Kentucky,White,688,18.8,94.0,4454189.0
+53,27020,Corpus Uteri,Female Genital System,Louisiana,Black or African American,166,19.7,88.2,4684333.0
+54,27020,Corpus Uteri,Female Genital System,Louisiana,White,407,19.7,88.2,4684333.0
+55,27020,Corpus Uteri,Female Genital System,Maine,White,310,13.5,89.9,1335907.0
+56,27020,Corpus Uteri,Female Genital System,Maine,Other Races and Unknown combined,0,13.5,89.9,1335907.0
+57,27020,Corpus Uteri,Female Genital System,Maryland,Asian or Pacific Islander,37,9.9,93.0,6052177.0
+58,27020,Corpus Uteri,Female Genital System,Maryland,Black or African American,326,9.9,93.0,6052177.0
+59,27020,Corpus Uteri,Female Genital System,Maryland,White,697,9.9,93.0,6052177.0
+60,27020,Corpus Uteri,Female Genital System,Maryland,Other Races and Unknown combined,24,9.9,93.0,6052177.0
+61,27020,Corpus Uteri,Female Genital System,Massachusetts,American Indian or Alaska Native,0,11.4,97.0,6859819.0
+62,27020,Corpus Uteri,Female Genital System,Massachusetts,Asian or Pacific Islander,42,11.4,97.0,6859819.0
+63,27020,Corpus Uteri,Female Genital System,Massachusetts,Black or African American,82,11.4,97.0,6859819.0
+64,27020,Corpus Uteri,Female Genital System,Massachusetts,White,1175,11.4,97.0,6859819.0
+65,27020,Corpus Uteri,Female Genital System,Massachusetts,Other Races and Unknown combined,30,11.4,97.0,6859819.0
+66,27020,Corpus Uteri,Female Genital System,Michigan,Asian or Pacific Islander,21,16.3,93.6,9962311.0
+67,27020,Corpus Uteri,Female Genital System,Michigan,Black or African American,214,16.3,93.6,9962311.0
+68,27020,Corpus Uteri,Female Genital System,Michigan,White,1582,16.3,93.6,9962311.0
+69,27020,Corpus Uteri,Female Genital System,Minnesota,Asian or Pacific Islander,21,10.8,95.2,5576606.0
+70,27020,Corpus Uteri,Female Genital System,Minnesota,Black or African American,28,10.8,95.2,5576606.0
+71,27020,Corpus Uteri,Female Genital System,Minnesota,White,1010,10.8,95.2,5576606.0
+72,27020,Corpus Uteri,Female Genital System,Minnesota,Other Races and Unknown combined,17,10.8,95.2,5576606.0
+73,27020,Corpus Uteri,Female Genital System,Mississippi,Black or African American,139,22.3,86.0,2984100.0
+74,27020,Corpus Uteri,Female Genital System,Mississippi,White,276,22.3,86.0,2984100.0
+75,27020,Corpus Uteri,Female Genital System,Missouri,Black or African American,96,15.3,89.4,6113532.0
+76,27020,Corpus Uteri,Female Genital System,Missouri,White,935,15.3,89.4,6113532.0
+77,27020,Corpus Uteri,Female Genital System,Montana,Asian or Pacific Islander,0,14.9,90.0,1050493.0
+78,27020,Corpus Uteri,Female Genital System,Montana,Black or African American,0,14.9,90.0,1050493.0
+79,27020,Corpus Uteri,Female Genital System,Montana,White,154,14.9,90.0,1050493.0
+80,27020,Corpus Uteri,Female Genital System,Nebraska,White,302,12.4,90.3,1920076.0
+81,27020,Corpus Uteri,Female Genital System,Nevada,Asian or Pacific Islander,16,14.9,86.9,2998039.0
+82,27020,Corpus Uteri,Female Genital System,Nevada,Black or African American,19,14.9,86.9,2998039.0
+83,27020,Corpus Uteri,Female Genital System,Nevada,White,312,14.9,86.9,2998039.0
+84,27020,Corpus Uteri,Female Genital System,New Hampshire,American Indian or Alaska Native,0,8.5,92.8,1342795.0
+85,27020,Corpus Uteri,Female Genital System,New Hampshire,Black or African American,0,8.5,92.8,1342795.0
+86,27020,Corpus Uteri,Female Genital System,New Hampshire,White,264,8.5,92.8,1342795.0
+87,27020,Corpus Uteri,Female Genital System,New Jersey,American Indian or Alaska Native,0,10.9,90.8,9005644.0
+88,27020,Corpus Uteri,Female Genital System,New Jersey,Asian or Pacific Islander,94,10.9,90.8,9005644.0
+89,27020,Corpus Uteri,Female Genital System,New Jersey,Black or African American,221,10.9,90.8,9005644.0
+90,27020,Corpus Uteri,Female Genital System,New Jersey,White,1466,10.9,90.8,9005644.0
+91,27020,Corpus Uteri,Female Genital System,New Jersey,Other Races and Unknown combined,31,10.9,90.8,9005644.0
+92,27020,Corpus Uteri,Female Genital System,New Mexico,American Indian or Alaska Native,29,20.9,88.8,2088070.0
+93,27020,Corpus Uteri,Female Genital System,New Mexico,White,259,20.9,88.8,2088070.0
+94,27020,Corpus Uteri,Female Genital System,New York,Asian or Pacific Islander,214,15.5,92.9,19849399.0
+95,27020,Corpus Uteri,Female Genital System,New York,Black or African American,665,15.5,92.9,19849399.0
+96,27020,Corpus Uteri,Female Genital System,New York,White,3032,15.5,92.9,19849399.0
+97,27020,Corpus Uteri,Female Genital System,New York,Other Races and Unknown combined,76,15.5,92.9,19849399.0
+98,27020,Corpus Uteri,Female Genital System,North Carolina,Asian or Pacific Islander,22,16.8,87.8,10273419.0
+99,27020,Corpus Uteri,Female Genital System,North Carolina,Black or African American,331,16.8,87.8,10273419.0
+100,27020,Corpus Uteri,Female Genital System,North Carolina,White,1222,16.8,87.8,10273419.0
+101,27020,Corpus Uteri,Female Genital System,North Carolina,Other Races and Unknown combined,32,16.8,87.8,10273419.0
+102,27020,Corpus Uteri,Female Genital System,North Dakota,White,96,11.2,92.4,755393.0
+103,27020,Corpus Uteri,Female Genital System,Ohio,Asian or Pacific Islander,22,15.4,93.3,11658609.0
+104,27020,Corpus Uteri,Female Genital System,Ohio,Black or African American,217,15.4,93.3,11658609.0
+105,27020,Corpus Uteri,Female Genital System,Ohio,White,1973,15.4,93.3,11658609.0
+106,27020,Corpus Uteri,Female Genital System,Ohio,Other Races and Unknown combined,21,15.4,93.3,11658609.0
+107,27020,Corpus Uteri,Female Genital System,Oklahoma,American Indian or Alaska Native,51,16.5,84.0,3930864.0
+108,27020,Corpus Uteri,Female Genital System,Oklahoma,Black or African American,35,16.5,84.0,3930864.0
+109,27020,Corpus Uteri,Female Genital System,Oklahoma,White,449,16.5,84.0,3930864.0
+110,27020,Corpus Uteri,Female Genital System,Oregon,Asian or Pacific Islander,18,15.7,92.6,4142776.0
+111,27020,Corpus Uteri,Female Genital System,Oregon,White,637,15.7,92.6,4142776.0
+112,27020,Corpus Uteri,Female Genital System,Pennsylvania,Asian or Pacific Islander,37,13.3,93.2,12805537.0
+113,27020,Corpus Uteri,Female Genital System,Pennsylvania,Black or African American,249,13.3,93.2,12805537.0
+114,27020,Corpus Uteri,Female Genital System,Pennsylvania,White,2571,13.3,93.2,12805537.0
+115,27020,Corpus Uteri,Female Genital System,Pennsylvania,Other Races and Unknown combined,24,13.3,93.2,12805537.0
+116,27020,Corpus Uteri,Female Genital System,Rhode Island,American Indian or Alaska Native,0,13.8,94.9,1059639.0
+117,27020,Corpus Uteri,Female Genital System,Rhode Island,White,165,13.8,94.9,1059639.0
+118,27020,Corpus Uteri,Female Genital System,South Carolina,American Indian or Alaska Native,0,17.2,87.9,5024369.0
+119,27020,Corpus Uteri,Female Genital System,South Carolina,Black or African American,215,17.2,87.9,5024369.0
+120,27020,Corpus Uteri,Female Genital System,South Carolina,White,535,17.2,87.9,5024369.0
+121,27020,Corpus Uteri,Female Genital System,South Dakota,Black or African American,0,14.0,89.6,869666.0
+122,27020,Corpus Uteri,Female Genital System,South Dakota,White,141,14.0,89.6,869666.0
+123,27020,Corpus Uteri,Female Genital System,South Dakota,Other Races and Unknown combined,0,14.0,89.6,869666.0
+124,27020,Corpus Uteri,Female Genital System,Tennessee,Black or African American,130,17.2,89.4,6715984.0
+125,27020,Corpus Uteri,Female Genital System,Tennessee,White,867,17.2,89.4,6715984.0
+126,27020,Corpus Uteri,Female Genital System,Texas,Asian or Pacific Islander,90,16.7,81.4,28304596.0
+127,27020,Corpus Uteri,Female Genital System,Texas,Black or African American,329,16.7,81.4,28304596.0
+128,27020,Corpus Uteri,Female Genital System,Texas,White,2555,16.7,81.4,28304596.0
+129,27020,Corpus Uteri,Female Genital System,Texas,Other Races and Unknown combined,35,16.7,81.4,28304596.0
+130,27020,Corpus Uteri,Female Genital System,Utah,White,348,11.7,90.3,3101833.0
+131,27020,Corpus Uteri,Female Genital System,Vermont,American Indian or Alaska Native,0,11.6,95.3,623657.0
+132,27020,Corpus Uteri,Female Genital System,Vermont,Asian or Pacific Islander,0,11.6,95.3,623657.0
+133,27020,Corpus Uteri,Female Genital System,Vermont,White,159,11.6,95.3,623657.0
+134,27020,Corpus Uteri,Female Genital System,Vermont,Other Races and Unknown combined,0,11.6,95.3,623657.0
+135,27020,Corpus Uteri,Female Genital System,Virginia,Asian or Pacific Islander,57,11.4,90.1,8470020.0
+136,27020,Corpus Uteri,Female Genital System,Virginia,Black or African American,240,11.4,90.1,8470020.0
+137,27020,Corpus Uteri,Female Genital System,Virginia,White,925,11.4,90.1,8470020.0
+138,27020,Corpus Uteri,Female Genital System,Virginia,Other Races and Unknown combined,77,11.4,90.1,8470020.0
+139,27020,Corpus Uteri,Female Genital System,Washington,American Indian or Alaska Native,18,12.7,93.1,7405743.0
+140,27020,Corpus Uteri,Female Genital System,Washington,Asian or Pacific Islander,66,12.7,93.1,7405743.0
+141,27020,Corpus Uteri,Female Genital System,Washington,Black or African American,32,12.7,93.1,7405743.0
+142,27020,Corpus Uteri,Female Genital System,Washington,White,988,12.7,93.1,7405743.0
+143,27020,Corpus Uteri,Female Genital System,West Virginia,White,376,17.7,93.5,1815857.0
+144,27020,Corpus Uteri,Female Genital System,Wisconsin,Black or African American,50,12.7,93.7,5795483.0
+145,27020,Corpus Uteri,Female Genital System,Wisconsin,White,1118,12.7,93.7,5795483.0
+146,27020,Corpus Uteri,Female Genital System,Wyoming,Asian or Pacific Islander,0,11.6,86.6,579315.0
+147,27020,Corpus Uteri,Female Genital System,Wyoming,White,78,11.6,86.6,579315.0
+148,27020,Corpus Uteri,Female Genital System,Wyoming,Other Races and Unknown combined,0,11.6,86.6,579315.0
