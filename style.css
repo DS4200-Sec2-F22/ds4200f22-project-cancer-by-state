@@ -45,7 +45,7 @@ div.paragraph {
 }
 
 #scatterplot {
-    flex: 2;
+    flex: 1;
     align-self: center;
 }
 
