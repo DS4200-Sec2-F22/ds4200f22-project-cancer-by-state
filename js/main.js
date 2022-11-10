@@ -1,6 +1,6 @@
 // MAP
 
-const M_HEIGHT = 600;
+const M_HEIGHT = 500;
 const M_WIDTH = 750;
 const M_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
 const LEGEND_WIDTH = 300;
@@ -41,7 +41,7 @@ function build_map() {
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
 						.translate([M_WIDTH / 2, M_HEIGHT / 2])
-						.scale([1000]);
+						.scale([900]);
 
 	//Define path generator
 	let path = d3.geoPath().projection(projection);
@@ -57,8 +57,7 @@ function build_map() {
 			// title
 			FRAME_MAP.append("text")
 						.style("text-anchor", "middle")
-						.style("font-size", 20)
-						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_MARGINS.top - 10) + ")")
+						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_MARGINS.top - 20) + ")")
 					    .text((d) => {
 					    	if (cancer_value === "Lymphoma") {
 					    		return cancer_value + ": Overall Incidence in the United States";
@@ -66,7 +65,8 @@ function build_map() {
 					    	else {
 					    		return cancer_value + " Cancer: Overall Incidence in the United States"
 					    	}
-					    });
+					    })
+					    .attr("class", "title-text");
 
 			// filter by cancer type to form output
 			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_text);
@@ -150,7 +150,7 @@ function build_map() {
     		// legend title
 			FRAME_LEGEND.append("text")
 						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (LEGEND_WIDTH / 2) + "," + (LEGEND_HEIGHT / 3.5) + ")")
+						.attr("transform", "translate(" + (LEGEND_WIDTH / 2) + "," + (LEGEND_HEIGHT / 3) + ")")
 					    .text("Legend: Incidence")
 						.attr("class", "legend-text");
 
@@ -239,11 +239,17 @@ function build_map() {
 					TOOLTIP.style("opacity", 0);
 				};
 
+				// change pie chart when state is selected
+				function change_pie_chart(event, d) {
+					build_pie(cancer_type_data, d.properties.name, cancer_value);
+				}
+
 				// add event listeners to all of the states
 				FRAME_MAP.selectAll(".state")
 								.on("mouseover", mouseover)
 								.on("mousemove", mousemove)
-								.on("mouseleave", mouseleave);
+								.on("mouseleave", mouseleave)
+								.on("click", change_pie_chart);
 			});
 
 		});
@@ -258,7 +264,9 @@ function build_map() {
 		const selected_text = d3.select('#cancer_dd option:checked').text();
 		const selected_value = this.value;
 
-		filter_and_make_map(selected_text, selected_value)});
+		filter_and_make_map(selected_text, selected_value);
+		init_pie_chart();
+	});
 
 }
 build_map();
@@ -267,7 +275,7 @@ build_map();
 
 // PIE CHART
 
-const P_HEIGHT = 400;
+const P_HEIGHT = 350;
 const P_WIDTH = 600;
 const P_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
 
@@ -282,20 +290,59 @@ const FRAME_PIE = d3.select("#pie-chart")
 							.attr("width", P_WIDTH)
 							.attr("class", "frame")
 
+// initialize pie chart frame with a prompt to select a state
+function init_pie_chart() {
+
+	// remove all previous elements
+	FRAME_PIE.selectAll(".title-text").remove();
+	FRAME_PIE.selectAll(".slice").remove();
+	FRAME_PIE.selectAll(".legend-circle").remove();
+	FRAME_PIE.selectAll(".legend-text").remove();
+
+
+	// lines of text
+	FRAME_PIE.append("text")
+				.style("text-anchor", "middle")
+				.style("font-size", 18)
+				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_HEIGHT / 2) - 10) + ")")
+			    .text("Select a State in the Map to view")
+				.attr("class", "title-text");
+
+	FRAME_PIE.append("text")
+				.style("text-anchor", "middle")
+				.style("font-size", 18)
+				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_HEIGHT / 2) + 15) + ")")
+			    .text("the racial breakdown of its Cancer Occurences.") 
+				.attr("class", "title-text");
+}
+
 
 // will make this have an input of the cancer_type_data, trigger on click of a state
-function build_pie() {
-	d3.csv("data/cancer_cleaned_data.csv").then((data) => {
+function build_pie(data, state_name, cancer_name) {
+
+		// remove all previous elements
+		FRAME_PIE.selectAll(".title-text").remove();
+		FRAME_PIE.selectAll(".slice").remove();
+		FRAME_PIE.selectAll(".legend-circle").remove();
+		FRAME_PIE.selectAll(".legend-text").remove();
 
 		// title
 		FRAME_PIE.append("text")
 						.style("text-anchor", "middle")
 						.style("font-size", 18)
 						.attr("transform", "translate(" + (P_WIDTH / 2) + "," + (P_MARGINS.top) + ")")
-					    .text("Colon and Rectum Racial Makeup for Alabama");
+					    .text((d) => {
+					    	if (cancer_name === "Lymphoma") {
+					    		return cancer_name + " Racial Makeup for " + state_name;
+					    	}
+					    	else {
+					    		return cancer_name + " Cancer Racial Makeup for " + state_name;
+					    	}
+					    })
+					    .attr("class", "title-text");
 
 		// filter by state
-		const state_race_data = filtered_csv(filtered_csv(data, 'Cancer_type', 'Colon and Rectum'), 'State_name', 'Alabama');
+		const state_race_data = filtered_csv(data, 'State_name', state_name);
 
 		// list of all races (hard coded so that it stays consistent between views)
 		const all_races = ['American Indian or Alaska Native', 'Asian or Pacific Islander', 'Black or African American', 'White', 'Other Races and Unknown combined'];
@@ -330,6 +377,7 @@ function build_pie() {
   							.innerRadius(0)
   							.outerRadius(P_VIS_RADIUS)
 
+
 		// build the pie chart slices
 		FRAME_PIE.selectAll('slices')
 			  .data(pie(pie_data))
@@ -339,12 +387,9 @@ function build_pie() {
 			    .attr('transform', "translate(" + (P_WIDTH * 0.75) + "," + (P_HEIGHT / 2) + ")")
 			    .attr('fill', (d) => { return P_COLORS(d.data.Race) })
 			    .attr('stroke', 'black')
+			    .attr("class", "slice")
 			    .style("stroke-width", "2px")
    				.style("opacity", 0.8);
-
-		// clear previous legend
-		FRAME_PIE.selectAll(".legend-circle").remove();
-		FRAME_PIE.selectAll(".legend-text").remove();
 
 		// add one dot in the legend for each bucket
 		FRAME_PIE.selectAll("dots")
@@ -352,7 +397,7 @@ function build_pie() {
   				.enter()
   					.append("circle")
     				.attr("cx", 10)
-    				.attr("cy", (d,i) => { return 190 + i*25})
+    				.attr("cy", (d,i) => { return 150 + i*25})
     				.attr("r", 7)
    				 	.style("fill", (d) => { return P_COLORS(d.Race)})
    				 	.style("opacity", 0.8)
@@ -364,7 +409,7 @@ function build_pie() {
   				.enter()
   					.append("text")
     				.attr("x", 30)
-    				.attr("y", (d,i) => { return 190 + i*25})
+    				.attr("y", (d,i) => { return 150 + i*25})
     				.text((d) => {return d.Race + ": " + d.Count;})
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
@@ -373,20 +418,18 @@ function build_pie() {
     	// legend title
 		FRAME_PIE.append("text")
 					.style("text-anchor", "middle")
-					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + (P_HEIGHT * 0.4) + ")")
+					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + (P_HEIGHT / 3) + ")")
 					.text("Legend: Race and Count")
 					.attr("class", "legend-text");
 
-	})
-
 }
-build_pie();
+init_pie_chart();
 
 
 // SCATTERPLOT
 
-const S_HEIGHT = 400;
-const S_WIDTH = 650;
+const S_HEIGHT = 350;
+const S_WIDTH = 600;
 const S_MARGINS = {left: 100, right: 50, top: 50, bottom: 50};
 
 const S_VIS_HEIGHT = S_HEIGHT - S_MARGINS.top - S_MARGINS.bottom;
@@ -407,8 +450,9 @@ function build_scatter() {
 		FRAME_SCATTER.append("text")
 						.style("text-anchor", "middle")
 						.style("font-size", 18)
-						.attr("transform", "translate(" + ((S_WIDTH + S_MARGINS.left) / 2) + "," + (S_MARGINS.top - 10) + ")")
-					    .text("Percent below Poverty Line vs. Percent Insured");
+						.attr("transform", "translate(" + ((S_WIDTH + S_MARGINS.left) / 2) + "," + (S_MARGINS.top - 20) + ")")
+					    .text("Percent below Poverty Line vs. Percent Insured")
+					    .attr("class", "title-text");
 
 		// x-axis scaling (or change to 0-100%?)
 		const MIN_X = d3.min(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})

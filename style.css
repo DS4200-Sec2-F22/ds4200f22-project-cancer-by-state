@@ -82,3 +82,14 @@ div.paragraph {
   border-radius: 5px;
   padding: 5px;
 }
+
+/* visulaization text styling */
+.legend-text {
+    font-size: 16px;
+}
+
+.title-text {
+    font-size: 18px;
+}
+
+
