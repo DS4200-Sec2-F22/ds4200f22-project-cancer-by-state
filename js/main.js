@@ -159,16 +159,16 @@ function build_map() {
 
 				// merge state_ratio_data and GeoJSON
 				// loop through once for each cancer data value
-				for (var i = 0; i < state_ratio_data.length; i++) {
+				for (let i = 0; i < state_ratio_data.length; i++) {
 					
 					let state_name = state_ratio_data[i].State;
 					let state_total = parseFloat(state_ratio_data[i].Total);
 					let state_ratio = parseFloat(state_ratio_data[i].Ratio);
 					
 					//Find the corresponding state inside the GeoJSON
-					for (var j = 0; j < json.features.length; j++) {
+					for (let j = 0; j < json.features.length; j++) {
 							
-						var json_state = json.features[j].properties.name;
+						let json_state = json.features[j].properties.name;
 					
 						if (state_name == json_state) {
 							
