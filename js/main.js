@@ -214,7 +214,7 @@ function build_map() {
 										.attr("class", "tooltip")
 										.style("opacity", 0);
 
-				// on mouseover, make tooltip opaque
+				// on mouseover, make tooltip visible
 				function mouseover(event, d) {
 					TOOLTIP.style("opacity", 1);
 				};
@@ -231,25 +231,76 @@ function build_map() {
 									"<br>Incidence Rate: " + percentage +
 									"<br>Total Occurences: " + d.properties.total)
 								.style("left", (event.pageX + 10) + "px")
-								.style("top", (event.pageY - 50) + "px");
+								.style("top", (event.pageY - 70) + "px");
 				};
 
-				// on mouseover, make tooltip opaque
+				// on mouseleave, make tooltip opaque
 				function mouseleave(event, d) {
 					TOOLTIP.style("opacity", 0);
 				};
 
 				// change pie chart when state is selected
-				function change_pie_chart(event, d) {
+				function change_linked(event, d) {
+					// builds the pie chart
 					build_pie(cancer_type_data, d.properties.name, cancer_value);
-				}
+
+					// highlight the scatterplot point for the state
+					highlight_point(d.properties.name);
+				};
+
+				// highlight point click function
+				function highlight_point(point_name) {
+					let point_id = "#" + point_name;
+
+					let point = d3.select(point_id)["_groups"][0][0];
+
+					if (point.classList.contains("selected")) {
+						point.classList.remove("selected");
+					}
+					else {
+						point.classList.add("selected");
+					}
+				};
+
+				// select corresponding point on scatter plot for each state
+				function select_point(event, d) {
+
+				    // selects all scatterplot points 
+				    const scatter_points = FRAME_SCATTER.selectAll('points');
+
+				    let selected_point = scatter_points.getElementById(d.properties.name);
+				    console.log(scatter_points);
+
+/*
+
+				    // clears highlights when state is unselected
+				    if (selection === null) {
+				    	scatterPoints.classed('selected', false);
+				    } 
+				    // gives the border/opacity for selected points in scatter plot
+				    else {
+				    	// functionality for selected class for scatterplot poiints
+				    	scattterPoints.classed("selected", (d) => {
+				    		isSelected = isBrushed(selection, (MARGINS.left + X_SCALE_M(d.Sepal_Width)), (MARGINS.top + Y_SCALE_M(d.Petal_Width)));
+				    		if (isSelected) {
+				    			selectedSpecies.add(d.Species);
+				    		}
+				    		return isSelected});
+
+				    	// highlights corresponding points in the left plot
+						scatterPoints.classed("selected", (d) => isBrushed(selection, (MARGINS.left + X_SCALE_M(d.Sepal_Width)), (MARGINS.top + Y_SCALE_M(d.Petal_Width))));
+				    	
+						// highlights bars based on class being in the selectedSpecies set
+				    	bars.classed("selected", (d) => {return selectedSpecies.has(d.Species);})
+				    };*/
+						};
 
 				// add event listeners to all of the states
 				FRAME_MAP.selectAll(".state")
 								.on("mouseover", mouseover)
 								.on("mousemove", mousemove)
 								.on("mouseleave", mouseleave)
-								.on("click", change_pie_chart);
+								.on("click", change_linked);
 			});
 
 		});
@@ -288,7 +339,7 @@ const FRAME_PIE = d3.select("#pie-chart")
 						.append("svg")
 							.attr("height", P_HEIGHT)
 							.attr("width", P_WIDTH)
-							.attr("class", "frame")
+							.attr("class", "frame");
 
 // initialize pie chart frame with a prompt to select a state
 function init_pie_chart() {
@@ -348,7 +399,7 @@ function build_pie(data, state_name, cancer_name) {
 		const all_races = ['American Indian or Alaska Native', 'Asian or Pacific Islander', 'Black or African American', 'White', 'Other Races and Unknown combined'];
 
 		// new pie chart data
-		let pie_data = []
+		let pie_data = [];
 
 		// iterate through races and calculate percentage
 		for (let i = 0; i < state_race_data.length; i++) {
@@ -375,7 +426,7 @@ function build_pie(data, state_name, cancer_name) {
 		// build arcs
 		const arcGenerator = d3.arc()
   							.innerRadius(0)
-  							.outerRadius(P_VIS_RADIUS)
+  							.outerRadius(P_VIS_RADIUS);
 
 
 		// build the pie chart slices
@@ -478,7 +529,7 @@ function build_scatter() {
 		FRAME_SCATTER.append("g")
 						.attr("transform", "translate(" + S_MARGINS.left + "," + (S_VIS_HEIGHT + S_MARGINS.top) + ")")
 						.call(d3.axisBottom(X_SCALE).ticks(10))
-							.attr("font-size", "15px")
+							.attr("font-size", "15px");
 
 		// x-axis label
 		FRAME_SCATTER.append("text")
@@ -505,7 +556,7 @@ function build_scatter() {
 						.data(data)
 						.enter()
 						.append("circle")
-							.attr("id", (d) => {return d.name;})
+							.attr("id", (d) => {return d.Name;})
 							.attr("cx", (d) => {return (S_MARGINS.left + X_SCALE(d.Percentage_population_below_poverty));})
 							.attr("cy", (d) => {return (S_MARGINS.top + Y_SCALE(d.Percentage_population_insured));})
 							.attr("r", (d) => {return POINT_SCALE(d.Population);})
