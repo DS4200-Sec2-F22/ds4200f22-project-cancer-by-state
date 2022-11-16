@@ -24,6 +24,10 @@ div.paragraph {
     text-align: justify;
 }
 
+#about-scatter {
+    width: 400px;
+}
+
 /* div spacing */
 .flex-all {
     display: flex;
@@ -64,7 +68,7 @@ div.paragraph {
 .point {
     fill: royalblue;
     stroke: none;
-    opacity: 60%;
+    opacity: 50%;
 }
 
 .point:hover {
@@ -78,12 +82,12 @@ div.paragraph {
   position: absolute;
   background-color: lightgray;
   border: solid;
-  border-width: 2px;
-  border-radius: 5px;
+  border-width: 1.5px;
+  border-radius: 3px;
   padding: 5px;
 }
 
-/* visulaization text styling */
+/* visualization text styling */
 .legend-text {
     font-size: 16px;
 }
@@ -97,5 +101,13 @@ div.paragraph {
     fill: mediumpurple;
     stroke: black;
     stroke-width: 3;
-    opacity: 100% !important;
+    opacity: 80% !important;
+}
+
+#scatter-tooltip {
+    background-color: lightgray;
+    border: solid;
+    border-width: 1.5px;
+    border-radius: 3px;
+    padding: 5px;
 }

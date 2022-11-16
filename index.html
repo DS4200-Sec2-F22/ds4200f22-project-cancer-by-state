@@ -47,10 +47,9 @@
         <!-- overall container for visualizations -->
         <div class="flex-all">
 
-            <div id="primary" class="flex-row">
-                <!-- map visualization -->
-                <div id="main-map" class="flex-column">
+            <div class='button'>
                     <!-- paragraph on how to use vis tool? -->
+
                     <p>Select a cancer type: <select name='cancer-type' id="cancer_dd">
                     <option value='Colon and Rectal'>Colon and Rectum</option>
                     <option value='Pancreatic'>Pancreas</option>
@@ -64,22 +63,34 @@
                     <option value='Thyroid'>Thyroid</option>
                     <option value='Lymphoma'>Non-Hodgkin Lymphoma</option>
                     <option value='Miscellaneous'>Miscellaneous</option>
-                </select>
-                </div>
-
-                <!-- legend for map -->
-                <div id="map-legend" class="flex-column">
-                </div>
+                    </select>
             </div>
 
-            <!-- to hold pie chart and scatterplot -->
-            <div id="secondary" class="flex-row">
+            <div id="primary" class="flex-row">
+                
+                <!-- map visualization -->
+                <div id="main-map" class="flex-row">
+                </div>
+
                 <!-- pie chart -->
                 <div id="pie-chart" class="flex-column">
                 </div>
+                
+            </div>
+
+            <!-- to hold scatterplot -->
+            <div id="secondary" class="flex-row">
+                <!-- paragraph about how to read scatterplot? -->
 
                 <!-- scatterplot -->
                 <div id="scatterplot" class="flex-column">
+                </div>
+                <div id="scatterplot-text" class="flex-column">
+                    <div id="about-scatter">
+                        <p> This scatterplot shows percent of the population below the poverty line versus the percent with health insurance in each state. Each point represents a state, and the size of the point is proportional to its population. 
+                        <p> Hover over a point to view more information.
+                        <p id="highlighted">
+                    </div>
                 </div>
             </div>
         </div>

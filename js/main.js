@@ -1,10 +1,11 @@
 // MAP
 
-const M_HEIGHT = 500;
-const M_WIDTH = 750;
+const M_HEIGHT = 700;
+const M_WIDTH = 700;
 const M_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
-const LEGEND_WIDTH = 300;
-const LEGEND_HEIGHT = M_HEIGHT;
+
+const LEGEND_HEIGHT = 200;
+let TOOLTIP;
 
 const M_VIS_HEIGHT = M_HEIGHT - M_MARGINS.top - M_MARGINS.bottom;
 const M_VIS_WIDTH = M_WIDTH - M_MARGINS.left - M_MARGINS.right;
@@ -16,11 +17,12 @@ const FRAME_MAP = d3.select("#main-map")
 							.attr("width", M_WIDTH)
 							.attr("class", "frame");
 
-const FRAME_LEGEND = d3.select("#map-legend")
-							.append("svg")
-								.attr("height", LEGEND_HEIGHT)
-								.attr("width", LEGEND_WIDTH)
-								.attr("class", "frame");
+// map legend
+const FRAME_MAP_LEGEND = d3.select("#map-legend")
+								.append("svg")
+									.attr("height", LEGEND_HEIGHT)
+									.attr("width", M_WIDTH)
+									.attr("class", "frame");
 
 // subset of data where row_name = type
 function filtered_csv(data, row_name, type) {
@@ -40,8 +42,8 @@ function build_map() {
 
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
-						.translate([M_WIDTH / 2, M_HEIGHT / 2])
-						.scale([900]);
+						.translate([M_WIDTH / 2, (M_HEIGHT - LEGEND_HEIGHT) / 2])
+						.scale([950]);
 
 	//Define path generator
 	let path = d3.geoPath().projection(projection);
@@ -57,7 +59,7 @@ function build_map() {
 			// title
 			FRAME_MAP.append("text")
 						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_MARGINS.top - 20) + ")")
+						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + 15 + ")")
 					    .text((d) => {
 					    	if (cancer_value === "Lymphoma") {
 					    		return cancer_value + ": Overall Incidence in the United States";
@@ -116,44 +118,6 @@ function build_map() {
 				keys.push(COLOR_SCALE.invertExtent(palette[colors_n][i]));
 			}
 
-			// clear previous legend
-			FRAME_LEGEND.selectAll(".legend-circle").remove();
-			FRAME_LEGEND.selectAll(".legend-text").remove();
-
-			// add one dot in the legend for each bucket
-			FRAME_LEGEND.selectAll("dots")
-  				.data(keys)
-  				.enter()
-  					.append("circle")
-    				.attr("cx", 70)
-    				.attr("cy", (d,i) => { return 200 + i*25})
-    				.attr("r", 7)
-   				 	.style("fill", (d) => { return COLOR_SCALE(d[0])})
-   				 	.attr("class", "legend-circle");
-
-   			// create legend text
-			FRAME_LEGEND.selectAll("labels")
-  				.data(keys)
-  				.enter()
-  					.append("text")
-    				.attr("x", 90)
-    				.attr("y", (d,i) => { return 200 + i*25})
-    				.text((d) => { 
-    					let low = d[0].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4});
-    					let high = d[1].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4})
-    					return (low + " - " + high);
-    				})
-    				.attr("text-anchor", "left")
-    				.style("alignment-baseline", "middle")
-    				.attr("class", "legend-text");
-
-    		// legend title
-			FRAME_LEGEND.append("text")
-						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (LEGEND_WIDTH / 2) + "," + (LEGEND_HEIGHT / 3) + ")")
-					    .text("Legend: Incidence")
-						.attr("class", "legend-text");
-
 			// load in GeoJSON 
 			d3.json("us-states.json").then((json) => {
 
@@ -208,11 +172,78 @@ function build_map() {
 						   });
 
 
+				// clear previous legend
+				FRAME_MAP.selectAll(".legend-circle").remove();
+				FRAME_MAP.selectAll(".legend-text").remove();
+
+				// add one dot in the legend for each bucket
+				FRAME_MAP.selectAll("dots")
+	  				.data(keys)
+	  				.enter()
+	  					.append("circle")
+	    				.attr("cx", (d,i) => {
+	    					if (i < 3) {
+	    						return M_WIDTH * 0.15;
+	    					}
+	    					else {
+	    						return M_WIDTH * 0.6;
+	    					}
+	    				})
+	    				.attr("cy", (d,i) => {
+	    					if (i < 3) {
+	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + i*25;
+	    					}
+	    					else {
+	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + (i-3)*25;
+	    					}
+	    				})
+	    				.attr("r", 7)
+	   				 	.style("fill", (d) => { return COLOR_SCALE(d[0])})
+	   				 	.attr("class", "legend-circle");
+
+	   			// create legend text
+				FRAME_MAP.selectAll("labels")
+	  				.data(keys)
+	  				.enter()
+	  					.append("text")
+	    				.attr("x", (d,i) => {
+	    					if (i < 3) {
+	    						return (M_WIDTH * 0.15) + 20;
+	    					}
+	    					else {
+	    						return (M_WIDTH * 0.6) + 20
+	    					}
+	    				})
+	    				.attr("y", (d,i) => {
+	    					if (i < 3) {
+	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + i*25;
+	    					}
+	    					else {
+	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + (i-3)*25;
+	    					}
+	    				})
+	    				.text((d) => { 
+	    					let low = d[0].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4});
+	    					let high = d[1].toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4})
+	    					return (low + " - " + high);
+	    				})
+	    				.attr("text-anchor", "left")
+	    				.style("alignment-baseline", "middle")
+	    				.attr("class", "legend-text");
+
+	    		// legend title
+				FRAME_MAP.append("text")
+								.style("text-anchor", "middle")
+								.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_HEIGHT - LEGEND_HEIGHT + 20) + ")")
+							    .text("Legend: Incidence")
+								.attr("class", "legend-text");
+
+
 				// tooltip
-				const TOOLTIP = d3.select(("#main-map"))
-									.append("div")
-										.attr("class", "tooltip")
-										.style("opacity", 0);
+				TOOLTIP = d3.select(("#main-map"))
+								.append("div")
+									.attr("class", "tooltip")
+									.style("opacity", 0);
 
 				// on mouseover, make tooltip visible
 				function mouseover(event, d) {
@@ -248,52 +279,23 @@ function build_map() {
 					highlight_point(d.properties.name);
 				};
 
-				// highlight point click function
+				// select corresponding point on scatter plot for each state
 				function highlight_point(point_name) {
-					let point_id = "#" + point_name;
+					// reformat point id name
+					let point_id = "#" + point_name.replaceAll(" ","_");
 
+					// select point
 					let point = d3.select(point_id)["_groups"][0][0];
 
-					if (point.classList.contains("selected")) {
-						point.classList.remove("selected");
-					}
-					else {
-						point.classList.add("selected");
-					}
+					// clear highlight from all points
+					FRAME_SCATTER.selectAll(".point").classed("selected", false);
+
+					// select point for given state
+					FRAME_SCATTER.select(point_id).classed("selected", true);
+
+					// show which state is highlighted
+					document.getElementById("highlighted").innerHTML = "Highlighted Point: " + point_name + "<br>";
 				};
-
-				// select corresponding point on scatter plot for each state
-				function select_point(event, d) {
-
-				    // selects all scatterplot points 
-				    const scatter_points = FRAME_SCATTER.selectAll('points');
-
-				    let selected_point = scatter_points.getElementById(d.properties.name);
-				    console.log(scatter_points);
-
-/*
-
-				    // clears highlights when state is unselected
-				    if (selection === null) {
-				    	scatterPoints.classed('selected', false);
-				    } 
-				    // gives the border/opacity for selected points in scatter plot
-				    else {
-				    	// functionality for selected class for scatterplot poiints
-				    	scattterPoints.classed("selected", (d) => {
-				    		isSelected = isBrushed(selection, (MARGINS.left + X_SCALE_M(d.Sepal_Width)), (MARGINS.top + Y_SCALE_M(d.Petal_Width)));
-				    		if (isSelected) {
-				    			selectedSpecies.add(d.Species);
-				    		}
-				    		return isSelected});
-
-				    	// highlights corresponding points in the left plot
-						scatterPoints.classed("selected", (d) => isBrushed(selection, (MARGINS.left + X_SCALE_M(d.Sepal_Width)), (MARGINS.top + Y_SCALE_M(d.Petal_Width))));
-				    	
-						// highlights bars based on class being in the selectedSpecies set
-				    	bars.classed("selected", (d) => {return selectedSpecies.has(d.Species);})
-				    };*/
-						};
 
 				// add event listeners to all of the states
 				FRAME_MAP.selectAll(".state")
@@ -315,6 +317,7 @@ function build_map() {
 		const selected_text = d3.select('#cancer_dd option:checked').text();
 		const selected_value = this.value;
 
+		TOOLTIP.remove()
 		filter_and_make_map(selected_text, selected_value);
 		init_pie_chart();
 	});
@@ -326,13 +329,13 @@ build_map();
 
 // PIE CHART
 
-const P_HEIGHT = 350;
-const P_WIDTH = 600;
+const P_HEIGHT = M_HEIGHT;
+const P_WIDTH = 450;
 const P_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
 
 const P_VIS_HEIGHT = P_HEIGHT - P_MARGINS.top - P_MARGINS.bottom;
 const P_VIS_WIDTH = P_WIDTH - P_MARGINS.left - P_MARGINS.right;
-const P_VIS_RADIUS = P_VIS_HEIGHT/2.5;
+const P_VIS_RADIUS = P_WIDTH/3;
 
 // pie chart frame
 const FRAME_PIE = d3.select("#pie-chart")
@@ -340,6 +343,13 @@ const FRAME_PIE = d3.select("#pie-chart")
 							.attr("height", P_HEIGHT)
 							.attr("width", P_WIDTH)
 							.attr("class", "frame");
+
+
+const FRAME_PIE_LEGEND = d3.select("#pie-legend")
+								.append("svg")
+									.attr("height", LEGEND_HEIGHT)
+									.attr("width", P_WIDTH)
+									.attr("class", "frame");
 
 // initialize pie chart frame with a prompt to select a state
 function init_pie_chart() {
@@ -355,14 +365,14 @@ function init_pie_chart() {
 	FRAME_PIE.append("text")
 				.style("text-anchor", "middle")
 				.style("font-size", 18)
-				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_HEIGHT / 2) - 10) + ")")
+				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_WIDTH / 2) - 10) + ")")
 			    .text("Select a State in the Map to view")
 				.attr("class", "title-text");
 
 	FRAME_PIE.append("text")
 				.style("text-anchor", "middle")
 				.style("font-size", 18)
-				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_HEIGHT / 2) + 15) + ")")
+				.attr("transform", "translate(" + (P_WIDTH / 2) + "," + ((P_WIDTH / 2) + 15) + ")")
 			    .text("the racial breakdown of its Cancer Occurences.") 
 				.attr("class", "title-text");
 }
@@ -377,20 +387,28 @@ function build_pie(data, state_name, cancer_name) {
 		FRAME_PIE.selectAll(".legend-circle").remove();
 		FRAME_PIE.selectAll(".legend-text").remove();
 
-		// title
+		// title lines
 		FRAME_PIE.append("text")
 						.style("text-anchor", "middle")
 						.style("font-size", 18)
 						.attr("transform", "translate(" + (P_WIDTH / 2) + "," + (P_MARGINS.top) + ")")
 					    .text((d) => {
 					    	if (cancer_name === "Lymphoma") {
-					    		return cancer_name + " Racial Makeup for " + state_name;
+					    		return cancer_name + ":";
 					    	}
 					    	else {
-					    		return cancer_name + " Cancer Racial Makeup for " + state_name;
+					    		return cancer_name + " Cancer:";
 					    	}
 					    })
 					    .attr("class", "title-text");
+
+		FRAME_PIE.append("text")
+						.style("text-anchor", "middle")
+						.style("font-size", 18)
+						.attr("transform", "translate(" + (P_WIDTH / 2) + "," + (P_MARGINS.top + 25) + ")")
+					    .text((d) => { return "Racial Makeup for " + state_name;})
+					    .attr("class", "title-text");
+
 
 		// filter by state
 		const state_race_data = filtered_csv(data, 'State_name', state_name);
@@ -435,11 +453,11 @@ function build_pie(data, state_name, cancer_name) {
 			  .enter()
 			  .append('path')
 			    .attr('d', arcGenerator)
-			    .attr('transform', "translate(" + (P_WIDTH * 0.75) + "," + (P_HEIGHT / 2) + ")")
+			    .attr('transform', "translate(" + (P_WIDTH / 2) + "," + ((P_WIDTH + P_MARGINS.top) / 2) + ")")
 			    .attr('fill', (d) => { return P_COLORS(d.data.Race) })
 			    .attr('stroke', 'black')
 			    .attr("class", "slice")
-			    .style("stroke-width", "2px")
+			    .style("stroke-width", "1px")
    				.style("opacity", 0.8);
 
 		// add one dot in the legend for each bucket
@@ -448,7 +466,7 @@ function build_pie(data, state_name, cancer_name) {
   				.enter()
   					.append("circle")
     				.attr("cx", 10)
-    				.attr("cy", (d,i) => { return 150 + i*25})
+    				.attr("cy", (d,i) => { return (P_HEIGHT / 1.4) + i*25})
     				.attr("r", 7)
    				 	.style("fill", (d) => { return P_COLORS(d.Race)})
    				 	.style("opacity", 0.8)
@@ -460,7 +478,7 @@ function build_pie(data, state_name, cancer_name) {
   				.enter()
   					.append("text")
     				.attr("x", 30)
-    				.attr("y", (d,i) => { return 150 + i*25})
+    				.attr("y", (d,i) => { return (P_HEIGHT / 1.4) + i*25})
     				.text((d) => {return d.Race + ": " + d.Count;})
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
@@ -469,7 +487,7 @@ function build_pie(data, state_name, cancer_name) {
     	// legend title
 		FRAME_PIE.append("text")
 					.style("text-anchor", "middle")
-					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + (P_HEIGHT / 3) + ")")
+					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + ((P_HEIGHT / 1.4) - 30) + ")")
 					.text("Legend: Race and Count")
 					.attr("class", "legend-text");
 
@@ -479,9 +497,9 @@ init_pie_chart();
 
 // SCATTERPLOT
 
-const S_HEIGHT = 350;
-const S_WIDTH = 600;
-const S_MARGINS = {left: 100, right: 50, top: 50, bottom: 50};
+const S_HEIGHT = 400;
+const S_WIDTH = 800;
+const S_MARGINS = {left: 75, right: 50, top: 50, bottom: 60};
 
 const S_VIS_HEIGHT = S_HEIGHT - S_MARGINS.top - S_MARGINS.bottom;
 const S_VIS_WIDTH = S_WIDTH - S_MARGINS.left - S_MARGINS.right;
@@ -501,7 +519,7 @@ function build_scatter() {
 		FRAME_SCATTER.append("text")
 						.style("text-anchor", "middle")
 						.style("font-size", 18)
-						.attr("transform", "translate(" + ((S_WIDTH + S_MARGINS.left) / 2) + "," + (S_MARGINS.top - 20) + ")")
+						.attr("transform", "translate(" + (S_VIS_WIDTH / 1.75) + "," + (S_MARGINS.top - 20) + ")")
 					    .text("Percent below Poverty Line vs. Percent Insured")
 					    .attr("class", "title-text");
 
@@ -509,7 +527,7 @@ function build_scatter() {
 		const MIN_X = d3.min(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})
 		const MAX_X = d3.max(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})
 		const X_SCALE = d3.scaleLinear()
-							.domain([MIN_X - 3, MAX_X + 3])
+							.domain([MIN_X - 2, MAX_X + 3])
 							.range([0, S_VIS_WIDTH]);
 
 		// y-axis scaling (or change to 0-100%?)
@@ -523,7 +541,7 @@ function build_scatter() {
 		const MAX_POINT = d3.max(data, (d) => {return parseInt(d.Population);})
 		const POINT_SCALE = d3.scaleLinear()
 							.domain([0, MAX_POINT])
-							.range([7,20]);
+							.range([7,25]);
 
 		// x-axis
 		FRAME_SCATTER.append("g")
@@ -534,7 +552,7 @@ function build_scatter() {
 		// x-axis label
 		FRAME_SCATTER.append("text")
 						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (S_WIDTH / 2) + "," + (S_HEIGHT - 10) + ")")
+						.attr("transform", "translate(" + (S_VIS_WIDTH * 3/5) + "," + (S_HEIGHT - 10) + ")")
 					    .text("Percentage below Poverty Line");
 
 		// y-axis
@@ -556,36 +574,37 @@ function build_scatter() {
 						.data(data)
 						.enter()
 						.append("circle")
-							.attr("id", (d) => {return d.Name;})
+							.attr("id", (d) => {return d.Name.replaceAll(" ","_");})
 							.attr("cx", (d) => {return (S_MARGINS.left + X_SCALE(d.Percentage_population_below_poverty));})
 							.attr("cy", (d) => {return (S_MARGINS.top + Y_SCALE(d.Percentage_population_insured));})
 							.attr("r", (d) => {return POINT_SCALE(d.Population);})
 							.attr("class", "point");
 
-		// tooltip
-		const TOOLTIP = d3.select(("#scatterplot"))
+		// info on hover "tooltip"
+		const TOOLTIP_WIDTH = 300;
+		const TOOLTIP_S = d3.select("#scatterplot-text")
 							.append("div")
-								.attr("class", "tooltip")
+								.attr("id", "scatter-tooltip")
+								.attr("class", "flex-row")
+								.style("width", TOOLTIP_WIDTH + "px")
 								.style("opacity", 0);
 
 		// on mouseover, make tooltip opaque
 		function mouseover(event, d) {
-			TOOLTIP.style("opacity", 1);
+			TOOLTIP_S.style("opacity", 1);
 		};
 
 		// position tooltip 
 		function mousemove(event, d) {
-			TOOLTIP.html("State: " + d.Name + 
+			TOOLTIP_S.html("State: " + d.Name + 
 							"<br>Percent below Poverty Line: " + d.Percentage_population_below_poverty + "%" + 
 							"<br>Percent Insured: " + d.Percentage_population_insured + "%" +
 							"<br>Population: " + d.Population)
-						.style("left", (event.pageX + 10) + "px")
-						.style("top", (event.pageY - 50) + "px");
 		};
 
 		// on mouseover, make tooltip opaque
 		function mouseleave(event, d) {
-			TOOLTIP.style("opacity", 0);
+			TOOLTIP_S.style("opacity", 0);
 		};
 
 		// add event listeners to all of the bars
@@ -596,7 +615,6 @@ function build_scatter() {
 	})
 }
 build_scatter();
-
 
 
 
