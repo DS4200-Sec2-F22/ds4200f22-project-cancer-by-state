@@ -92,4 +92,10 @@ div.paragraph {
     font-size: 18px;
 }
 
-
+/* scatter plot/state selection styling */
+.selected {
+    fill: mediumpurple;
+    stroke: black;
+    stroke-width: 3;
+    opacity: 100% !important;
+}
