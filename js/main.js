@@ -1,6 +1,6 @@
 // MAP
 
-const M_HEIGHT = 700;
+const M_HEIGHT = 600;
 const M_WIDTH = 700;
 const M_MARGINS = {left: 50, right: 50, top: 50, bottom: 50};
 
@@ -42,7 +42,7 @@ function build_map() {
 
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
-						.translate([M_WIDTH / 2, (M_HEIGHT - LEGEND_HEIGHT) / 2])
+						.translate([M_WIDTH / 2, (M_HEIGHT / 2) - M_MARGINS.top])
 						.scale([950]);
 
 	//Define path generator
@@ -59,7 +59,7 @@ function build_map() {
 			// title
 			FRAME_MAP.append("text")
 						.style("text-anchor", "middle")
-						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + 15 + ")")
+						.attr("transform", "translate(" + (M_WIDTH / 2) + "," + 25 + ")")
 					    .text((d) => {
 					    	if (cancer_value === "Lymphoma") {
 					    		return cancer_value + ": Overall Incidence in the United States";
@@ -72,11 +72,9 @@ function build_map() {
 
 			// filter by cancer type to form output
 			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_text);
-			//console.log(cancer_type_data)
 
 			// list of all state names in the data subset
 			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
-			//console.log(all_states)
 
 			// new map data (state and overall incidence ratio)
 			let state_ratio_data = [];
@@ -93,9 +91,6 @@ function build_map() {
 				let state_ratio = {"State":state, "Total":total, "Ratio":ratio}
 				state_ratio_data.push(state_ratio);
 			}
-			//console.log(state_ratio_data)
-
-			// TODO: dictionary for color schemes (different scheme for each cancer type)
 
 			// number of colors in scale
 			const colors_n = 6;
@@ -145,7 +140,6 @@ function build_map() {
 						}
 					}		
 				}
-				//console.log(json.features)
 
 				// remove existing map data from the frame
 				FRAME_MAP.selectAll("path").remove();
@@ -176,6 +170,13 @@ function build_map() {
 				FRAME_MAP.selectAll(".legend-circle").remove();
 				FRAME_MAP.selectAll(".legend-text").remove();
 
+	    		// legend title
+				FRAME_MAP.append("text")
+							.style("text-anchor", "middle")
+							.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_HEIGHT - 100) + ")")
+						    .text("Legend: Incidence")
+							.attr("class", "legend-text");
+
 				// add one dot in the legend for each bucket
 				FRAME_MAP.selectAll("dots")
 	  				.data(keys)
@@ -191,10 +192,10 @@ function build_map() {
 	    				})
 	    				.attr("cy", (d,i) => {
 	    					if (i < 3) {
-	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + i*25;
+	    						return (M_HEIGHT - 80) + i*25;
 	    					}
 	    					else {
-	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + (i-3)*25;
+	    						return (M_HEIGHT - 80) + (i-3)*25;
 	    					}
 	    				})
 	    				.attr("r", 7)
@@ -216,10 +217,10 @@ function build_map() {
 	    				})
 	    				.attr("y", (d,i) => {
 	    					if (i < 3) {
-	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + i*25;
+	    						return (M_HEIGHT - 80) + i*25;
 	    					}
 	    					else {
-	    						return (M_HEIGHT - LEGEND_HEIGHT + 50) + (i-3)*25;
+	    						return (M_HEIGHT - 80) + (i-3)*25;
 	    					}
 	    				})
 	    				.text((d) => { 
@@ -230,14 +231,6 @@ function build_map() {
 	    				.attr("text-anchor", "left")
 	    				.style("alignment-baseline", "middle")
 	    				.attr("class", "legend-text");
-
-	    		// legend title
-				FRAME_MAP.append("text")
-								.style("text-anchor", "middle")
-								.attr("transform", "translate(" + (M_WIDTH / 2) + "," + (M_HEIGHT - LEGEND_HEIGHT + 20) + ")")
-							    .text("Legend: Incidence")
-								.attr("class", "legend-text");
-
 
 				// tooltip
 				TOOLTIP = d3.select(("#main-map"))
@@ -460,13 +453,20 @@ function build_pie(data, state_name, cancer_name) {
 			    .style("stroke-width", "1px")
    				.style("opacity", 0.8);
 
+    	// legend title
+		FRAME_PIE.append("text")
+					.style("text-anchor", "middle")
+					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + (P_HEIGHT * 0.75) + ")")
+					.text("Legend: Race and Count")
+					.attr("class", "legend-text");
+
 		// add one dot in the legend for each bucket
 		FRAME_PIE.selectAll("dots")
   				.data(pie_data)
   				.enter()
   					.append("circle")
     				.attr("cx", 10)
-    				.attr("cy", (d,i) => { return (P_HEIGHT / 1.4) + i*25})
+    				.attr("cy", (d,i) => { return (P_HEIGHT * 0.8) + i*25})
     				.attr("r", 7)
    				 	.style("fill", (d) => { return P_COLORS(d.Race)})
    				 	.style("opacity", 0.8)
@@ -478,18 +478,11 @@ function build_pie(data, state_name, cancer_name) {
   				.enter()
   					.append("text")
     				.attr("x", 30)
-    				.attr("y", (d,i) => { return (P_HEIGHT / 1.4) + i*25})
+    				.attr("y", (d,i) => { return (P_HEIGHT * 0.8) + i*25})
     				.text((d) => {return d.Race + ": " + d.Count;})
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
     				.attr("class", "legend-text");
-
-    	// legend title
-		FRAME_PIE.append("text")
-					.style("text-anchor", "middle")
-					.attr("transform", "translate(" + (P_MARGINS.left * 2) + "," + ((P_HEIGHT / 1.4) - 30) + ")")
-					.text("Legend: Race and Count")
-					.attr("class", "legend-text");
 
 }
 init_pie_chart();
