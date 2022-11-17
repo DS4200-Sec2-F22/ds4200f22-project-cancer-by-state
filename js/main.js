@@ -26,8 +26,8 @@ const FRAME_MAP_LEGEND = d3.select("#map-legend")
 
 // subset of data where row_name = type
 function filtered_csv(data, row_name, type) {
-		return data.filter((row) => {return row[row_name] == type;})
-}
+		return data.filter((row) => {return row[row_name] == type;});
+};
 
 
 // build map
@@ -38,7 +38,7 @@ function build_map() {
 		for (let i = 1; i <= 10; i++) {
 			    console.log(data[i]);
 		}
-	})
+	});
 
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
@@ -74,7 +74,7 @@ function build_map() {
 			const cancer_type_data = filtered_csv(data, 'Cancer_type', cancer_text);
 
 			// list of all state names in the data subset
-			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name}))]; 
+			const all_states = [...new Set(cancer_type_data.map((d) => {return d.State_name;}))]; 
 
 			// new map data (state and overall incidence ratio)
 			let state_ratio_data = [];
@@ -84,11 +84,11 @@ function build_map() {
 				state = all_states[i];
 				state_csv = filtered_csv(cancer_type_data, 'State_name', state);
 
-				const total = d3.sum(state_csv, (d) => {return d.Count;})
-				const pop = d3.min(state_csv, (d) => {return d.State_population;})
+				const total = d3.sum(state_csv, (d) => {return d.Count;});
+				const pop = d3.min(state_csv, (d) => {return d.State_population;});
 				const ratio = total/pop;
 
-				let state_ratio = {"State":state, "Total":total, "Ratio":ratio}
+				let state_ratio = {"State":state, "Total":total, "Ratio":ratio};
 				state_ratio_data.push(state_ratio);
 			}
 
@@ -144,7 +144,6 @@ function build_map() {
 				// remove existing map data from the frame
 				FRAME_MAP.selectAll("path").remove();
 
-
 				// bind new JSON data and create one path per feature
 				FRAME_MAP.selectAll("path")
 							.data(json.features)
@@ -154,17 +153,7 @@ function build_map() {
 							.attr("class", "state")
 							.style("stroke", "white")
 							.style("stroke-width", "1")
-							.style("fill", (d) => {
-						   		// get ratio value for fill
-						   		let fill_value = d.properties.ratio;
-						   		if (fill_value) {
-							   		return COLOR_SCALE(fill_value);
-						   		} 
-						   		else {
-							   		return "#ccc";
-						   		}
-						   });
-
+							.style("fill", (d) => {return COLOR_SCALE(d.properties.ratio);});
 
 				// clear previous legend
 				FRAME_MAP.selectAll(".legend-circle").remove();
@@ -198,7 +187,7 @@ function build_map() {
 	    						return (M_HEIGHT - 80) + (i-3)*25;
 	    					}
 	    				})
-	    				.attr("r", 7)
+	    				.attr("r", 8)
 	   				 	.style("fill", (d) => { return COLOR_SCALE(d[0])})
 	   				 	.attr("class", "legend-circle");
 
@@ -248,7 +237,7 @@ function build_map() {
 					
 					// convert ratio into a percentage
 					let percentage = d.properties.ratio
-										.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:4});
+										.toLocaleString(undefined, {style: 'percent', minimumFractionDigits:4});
 
 					// tooltip text					
 					TOOLTIP.html("State: " + d.properties.name + 
@@ -353,7 +342,6 @@ function init_pie_chart() {
 	FRAME_PIE.selectAll(".legend-circle").remove();
 	FRAME_PIE.selectAll(".legend-text").remove();
 
-
 	// lines of text
 	FRAME_PIE.append("text")
 				.style("text-anchor", "middle")
@@ -399,7 +387,7 @@ function build_pie(data, state_name, cancer_name) {
 						.style("text-anchor", "middle")
 						.style("font-size", 18)
 						.attr("transform", "translate(" + (P_WIDTH / 2) + "," + (P_MARGINS.top + 25) + ")")
-					    .text((d) => { return "Racial Makeup for " + state_name;})
+					    .text((d) => {return "Racial Makeup for " + state_name;})
 					    .attr("class", "title-text");
 
 
@@ -417,12 +405,12 @@ function build_pie(data, state_name, cancer_name) {
 			race = state_race_data[i];
 
 			const count = race.Count;
-			const total = d3.sum(state_race_data, (d) => {return d.Count;})
+			const total = d3.sum(state_race_data, (d) => {return d.Count;});
 			const ratio = count/total;
 
 			let race_data = {"Race":race.Race_name, "Count":count, "Occurences":total, "Ratio":ratio};
 			pie_data.push(race_data);
-		}
+		};
 
 		// color scale
 		const P_COLORS = d3.scaleOrdinal()
@@ -432,12 +420,12 @@ function build_pie(data, state_name, cancer_name) {
 		// compute the position of each group on the pie
 		let pie = d3.pie()
 						.sort(null)
-						.value(function(d) {return d.Count;})
+						.value(function(d) {return d.Count;});
 
 		// build arcs
-		const arcGenerator = d3.arc()
-  							.innerRadius(0)
-  							.outerRadius(P_VIS_RADIUS);
+		const arc = d3.arc()
+  						.innerRadius(0)
+  						.outerRadius(P_VIS_RADIUS);
 
 
 		// build the pie chart slices
@@ -445,9 +433,9 @@ function build_pie(data, state_name, cancer_name) {
 			  .data(pie(pie_data))
 			  .enter()
 			  .append('path')
-			    .attr('d', arcGenerator)
+			    .attr('d', arc)
 			    .attr('transform', "translate(" + (P_WIDTH / 2) + "," + ((P_WIDTH + P_MARGINS.top) / 2) + ")")
-			    .attr('fill', (d) => { return P_COLORS(d.data.Race) })
+			    .attr('fill', (d) => {return P_COLORS(d.data.Race);})
 			    .attr('stroke', 'black')
 			    .attr("class", "slice")
 			    .style("stroke-width", "1px")
@@ -466,9 +454,9 @@ function build_pie(data, state_name, cancer_name) {
   				.enter()
   					.append("circle")
     				.attr("cx", 10)
-    				.attr("cy", (d,i) => { return (P_HEIGHT * 0.8) + i*25})
-    				.attr("r", 7)
-   				 	.style("fill", (d) => { return P_COLORS(d.Race)})
+    				.attr("cy", (d,i) => {return (P_HEIGHT * 0.8) + i*25;})
+    				.attr("r", 8)
+   				 	.style("fill", (d) => {return P_COLORS(d.Race);})
    				 	.style("opacity", 0.8)
    				 	.attr("class", "legend-circle");
 
@@ -478,13 +466,13 @@ function build_pie(data, state_name, cancer_name) {
   				.enter()
   					.append("text")
     				.attr("x", 30)
-    				.attr("y", (d,i) => { return (P_HEIGHT * 0.8) + i*25})
+    				.attr("y", (d,i) => {return (P_HEIGHT * 0.8) + i*25;})
     				.text((d) => {return d.Race + ": " + d.Count;})
     				.attr("text-anchor", "left")
     				.style("alignment-baseline", "middle")
     				.attr("class", "legend-text");
 
-}
+};
 init_pie_chart();
 
 
@@ -517,21 +505,21 @@ function build_scatter() {
 					    .attr("class", "title-text");
 
 		// x-axis scaling (or change to 0-100%?)
-		const MIN_X = d3.min(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})
-		const MAX_X = d3.max(data, (d) => {return parseInt(d.Percentage_population_below_poverty);})
+		const MIN_X = d3.min(data, (d) => {return parseInt(d.Percentage_population_below_poverty);});
+		const MAX_X = d3.max(data, (d) => {return parseInt(d.Percentage_population_below_poverty);});
 		const X_SCALE = d3.scaleLinear()
 							.domain([MIN_X - 2, MAX_X + 3])
 							.range([0, S_VIS_WIDTH]);
 
 		// y-axis scaling (or change to 0-100%?)
-		const MIN_Y = d3.min(data, (d) => {return parseInt(d.Percentage_population_insured);})
-		const MAX_Y = d3.max(data, (d) => {return parseInt(d.Percentage_population_insured);})
+		const MIN_Y = d3.min(data, (d) => {return parseInt(d.Percentage_population_insured);});
+		const MAX_Y = d3.max(data, (d) => {return parseInt(d.Percentage_population_insured);});
 		const Y_SCALE = d3.scaleLinear()
 							.domain([MIN_Y - 3, MAX_Y + 3])
 							.range([S_VIS_HEIGHT, 0]);
 
 		// point size scaling (by state population)
-		const MAX_POINT = d3.max(data, (d) => {return parseInt(d.Population);})
+		const MAX_POINT = d3.max(data, (d) => {return parseInt(d.Population);});
 		const POINT_SCALE = d3.scaleLinear()
 							.domain([0, MAX_POINT])
 							.range([7,25]);
@@ -592,7 +580,7 @@ function build_scatter() {
 			TOOLTIP_S.html("State: " + d.Name + 
 							"<br>Percent below Poverty Line: " + d.Percentage_population_below_poverty + "%" + 
 							"<br>Percent Insured: " + d.Percentage_population_insured + "%" +
-							"<br>Population: " + d.Population)
+							"<br>Population: " + d.Population);
 		};
 
 		// on mouseover, make tooltip opaque
@@ -605,8 +593,8 @@ function build_scatter() {
 						.on("mouseover", mouseover)
 						.on("mousemove", mousemove)
 						.on("mouseleave", mouseleave);
-	})
-}
+	});
+};
 build_scatter();
 
 
