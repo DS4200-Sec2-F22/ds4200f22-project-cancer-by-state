@@ -21,7 +21,7 @@
     <div>
         <h2>Motivation</h2>
         <div class="paragraph">
-            <p>This visualization was created to encourage users to get preventative screening for cancers that they are vulnerable to based on their race or state. This visualization can also be used by researchers trying to understand more about cancer risk in vulnerable communities especially to answer questions about the correlation between poverty levels, insurance levels, and cancer incidence levels.</p>
+            <p>Cancer affects thousands of people across the USA, and preventative screening is one of the best ways to detect and treat this disease early. This visualization was created to encourage users to get preventative screening for cancers that they may be vulnerable to based on their race and/or state of residence. This visualization can also be used by researchers that seek to understand more about cancer risk in vulnerable communities, especially related to the correlation between poverty levels, insurance levels, and cancer incidence levels.</p>
         </div>
         
     </div>
@@ -32,7 +32,7 @@
             <h3>Data</h3>
             <div class="paragraph">
                 <p>This tool uses data collected online from Centers for Disease Control and Prevention, State Cancer Profiles, and United States Census Bureau. The data contains three files with data on the name and category of each cancer type, name of each state, race, cancer count by race, percentage of people below poverty, percentage of people insured, and the population for each state. </p>
-                <p>One potential bias of the data can be inferred from the large number of "0 occurrences" of types of cancer in POC race categories. Based on the prevalence of cancer, these statistics are likely not 100% accurate, and may reflect a bias of how the data was sourced by the CDC. Another potential bias is that there are only 5 race categories, and the "Other races and Unknown Combined" category is not inconsequential in size. The source could have been more specific with their demographic data collection and prevented such grouping. This data is missing the years that it represents and the links to the original sources; only the name of the organization that collected the data is included. Within the data however, there were no other data quality issues.</p>
+                <p>One potential bias of the data can be inferred from the large number of "0 occurrences" of types of cancer in POC race categories. Based on the prevalence of cancer, these statistics are likely not 100% accurate, and may reflect a bias of how the data was sourced by the CDC. Another potential bias is that there are only 5 race categories, with a considerably sized "Other" category. The source could have been more specific with their demographic data collection and prevented such grouping. This data is missing the years that it represents and the links to the original sources; only the name of the organization that collected the data is included. Within the data however, there were no other data quality issues.</p>
                 <a href="https://www.kaggle.com/datasets/salomekariuki/cancer-incidence-in-the-us-by-state-and-race?select=Cancer_Occurrence.csv">Link to the data</a>
             </div>
             
@@ -40,31 +40,21 @@
 
         <div class="subsection">
             <h3>Demo Video</h3>
+            <!-- TODO: Add demo video --> 
         </div>
 
         <div class="subsection">
             <h3>Report</h3>
-        </div>
-
-        <div class="subsection">
-            <h3>Data</h3>
-            <div class="paragraph">
-                <p>This tool uses data collected online from Centers for Disease Control and Prevention, State Cancer Profiles, and United States Census Bureau. The data contains three files with data on the name and category of each cancer type, name of each state, race, cancer count by race, percentage of people below poverty, percentage of people insured, and the population for each state. </p>
-                <p>One potential bias of the data can be inferred from the large number of "0 occurrences" of types of cancer in POC race categories. Based on the prevalence of cancer, these statistics are likely not 100% accurate, and may reflect a bias of how the data was sourced by the CDC. Another potential bias is that there are only 5 race categories, and the "Other races and Unknown Combined" category is not inconsequential in size. The source could have been more specific with their demographic data collection and prevented such grouping. This data is missing the years that it represents and the links to the original sources; only the name of the organization that collected the data is included. Within the data however, there were no other data quality issues.</p>
-                <a href="https://www.kaggle.com/datasets/salomekariuki/cancer-incidence-in-the-us-by-state-and-race?select=Cancer_Occurrence.csv">Link to the data</a>
-            </div>
-            
+            <!-- TODO: Add link to report --> 
         </div>
         
-        <!-- TODO: Add link to report, demo video, link to data etc. here --> 
     </div>
 
     <div>
         <h2>Visualization</h2>
-        <!-- TODO: Build your visualization tool here -->
 
         <div class="subsection">
-            <h3>How-To</h3>
+            <h3>How To Use</h3>
             <div class="paragraph">
                 <p>
                     <ul>
@@ -92,9 +82,8 @@
         <!-- overall container for visualizations -->
         <div class="flex-all">
 
+            <!-- button to select cancer type on map -->
             <div class='button'>
-                    <!-- paragraph on how to use vis tool? -->
-
                     <p>Select a cancer type: <select name='cancer-type' id="cancer_dd">
                     <option value='Colon and Rectal'>Colon and Rectum</option>
                     <option value='Pancreatic'>Pancreas</option>
@@ -111,10 +100,11 @@
                     </select>
             </div>
 
+            <!-- map and pie chart (row 1)-->
             <div id="primary" class="flex-row">
                 
                 <!-- map visualization -->
-                <div id="main-map" class="flex-row">
+                <div id="main-map" class="flex-column">
                 </div>
 
                 <!-- pie chart -->
@@ -123,16 +113,17 @@
                 
             </div>
 
-            <!-- to hold scatterplot -->
+            <!-- scatterplot (row 2)-->
             <div id="secondary" class="flex-row">
-                <!-- paragraph about how to read scatterplot? -->
 
                 <!-- scatterplot -->
                 <div id="scatterplot" class="flex-column">
                 </div>
+
+                <!-- info about scatterplot, hover tooltip -->
                 <div id="scatterplot-text" class="flex-column">
                     <div id="about-scatter">
-                        <p> This scatterplot shows percent of the population below the poverty line versus the percent with health insurance in each state. Each point represents a state, and the size of the point is proportional to its population. 
+                        <p> This scatterplot shows percent of the population below the poverty line versus the percent with insurance in each state. Each point represents a state, and the size of the point is proportional to its population. 
                         <p> Hover over a point to view more information.
                         <p id="highlighted">
                     </div>
@@ -143,21 +134,19 @@
 
     <div>
         <h2>Acknowledgements</h2>
-        <!-- TODO: Cite resources used here -->
 
         <div id="Acknowledgements">
             <ul>
                 <li><a href="https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json">US States JSON</a> by MappingAPI is used for creating the chloropleth map.
                 </li>
-                <li><a href="http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922">Basic US State Map - D3</a> by Michelle Chandra is used for helping implement the map.
+                <li><a href="http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922">Basic US State Map - D3</a> by Michelle Chandra was used for helping implement the map.
                 </li>
-                <li><a href="https://github.com/scotthmurray/d3-book/blob/master/chapter_14/05_choropleth.html">D3: Setting path fills dynamically to generate a choropleth</a> by Scott Murray is used for helping imlpement the map.</li>
-                <li><a href="https://bl.ocks.org/d3noob/f46a355d35077a7dc12f9a97aeb6bc5d">Axis Labels in v6</a> by d3noob is used for adding axis labels.
-                </li>
+                <li><a href="https://github.com/scotthmurray/d3-book/blob/master/chapter_14/05_choropleth.html">D3: Setting path fills dynamically to generate a choropleth</a> by Scott Murray was used for helping imlpement the map.</li>
                 <li><a href="https://github.com/d3/d3-scale-chromatic/tree/v3.0.0">d3-scale-chromatic</a> by d3 is used for changing choropleth color schemes.
                 </li>
-                <li><a href="https://stackoverflow.com/questions/28874957/how-to-update-overwrite-map-and-legend-content-using-d3">How to update/overwrite map and legend content using d3</a> by Niall Mackenzie is used for updating the choropleth map.
+                <li><a href="https://stackoverflow.com/questions/28874957/how-to-update-overwrite-map-and-legend-content-using-d3">How to update/overwrite map and legend content using d3</a> by Niall Mackenzie was used for updating the choropleth map.
                 </li>
+                <li><a href="https://d3-graph-gallery.com/graph/pie_basic.html">Most basic pie chart in d3.js</a> by d3-graph-gallery is used to help implement the pie chart</li>
             </ul>
         </div>
     </div>

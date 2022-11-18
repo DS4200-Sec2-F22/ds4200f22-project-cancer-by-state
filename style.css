@@ -1,6 +1,6 @@
 /* text styling */
 body {
-    font-family: Arial;
+    font-family: Helvetica;
 }
 
 h1 {
@@ -26,6 +26,10 @@ div.paragraph {
 
 #about-scatter {
     width: 400px;
+}
+
+.button {
+    font-size: 18px;
 }
 
 /* div spacing */
