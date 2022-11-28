@@ -34,11 +34,11 @@ function filtered_csv(data, row_name, type) {
 function build_map() {
 
 	// print 10 lines of data to the console (pm-03 requirement)
-	d3.csv("data/cancer_cleaned_data.csv").then((data) => {
+	/*d3.csv("data/cancer_cleaned_data.csv").then((data) => {
 		for (let i = 1; i <= 10; i++) {
 			    console.log(data[i]);
 		}
-	});
+	});*/
 
 	// D3 Projection
 	let projection = d3.geoAlbersUsa()
@@ -299,9 +299,13 @@ function build_map() {
 		const selected_text = d3.select('#cancer_dd option:checked').text();
 		const selected_value = this.value;
 
-		TOOLTIP.remove()
+		// build new map
+		TOOLTIP.remove();
 		filter_and_make_map(selected_text, selected_value);
+
+		// reset linked visualizations
 		init_pie_chart();
+		FRAME_SCATTER.selectAll(".point").classed("selected", false);
 	});
 
 }
