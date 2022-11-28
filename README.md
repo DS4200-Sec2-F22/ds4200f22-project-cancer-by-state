@@ -14,7 +14,7 @@ The purpose of this assignment is to practice the entire pipeline of developing 
 
 1. Resources to support this assignment are provided in the Resources section below.  
 
-1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[insert your hyperlink here](insert your hyperlink here)` (if you put the link inside of the `[]` and the `()` you will get a clickable hyperlink). 
+1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[https://ds4200-sec2-f22.github.io/ds4200f22-project-cancer-by-state/](https://ds4200-sec2-f22.github.io/ds4200f22-project-cancer-by-state/)`. 
 
 1. The index.html file included in this repo outlines the major sections required for the website hosting your final project visualization tool. You may add additional styling, but do not delete any sections as we will check and grade all of them after your final submission at the end of the semester. 
 
