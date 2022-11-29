@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.140 --> 00:00:02.100
+Hello everyone,
+
+00:00:02.100 --> 00:00:08.160
+Welcome to our project visualizing cancer&nbsp;
+incidence in the US by state and race.
+
+00:00:08.160 --> 00:00:09.660
+I'm Khushi,
+
+00:00:09.660 --> 00:00:11.100
+I'm Lesrene,
+
+00:00:11.100 --> 00:00:12.420
+and I'm Karenna.
+
+00:00:14.940 --> 00:00:18.900
+Our tool centers around an interactive US map&nbsp;&nbsp;
+
+00:00:18.900 --> 00:00:22.200
+displaying incidence rates&nbsp;
+for the selected cancer.
+
+00:00:22.800 --> 00:00:28.020
+First, the user can choose which cancer&nbsp;
+type to visualize using the dropdown menu.
+
+00:00:28.020 --> 00:00:34.800
+The default is colon and rectal cancer, and for&nbsp;
+this example, we choose lung and bronchial cancer.
+
+00:00:35.820 --> 00:00:40.680
+States are colored by incidence rate, and&nbsp;
+darker colors mean a higher incidence.
+
+00:00:40.680 --> 00:00:46.500
+The legend below the map shows what&nbsp;
+percentages the colors correspond to,
+
+00:00:46.500 --> 00:00:50.400
+and hovering over a state will show the&nbsp;
+specific rate and *total occurrences*.
+
+00:00:54.180 --> 00:00:59.880
+The user can click on a state to view the&nbsp;
+racial breakdown of its cancer incidences.
+
+00:00:59.880 --> 00:01:02.760
+The pie chart on the right&nbsp;
+displays this information,
+
+00:01:02.760 --> 00:01:07.920
+and the legend below shows the number&nbsp;
+of cases in each racial category.
+
+00:01:07.920 --> 00:01:12.480
+Note that racial groups that were not&nbsp;
+surveyed are not present in the pie chart.
+
+00:01:14.760 --> 00:01:17.520
+Below these visualizations is a scatter plot,
+
+00:01:17.520 --> 00:01:21.300
+showing percent insured versus&nbsp;
+percent below the poverty line.
+
+00:01:21.300 --> 00:01:23.700
+Each circle represents a state,
+
+00:01:23.700 --> 00:01:26.760
+and the size of the circle&nbsp;
+corresponds to its total population.
+
+00:01:26.760 --> 00:01:31.560
+The highlighted circle represents the&nbsp;
+state that was last clicked in the map.
+
+00:01:31.560 --> 00:01:35.460
+Hovering over a circle will&nbsp;
+show which state it represents,
+
+00:01:35.460 --> 00:01:39.420
+as well as its percent insured, percent&nbsp;
+below poverty, and total population.
+
+00:01:39.420 --> 00:01:42.720
+This is useful for finding&nbsp;
+states with similar insurance&nbsp;&nbsp;
+
+00:01:42.720 --> 00:01:45.240
+and poverty statistics as the highlighted state.
+

@@ -37,6 +37,15 @@ div.paragraph {
     font-size: 18px;
 }
 
+#vid {
+    border-style: solid;
+    border-color: black;
+}
+
+#vid-holder {
+    text-align: center;
+}
+
 /* div spacing */
 .flex-all {
     display: flex;
